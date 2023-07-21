@@ -25,7 +25,7 @@ echo "Starting TCP recording on tapped server"
 # Remove the old tcpdump
 ssh $srvr_tap "rm -f ~/$srvr_tap_data_file"
 # Start the TCP-dump (-U prevents buffering so it can be killed)
-ssh $srvr_tap "cd ~; sudo tcpdump -U -i eth1 -w ~/$srvr_tap_data_file"
+ssh $srvr_tap "cd ~; sudo tcpdump -U -i eth1 -w ~/$srvr_tap_data_file" &
 
 
 echo "Starting pipe generation"
