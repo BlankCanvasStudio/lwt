@@ -36,7 +36,7 @@ In an attempt to make this package as simple as possible, nearly every important
 
 `./run-test.sh`: This file reads the config and runs a test. Must be run AFTER `./build-test.sh` if the testing env has not previously been set up or if any settings have changed.
 
-- The test will generate a CSV and pcap data file. The pcap is the recorded data from the tapped server (specified in the config by `srvr_tap`). The CSV file is a record of the size and timestamp of each packet received by the click router set up before the pipe receiver (specified in the config by `click_collector`). The CSV saves data in the form `size:timestamp, size:timestamp` (size is an int, and the timestamp is a float).
+- The test will generate a CSV, pcap data file, and a copy of the config. The pcap is the recorded data from the tapped server (specified in the config by `srvr_tap`). The CSV file is a record of the size and timestamp of each packet received by the click router set up before the pipe receiver (specified in the config by `click_collector`). The CSV saves data in the form `size:timestamp, size:timestamp` (size is an int, and the timestamp is a float).
 
 `./analysis/csv-vis.py`: This file plots timestamps recorded by `click_collector` for each packet received. Helpful for intuition.
 
