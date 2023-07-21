@@ -26,7 +26,7 @@ export tap_rcv_exe="./nfra/generation/basic-socket/tap/rcv.py"
 # This is all the info relating to the click data collector
 export click_collector=clickrcv
 export dpdk_interface="eth1"
-export router_file="./nfra/collection/click-timestamper/timestamping-recorder/recorder.cpp"
+export router_file="./nfra/collection/timestamping-router/recorder.cpp"
 # There are 2 (.cc and .hh). We always need to refer to both so use *
 # The object this generates should be called DataRecorder
 #     If it isn't, you need to update recorder.cpp
