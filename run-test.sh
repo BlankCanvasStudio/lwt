@@ -1,0 +1,116 @@
+#!/bin/bash
+
+# Import the config settings so everything is easy to manage
+source ./config-test.sh
+
+
+
+# Set up the recieving connections
+echo "Setting up both recievers"
+ssh $pipe_rcv "~/rcv" &
+ssh $srvr_tap "~/rcv" &
+
+
+# Set up the data collection
+
+echo "Starting click data collector"
+# Remove the old data from the click collector
+ssh $click_collector "rm -f $loc_click_datafile"
+# Make sure the interface is bound
+ssh $click_collector "~/bind.sh $dpdk_interface" # Don't mute in case
+# Start the click router
+ssh $click_collector "cd ~; sudo ~/fastclick/bin/click ~/router.cpp --dpdk" &
+
+echo "Starting TCP recording on tapped server"
+# Remove the old tcpdump
+ssh $srvr_tap "rm -f ~/$srvr_tap_data_file"
+# Start the TCP-dump (-U prevents buffering so it can be killed)
+ssh $srvr_tap "cd ~; sudo tcpdump -U -i eth1 -w ~/$srvr_tap_data_file"
+
+
+echo "Starting pipe generation"
+# Set up the pipe generation
+ssh $pipe_gen "~/gen" &
+
+# Delay the tap starting so we can get some consistent data
+echo "Pausing before initiating tap data client"
+sleep $tap_start_end_delay
+
+echo "Starting tapped client"
+# Start the packet sending
+ssh $user_tap "~/gen" &
+
+
+
+
+
+# Sleep for the duration of the test
+echo "Running test"
+sleep $test_time
+echo "Test Ended"
+
+
+
+
+
+# Shut down the stream being tapped
+
+# Get the pid of the genprocess and then kill it
+echo "Killing tapped client"
+gen_pid=$(ssh $user_tap "pgrep -o gen")
+ssh $user_tap "kill $gen_pid"
+# Get the pid of the rcv process and then kill it
+echo "Killing tapped server"
+rcv_pid=$(ssh $srvr_tap "pgrep -o rcv")
+ssh $srvr_tap "kill $rcv_pid"
+
+
+
+# Delay the tap ending so we can get some consistent data
+echo "Pausing before shutting down pipe"
+sleep $tap_start_end_delay
+
+
+
+# Shut down the pipe-gen process
+
+# Get the pid of the gen process and then kill it
+echo "Killing pipe gen process"
+gen_pid=$(ssh $pipe_gen "pgrep -o gen")
+ssh $pipe_gen "kill $gen_pid"
+# Get the pid of the rcv process and then kill it
+echo "Killing pipe rcv process"
+rcv_pid=$(ssh $pipe_rcv "pgrep -o rcv")
+ssh $pipe_rcv "kill $rcv_pid"
+
+
+
+
+# Shut down the router
+echo "Shutting down Click Router"
+router_pid=$(ssh $click_collector "pgrep -o click")
+ssh $click_collector "sudo kill $router_pid"
+
+
+# Shut down the TCPdump
+echo "Shutting down TCP recording on tapped server"
+tcpdump_pid=$(ssh $srvr_tap "pgrep -o tcpdump")
+ssh $srvr_tap "sudo kill $tcpdump_pid"
+
+
+
+# Save the data
+echo "Saving collected data to data/$expr_name"
+mkdir -p $expr_name
+scp $srvr_tap:"~/$srvr_tap_data_file" "./data/$expr_name/$srvr_tap_data_file"
+scp $click_collector:"$loc_click_datafile" "./data/$expr_name/$pipe_rcv_data_file"
+
+# Remove the data from the experiment infra
+echo "Removing data files from the infrastructure"
+ssh $srvr_tap "rm -f ~/$srvr_tap_data_file"
+ssh $click_collector "rm -f $loc_click_datafile"
+
+
+echo "Test completed"
+
+
