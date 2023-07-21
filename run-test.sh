@@ -104,6 +104,8 @@ echo "Saving collected data to data/$expr_name"
 mkdir -p "./data/$expr_name"
 scp $srvr_tap:"~/$srvr_tap_data_file" "./data/$expr_name/$srvr_tap_data_file"
 scp $click_collector:"$loc_click_datafile" "./data/$expr_name/$pipe_rcv_data_file"
+# Write a copy of the config to the folder. Makes life easier
+cp "./config-test.sh" "./data/$expr_name"
 
 # Remove the data from the experiment infra
 echo "Removing data files from the infrastructure"
