@@ -101,7 +101,7 @@ ssh $srvr_tap "sudo kill $tcpdump_pid"
 
 # Save the data
 echo "Saving collected data to data/$expr_name"
-mkdir -p $expr_name
+mkdir -p "./data/$expr_name"
 scp $srvr_tap:"~/$srvr_tap_data_file" "./data/$expr_name/$srvr_tap_data_file"
 scp $click_collector:"$loc_click_datafile" "./data/$expr_name/$pipe_rcv_data_file"
 
