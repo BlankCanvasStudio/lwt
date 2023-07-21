@@ -2,9 +2,7 @@
 
 import matplotlib.pyplot as plt
 
-# data_file = "./data/exp1/pipe-data.csv"
-data_file = "./data/baseline/baseline-2.csv"
-# data_file = "./data/exp2/exp2.csv"
+data_file = "./data/expr3/pipe_rcv.csv"
 
 fd = open(data_file)
 
