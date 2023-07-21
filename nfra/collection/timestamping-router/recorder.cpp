@@ -1,17 +1,16 @@
 define (
-    // IP Address of the pipe generator
-    $pipe_ip 10.0.0.1, 
+    // IP Address of the pipe reciever
+    $pipe_ip 10.0.6.2, 
 
 
-    // Network config for the pipegen side of router
+    // Network config for the pipercv side of router
     $DPDK_PORT 0,
-
-    $ip_in 10.0.0.2,
+    $ip_in 10.0.6.1,
     $mac_in 52:dc:28:b7:21:53,
 
 
     // Outward facing internet
-    $ip_out 10.0.1.2,
+    $ip_out 10.0.4.2,
     $mac_out 62:56:e5:a3:21:0a, 
     $intr_out eth2,
 
@@ -37,14 +36,14 @@ internetOutQueue -> internetOut;
 
 // Classify incoming content into ARP queries, ARP responses, and rest
 //     This is for data coming into the public interface
-eth2_class :: Classifier(12/0806 20/0001, 12/0806 20/0002, -);
-FromDevice($intr_out) -> eth2_class;
+internet_class :: Classifier(12/0806 20/0001, 12/0806 20/0002, -);
+FromDevice($intr_out) -> internet_class;
 
 
 // Handle ARP request coming into eth2 (internet facing)
-eth2ARP :: ARPResponder($ip_out/24 $ip_in/24 $mac_out);
+inInternetARP :: ARPResponder($ip_out/24 $ip_in/24 $mac_out);
 // Print if theres an error
-eth2ARP[1] -> Discard;
+inInternetARP[1] -> Discard;
 
 // ARP response coming into eth2 
 outInternetARP :: ARPQuerier($ip_out, $mac_out); 
@@ -77,10 +76,10 @@ tcpCheck[0] -> dpdkOut;
 tcpCheck[1] -> Print("TCP check failed", MAXLENGTH 5120) -> Discard;
 
 
-eth2_class[0] -> eth2ARP[0] -> internetOutQueue;
-eth2_class[1] -> [1]outInternetARP;
+internet_class[0] -> inInternetARP[0] -> internetOutQueue;
+internet_class[1] -> [1]outInternetARP;
 // This needs to be improved to handle proper reverse translation
-eth2_class[2] -> Strip(14) -> SetIPAddress($pipe_ip) -> [0]internalARP;
+internet_class[2] -> Strip(14) -> SetIPAddress($pipe_ip) -> [0]internalARP;
 
 
 // Filter data coming from protected node (ie not gen internet)
