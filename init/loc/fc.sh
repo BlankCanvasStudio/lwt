@@ -28,6 +28,8 @@ sudo apt update && sudo apt upgrade -y
 
 sudo apt install -y git
 
+sudo apt install -y gcc
+
 git clone https://github.com/tbarbette/fastclick.git
 
 sudo apt install -y dpdk-dev
