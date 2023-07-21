@@ -12,7 +12,7 @@ define (
     // Outward facing internet
     $ip_out 10.0.4.2,
     $mac_out 62:56:e5:a3:21:0a, 
-    $intr_out eth2,
+    $intr_out eth1,
 
     $next_hop 10.0.1.1
 )
