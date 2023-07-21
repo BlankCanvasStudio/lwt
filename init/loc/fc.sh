@@ -28,7 +28,7 @@ sudo apt update && sudo apt upgrade -y
 
 sudo apt install -y git
 
-sudo apt install -y gcc
+sudo apt install -y build-essential
 
 git clone https://github.com/tbarbette/fastclick.git
 
