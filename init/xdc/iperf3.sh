@@ -8,6 +8,7 @@ INTERVAL=0.5
 UDP=false
 BPS="100M"
 TIME=100
+OUTPUT="iperf3.res"
 
 # Read through the args
 while [[ $# -gt 0 ]]; do
@@ -51,6 +52,11 @@ while [[ $# -gt 0 ]]; do
         TIME="$1"
         shift
         ;;
+    -o) 
+        shift
+        OUTPUT="$1"
+        shift
+        ;;
 esac
 done
 
@@ -76,7 +82,7 @@ fi
 
 # Write the rcv file
 # -1 flag specifies to exit after 1 trial is over
-echo "iperf3 -s -i $INTERVAL -p $PORT -1" >> $tmp_rcv_file
+echo "iperf3 -s -i $INTERVAL -p $PORT -1 | tee $OUTPUT" >> $tmp_rcv_file
 
 # Install iperf3 onto the servers
 ssh $CLIENT "sudo apt install -y iperf3"

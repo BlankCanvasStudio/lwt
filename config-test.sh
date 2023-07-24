@@ -26,6 +26,7 @@ export pipe_iperf3_interval=0.5 # corresponds to -i flag
 export pipe_iperf3_udp=true # Use UDP or TCP data
 export pipe_iperf3_bps=100M # Datarate you want iperf3 to use
 export pipe_iperf3_server_ip="10.0.6.2"
+export pipe_iperf3_output_file="pipe-iperf3.res"
 
 
 
@@ -42,6 +43,7 @@ export tap_iperf3_interval=0.5 # corresponds to -i flag
 export tap_iperf3_udp=true # Use UDP or TCP data
 export tap_iperf3_bps=100M # Datarate you want iperf3 to use
 export tap_iperf3_server_ip="10.0.5.2"
+export tap_iperf3_output_file="tap-iperf3.res"
 
 
 

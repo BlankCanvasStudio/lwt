@@ -25,11 +25,14 @@ if [ "$pipe_uses_iperf3" = true ]; then
     if [ "$pipe_iperf3_udp" = true ]; then
         ./init/xdc/iperf3.sh -c $pipe_gen -s $pipe_rcv -p 12345 \
             -i $pipe_iperf3_interval -ip $pipe_iperf3_server_ip \
-            -b $pipe_iperf3_bps -t $test_time -u
+            -b $pipe_iperf3_bps -t $test_time -u \
+            -o $pipe_iperf3_output_file
+
     else
         ./init/xdc/iperf3.sh -c $pipe_gen -s $pipe_rcv -p 12345 \
             -i $pipe_iperf3_interval -ip $pipe_iperf3_server_ip \
-            -b $pipe_iperf3_bps -t $test_time
+            -b $pipe_iperf3_bps -t $test_time \
+            -o $pipe_iperf3_output_file
     fi
 else
     scp $pipe_gen_exe $pipe_gen:"~/gen"
@@ -42,11 +45,15 @@ if [ "$tap_uses_iperf3" = true ]; then
     if [ "$tap_iperf3_udp" = true ]; then
         ./init/xdc/iperf3.sh -c $user_tap -s $srvr_tap -p 12345 \
             -i $tap_iperf3_interval -ip $tap_iperf3_server_ip \
-            -b $tap_iperf3_bps -t $test_time -u
+            -b $tap_iperf3_bps -t $test_time -u \
+            -o $tap_iperf3_output_file
+
     else
         ./init/xdc/iperf3.sh -c $user_tap -s $srvr_tap -p 12345 \
             -i $tap_iperf3_interval -ip $tap_iperf3_server_ip \
-            -b $tap_iperf3_bps -t $test_time
+            -b $tap_iperf3_bps -t $test_time \
+            -o $tap_iperf3_output_file
+
     fi
 else
     scp $tap_gen_exe $user_tap:"~/gen"

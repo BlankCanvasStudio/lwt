@@ -74,6 +74,7 @@ Flag definitions:
     -u (uses UDP data. Default TCP) 
     -b <bits per second > (default 100M)
     -t <duration (in sec) of iperf run>
+    -o <file where you'd like to save server's iperf3 output> (default iperf3.res)
 
 ## Limitations
 
