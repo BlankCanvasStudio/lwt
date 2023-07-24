@@ -1,0 +1,3 @@
+#!/bin/bash
+iperf3 --client 127.0.0.1 -p 12345 -u -b 100M -t 10000
+    # Make time very long so we can kill it in our own script

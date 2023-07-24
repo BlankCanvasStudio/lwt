@@ -19,6 +19,15 @@ export pipe_rcv=pipercv
 # Files the hosts execute. Need to be able to run these with the syntax ./filename
 export pipe_gen_exe="./nfra/generation/basic-socket/pipe/gen.py"
 export pipe_rcv_exe="./nfra/generation/basic-socket/pipe/rcv.py"
+# Set these options if you want to use iperf3 over a custom program
+export pipe_use_iperf3=false
+export pipe_iperf3_port=12345
+export pipe_iperf3_interval=0.5 # corresponds to -i flag
+export pipe_iperf3_udp=true # Use UDP or TCP data
+export pipe_iperf3_bps=100M # Datarate you want iperf3 to use
+export pipe_iperf3_server_ip="127.0.0.1"
+
+
 
 # Hosts to be tapped
 export user_tap=tapuser
@@ -26,6 +35,14 @@ export srvr_tap=tapsrvr
 # Files the hosts execute. Need to be able to run these with the syntax ./filename
 export tap_gen_exe="./nfra/generation/basic-socket/tap/gen.py"
 export tap_rcv_exe="./nfra/generation/basic-socket/tap/rcv.py"
+# Set these options if you want to use iperf3 over a custom program
+export tap_use_iperf3=false
+export tap_iperf3_port=12345
+export tap_iperf3_interval=0.5 # corresponds to -i flag
+export tap_iperf3_udp=true # Use UDP or TCP data
+export tap_iperf3_bps=100M # Datarate you want iperf3 to use
+export tap_iperf3_server_ip="127.0.0.1"
+
 
 
 # This is all the info relating to the click data collector

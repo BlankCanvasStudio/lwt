@@ -62,7 +62,22 @@ In an attempt to make this package as simple as possible, nearly every important
 
         ./fastclick.sh recomp
 
+`./init/xdc/iperf3.sh` : Installs client and server iperf3 executable bash scripts to the specified hosts
+
+Flag definitions:
+
+    -c <client@ip> 
+    -s <server@ip> 
+    -p <port num> 
+    -i <interval of data collection in seconds> 
+    -ip <server's IP address> (default localhost) 
+    -u (uses UDP data. Default TCP) 
+    -b <bits per second > (default 100M)
+    -t <duration (in sec) of iperf run>
+
 ## Limitations
+
+All traffic generation files executed on any host (either pipe or tap) need to have executable privileges and can be run with the syntax: `./<filename>`
 
 The biggest limitation about this package is its need for "hard coded" values. 
 
@@ -71,6 +86,8 @@ Technically, I could add some more options to the config file and have build fun
 The hard coded values are listed here:
 
 1) The dpdk interface (ie eth1) needs to be explicitly set in config-test
+
+2) If you're using iperf3, the IP address of the servers need to be explicitly set in config-test
 
 2) Values that need to be hard coded in recorder.cpp (or any other click router you deploy):
 
