@@ -80,6 +80,8 @@ Flag definitions:
 
 All traffic generation files executed on any host (either pipe or tap) need to have executable privileges and can be run with the syntax: `./<filename>`
 
+If you run iperf as the traffic generation strategy for the tapped server, be careful. It generates a lot of data very quickly and can be larger than GitHub's allowed file size.
+
 The biggest limitation about this package is its need for "hard coded" values. 
 
 Technically, I could add some more options to the config file and have build functionality transpile new versions of files, but that felt like too much work at this point. If you feel like its necessary, do let me know. 
