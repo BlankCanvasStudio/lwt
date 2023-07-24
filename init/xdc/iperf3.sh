@@ -82,3 +82,6 @@ echo "iperf3 -s -i $INTERVAL -p $PORT -1" >> $tmp_rcv_file
 scp $tmp_gen_file $CLIENT:~/gen
 scp $tmp_rcv_file $SERVER:~/rcv
 
+# Remove the files to prevent filesystem polution
+rm $tmp_gen_file $tmp_rcv_file
+
