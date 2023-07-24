@@ -1,16 +1,16 @@
 #!/bin/bash
 
 # This doubles as the folder where data will be generated in data/
-export expr_name="expr11"
+export expr_name="expr10"
 
 # The names you'd like to give the files of the recorded data
 export srvr_tap_data_file="srvr_tap.pcap"
 export pipe_rcv_data_file="pipe_rcv.csv"
 
 # How long to wait to start the tapped server
-export tap_start_end_delay=5
+export tap_start_end_delay=3
 # How long to run the experiment for
-export test_time=25
+export test_time=15
 
 
 # Hosts generation pipe for experiment
