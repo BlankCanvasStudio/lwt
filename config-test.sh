@@ -20,7 +20,7 @@ export pipe_rcv=pipercv
 export pipe_gen_exe="./nfra/generation/basic-socket/pipe/gen.py"
 export pipe_rcv_exe="./nfra/generation/basic-socket/pipe/rcv.py"
 # Set these options if you want to use iperf3 over a custom program
-export pipe_use_iperf3=false
+export pipe_uses_iperf3=false
 export pipe_iperf3_port=12345
 export pipe_iperf3_interval=0.5 # corresponds to -i flag
 export pipe_iperf3_udp=true # Use UDP or TCP data
@@ -36,7 +36,7 @@ export srvr_tap=tapsrvr
 export tap_gen_exe="./nfra/generation/basic-socket/tap/gen.py"
 export tap_rcv_exe="./nfra/generation/basic-socket/tap/rcv.py"
 # Set these options if you want to use iperf3 over a custom program
-export tap_use_iperf3=false
+export tap_uses_iperf3=false
 export tap_iperf3_port=12345
 export tap_iperf3_interval=0.5 # corresponds to -i flag
 export tap_iperf3_udp=true # Use UDP or TCP data
