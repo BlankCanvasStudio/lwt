@@ -62,7 +62,7 @@ In an attempt to make this package as simple as possible, nearly every important
 
         ./fastclick.sh recomp
 
-`./init/xdc/iperf3.sh` : Installs client and server iperf3 executable bash scripts to the specified hosts
+`./init/xdc/iperf3.sh` : Installs client and server iperf3 executable bash scripts to the specified hosts. The reciever side will automatically shut off after a single test
 
 Flag definitions:
 

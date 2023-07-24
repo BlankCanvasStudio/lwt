@@ -75,7 +75,8 @@ else
 fi
 
 # Write the rcv file
-echo "iperf3 -s -i $INTERVAL -p $PORT" >> $tmp_rcv_file
+# -1 flag specifies to exit after 1 trial is over
+echo "iperf3 -s -i $INTERVAL -p $PORT -1" >> $tmp_rcv_file
 
 # Copy these files to client and server
 scp $tmp_gen_file $CLIENT:~/gen
