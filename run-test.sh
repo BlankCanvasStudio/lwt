@@ -118,8 +118,8 @@ if [ "$pipe_uses_iperf3" = true ]; then
     ssh $pipe_rcv "rm -f ~/$pipe_iperf3_output_file"
 fi
 if [ "$tap_uses_iperf3" = true ]; then
-    scp $tap_srvr:~/$tap_iperf3_output_file "./data/$expr_name/$tap_iperf3_output_file"
-    ssh $tap_srvr "rm -f ~/$tap_iperf3_output_file"
+    scp $srvr_tap:~/$tap_iperf3_output_file "./data/$expr_name/$tap_iperf3_output_file"
+    ssh $srvr_tap "rm -f ~/$tap_iperf3_output_file"
 fi
 
 
