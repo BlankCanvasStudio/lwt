@@ -1,7 +1,20 @@
 #!/bin/bash
 
 # This doubles as the folder where data will be generated in data/
-export expr_name="expr7"
+export expr_name="expr9"
+
+# Verify that the folder doesn't already exist
+data_path="./data/$expr_name"
+if [ -d "$data_path" ]; then
+    resp = 'q'
+    while [[ "$resp" != "y" && "$resp" != "n" ]]; do
+        read -p "Data folder exists. Would you like to overwrite? (y/n)" resp;
+    done
+    if [[ "$resp" == "n" ]]; then
+        echo "Preventing overwrite. Exiting";
+	exit;
+    fi
+fi
 
 # The names you'd like to give the files of the recorded data
 export srvr_tap_data_file="srvr_tap.pcap"
@@ -37,7 +50,7 @@ export srvr_tap=tapsrvr
 export tap_gen_exe="./nfra/generation/basic-socket/tap/gen.py"
 export tap_rcv_exe="./nfra/generation/basic-socket/tap/rcv.py"
 # Set these options if you want to use iperf3 over a custom program
-export tap_uses_iperf3=true
+export tap_uses_iperf3=false
 export tap_iperf3_port=12345
 export tap_iperf3_interval=0.5 # corresponds to -i flag
 export tap_iperf3_udp=true # Use UDP or TCP data

@@ -4,6 +4,22 @@
 source ./config-test.sh
 
 
+# Verify that the folder doesn't already exist
+data_path="./data/$expr_name"
+if [ -d "$data_path" ]; then
+    resp = 'q'
+    while [[ "$resp" != "y" && "$resp" != "n" ]]; do
+        read -p "Data folder exists. Would you like to overwrite? (y/n) " resp;
+    done
+    if [[ "$resp" == "n" ]]; then
+        echo "Preventing overwrite. Exiting";
+	exit;
+    else
+	# Remove the data so that you don't run into any conflicts
+        rm -f $data_path/*
+    fi
+fi
+
 
 # Set up the recieving connections
 echo "Setting up both recievers"
