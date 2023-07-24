@@ -78,6 +78,10 @@ fi
 # -1 flag specifies to exit after 1 trial is over
 echo "iperf3 -s -i $INTERVAL -p $PORT -1" >> $tmp_rcv_file
 
+# Install iperf3 onto the servers
+ssh $CLIENT "sudo apt install -y iperf3"
+ssh $SERVER "sudo apt install -y iperf3"
+
 # Copy these files to client and server
 scp $tmp_gen_file $CLIENT:~/gen
 scp $tmp_rcv_file $SERVER:~/rcv
