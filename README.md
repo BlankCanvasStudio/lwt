@@ -62,3 +62,20 @@ In an attempt to make this package as simple as possible, nearly every important
 
         ./fastclick.sh recomp
 
+## Limitations
+
+The biggest limitation about this package is its need for "hard coded" values. 
+
+Technically, I could add some more options to the config file and have build functionality transpile new versions of files, but that felt like too much work at this point. If you feel like its necessary, do let me know. 
+
+The hard coded values are listed here:
+
+1) The dpdk interface (ie eth1) needs to be explicitly set in config-test
+
+2) Values that need to be hard coded in recorder.cpp (or any other click router you deploy):
+
+    - IP addresses for both experiment internet side interface and to pipe reciever
+    - non-dpdk interface name needs to be explicily specified 
+    - mac addresses need to be specified for both dpdk interface and interface connected to exteriment internet
+    - DPDK interface # (if you have more than one. If only one, defaults save us)
+
