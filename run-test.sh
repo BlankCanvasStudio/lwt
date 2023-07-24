@@ -54,15 +54,16 @@ echo "Test Ended"
 
 
 # Shut down the stream being tapped
-
-# Get the pid of the genprocess and then kill it
-echo "Killing tapped client"
-gen_pid=$(ssh $user_tap "pgrep -o gen")
-ssh $user_tap "kill $gen_pid"
-# Get the pid of the rcv process and then kill it
-echo "Killing tapped server"
-rcv_pid=$(ssh $srvr_tap "pgrep -o rcv")
-ssh $srvr_tap "kill $rcv_pid"
+if [ "$tap_uses_iperf3" = false ]; then
+    # Get the pid of the genprocess and then kill it
+    echo "Killing tapped client"
+    gen_pid=$(ssh $user_tap "pgrep -o gen")
+    ssh $user_tap "kill $gen_pid"
+    # Get the pid of the rcv process and then kill it
+    echo "Killing tapped server"
+    rcv_pid=$(ssh $srvr_tap "pgrep -o rcv")
+    ssh $srvr_tap "kill $rcv_pid"
+fi
 
 
 
@@ -73,16 +74,16 @@ sleep $tap_start_end_delay
 
 
 # Shut down the pipe-gen process
-
-# Get the pid of the gen process and then kill it
-echo "Killing pipe gen process"
-gen_pid=$(ssh $pipe_gen "pgrep -o gen")
-ssh $pipe_gen "kill $gen_pid"
-# Get the pid of the rcv process and then kill it
-echo "Killing pipe rcv process"
-rcv_pid=$(ssh $pipe_rcv "pgrep -o rcv")
-ssh $pipe_rcv "kill $rcv_pid"
-
+if [ "$pipe_uses_iperf3" = false ]; then
+    # Get the pid of the gen process and then kill it
+    echo "Killing pipe gen process"
+    gen_pid=$(ssh $pipe_gen "pgrep -o gen")
+    ssh $pipe_gen "kill $gen_pid"
+    # Get the pid of the rcv process and then kill it
+    echo "Killing pipe rcv process"
+    rcv_pid=$(ssh $pipe_rcv "pgrep -o rcv")
+    ssh $pipe_rcv "kill $rcv_pid"
+fi
 
 
 
