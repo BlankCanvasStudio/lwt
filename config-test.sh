@@ -8,9 +8,9 @@ export srvr_tap_data_file="srvr_tap.pcap"
 export pipe_rcv_data_file="pipe_rcv.csv"
 
 # How long to wait to start the tapped server
-export tap_start_end_delay=1
+export tap_start_end_delay=2
 # How long to run the experiment for
-export test_time=5
+export test_time=30
 
 
 # Hosts generation pipe for experiment
@@ -20,12 +20,12 @@ export pipe_rcv=pipercv
 export pipe_gen_exe="./nfra/generation/basic-socket/pipe/gen.py"
 export pipe_rcv_exe="./nfra/generation/basic-socket/pipe/rcv.py"
 # Set these options if you want to use iperf3 over a custom program
-export pipe_uses_iperf3=false
+export pipe_uses_iperf3=true
 export pipe_iperf3_port=12345
 export pipe_iperf3_interval=0.5 # corresponds to -i flag
 export pipe_iperf3_udp=true # Use UDP or TCP data
 export pipe_iperf3_bps=100M # Datarate you want iperf3 to use
-export pipe_iperf3_server_ip="127.0.0.1"
+export pipe_iperf3_server_ip="10.0.6.2"
 
 
 
@@ -36,12 +36,12 @@ export srvr_tap=tapsrvr
 export tap_gen_exe="./nfra/generation/basic-socket/tap/gen.py"
 export tap_rcv_exe="./nfra/generation/basic-socket/tap/rcv.py"
 # Set these options if you want to use iperf3 over a custom program
-export tap_uses_iperf3=false
+export tap_uses_iperf3=true
 export tap_iperf3_port=12345
 export tap_iperf3_interval=0.5 # corresponds to -i flag
 export tap_iperf3_udp=true # Use UDP or TCP data
 export tap_iperf3_bps=100M # Datarate you want iperf3 to use
-export tap_iperf3_server_ip="127.0.0.1"
+export tap_iperf3_server_ip="10.0.5.2"
 
 
 
