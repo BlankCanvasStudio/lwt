@@ -22,16 +22,17 @@ chmod +x $tap_rcv_exe
 # Move gen files over to user_tap and pipe_gen
 echo "Moving files into pipe gen & rcv"
 if [ "$pipe_uses_iperf3" = true ]; then
+    pipe_time=$(($tap_start_end_delay + $test_time + $tap_start_end_delay))
     if [ "$pipe_iperf3_udp" = true ]; then
         ./init/xdc/iperf3.sh -c $pipe_gen -s $pipe_rcv -p 12345 \
             -i $pipe_iperf3_interval -ip $pipe_iperf3_server_ip \
-            -b $pipe_iperf3_bps -t $test_time -u \
+            -b $pipe_iperf3_bps -t $pipe_time -u \
             -o $pipe_iperf3_output_file
 
     else
         ./init/xdc/iperf3.sh -c $pipe_gen -s $pipe_rcv -p 12345 \
             -i $pipe_iperf3_interval -ip $pipe_iperf3_server_ip \
-            -b $pipe_iperf3_bps -t $test_time \
+            -b $pipe_iperf3_bps -t $pipe_time \
             -o $pipe_iperf3_output_file
     fi
 else
