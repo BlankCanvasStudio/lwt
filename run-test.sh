@@ -112,6 +112,16 @@ echo "Removing data files from the infrastructure"
 ssh $srvr_tap "rm -f ~/$srvr_tap_data_file"
 ssh $click_collector "rm -f $loc_click_datafile"
 
+# Copy the iperf files & remove if necessary
+if [ "$pipe_uses_iperf3" = true ]; then
+    scp $pipe_rcv:~/$pipe_iperf3_output_file "./data/$expr_name/$pipe_iperf3_output_file"
+    ssh $pipe_rcv "rm -f ~/$pipe_iperf3_output_file"
+fi
+if [ "$tap_uses_iperf3" = true ]; then
+    scp $tap_srvr:~/$tap_iperf3_output_file "./data/$expr_name/$tap_iperf3_output_file"
+    ssh $tap_srvr "rm -f ~/$tap_iperf3_output_file"
+fi
+
 
 echo "Test completed"
 
