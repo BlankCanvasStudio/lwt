@@ -8,9 +8,9 @@ export srvr_tap_data_file="srvr_tap.pcap"
 export pipe_rcv_data_file="pipe_rcv.csv"
 
 # How long to wait to start the tapped server
-export tap_start_end_delay=2
+export tap_start_end_delay=1
 # How long to run the experiment for
-export test_time=30
+export test_time=4
 
 
 # Hosts generation pipe for experiment
