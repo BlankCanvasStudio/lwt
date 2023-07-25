@@ -78,6 +78,8 @@ Flag definitions:
 
 ## Limitations
 
+For some reason, running the DPDK router prevents the DNS from resolving. If you have a fix, please let me know.
+
 All traffic generation files executed on any host (either pipe or tap) need to have executable privileges and can be run with the syntax: `./<filename>`
 
 If you run iperf as the traffic generation strategy for the tapped server, be careful. It generates a lot of data very quickly and can be larger than GitHub's allowed file size.
