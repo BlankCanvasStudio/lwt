@@ -75,9 +75,9 @@ echo $shebang > $tmp_rcv_file
 
 # Write the gen file (with or without the UDP flag
 if [ "$UDP" = true ]; then
-     echo "iperf3 --client $SERVER_IP -p $PORT -u -b $BPS -t $TIME" >> $tmp_gen_file
+    echo "iperf3 --client $SERVER_IP -4 -p $PORT -b $BPS -t $TIME -u" >> $tmp_gen_file
 else
-    echo "iperf3 --client $SERVER_IP -p $PORT -b $BPS -t $TIME" >> $tmp_gen_file
+    echo "iperf3 --client $SERVER_IP -4 -p $PORT -b $BPS -t $TIME"    >> $tmp_gen_file
 fi
 
 # Write the rcv file

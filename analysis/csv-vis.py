@@ -2,7 +2,7 @@
 
 import matplotlib.pyplot as plt
 
-data_file = "./data/expr11/pipe_rcv.csv"
+data_file = "./data/expr4/pipe_rcv.csv"
 
 fd = open(data_file)
 
