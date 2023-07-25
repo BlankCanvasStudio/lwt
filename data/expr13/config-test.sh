@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # This doubles as the folder where data will be generated in data/
-export expr_name="expr14"
+export expr_name="expr13"
 
 # The names you'd like to give the files of the recorded data
 export srvr_tap_data_file="srvr_tap.pcap"
@@ -20,7 +20,7 @@ export pipe_rcv=pipercv
 export pipe_gen_exe="./nfra/generation/basic-socket/pipe/gen.py"
 export pipe_rcv_exe="./nfra/generation/basic-socket/pipe/rcv.py"
 # Set these options if you want to use iperf3 over a custom program
-export pipe_uses_iperf3=false
+export pipe_uses_iperf3=true
 export pipe_iperf3_port=12345
 export pipe_iperf3_interval=0.5 # corresponds to -i flag
 export pipe_iperf3_udp=true # Use UDP or TCP data

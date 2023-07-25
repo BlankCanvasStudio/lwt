@@ -13,7 +13,6 @@ def load_full_data(filename):
         arrivals += [ arrvial ]
     return sizes, arrivals
 
-
 def load_data(filename):
     fd = open(filename)
     lines = fd.read()
@@ -24,6 +23,5 @@ def load_data(filename):
         arrivals += [ x.split(':')[1] ]
     return arrivals
 
-arrival_times = load_data('./data/expr10/pipe_rcv.csv')
-arrival_times_2 = load_data('./data/expr11/pipe_rcv.csv')
-print(arrival_times == arrival_times_2)
+arrival_times = load_data('./data/expr14/pipe_rcv.csv')
+print(len(arrival_times))
