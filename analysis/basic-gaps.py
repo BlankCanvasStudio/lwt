@@ -13,7 +13,7 @@ def load_full_data(filename):
         arrivals += [ float(arrival) ]
     return sizes, arrivals
 
-sizes, arrivales = load_full_data('./data/expr4/pipe_rcv.csv')
+sizes, arrivales = load_full_data('./data/expr24/pipe_rcv.csv')
 
 gaps_list = []
 gaps = {}
@@ -26,17 +26,15 @@ for i in range(0, len(arrivales) -2):
         gaps[gap] += 1
     gaps_list += [ gap ]
 
-"""
 for key, value in sorted(gaps.items()):
     print(key, ':', value)
-"""
 
 sorted_list = sorted(gaps.keys())
 
-top_sorted = sorted_list[(len(sorted_list) - 10):]
+top_sorted = sorted_list[(len(sorted_list) - 30):]
 
 for ind in top_sorted:
-    #print('delay:', ind)
+    # print('delay:', ind)
     print('index: ', gaps_list.index(ind))
-    #print('')
+    # print('')
 

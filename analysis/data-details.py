@@ -23,5 +23,5 @@ def load_data(filename):
         arrivals += [ x.split(':')[1] ]
     return arrivals
 
-arrival_times = load_data('./data/expr4/pipe_rcv.csv')
+arrival_times = load_data('./data/expr25/pipe_rcv.csv')
 print(len(arrival_times))
