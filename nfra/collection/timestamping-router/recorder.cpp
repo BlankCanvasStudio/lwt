@@ -4,33 +4,33 @@ define (
 
 
     // Network config for the pipercv side of router
-    $PIPE_DPDK_PORT 0,
+    $PIPE_DPDK_PORT 1,
     $ip_in 10.0.6.1,
     $mac_in 52:dc:28:b7:21:53,
 
 
     // Outward facing internet
-    $INTERNET_DPDK_PORT 1,
+    $INTERNET_DPDK_PORT 0,
     $ip_out 10.0.4.2,
     $mac_out 62:56:e5:a3:21:0a, 
+
+    $next_hop 10.0.4.1
 )
 
 // Set up all the interfaces
 // Always call your recording object DataRecorder then this program
 //   works between various compiles too
-FromDPDKDevice($PIPE_DPDK_PORT, MODE "none", PROMISC true) -> dpdkIn :: Print("RAW PACKETS DPDK", MAXLENGTH 5120);
+dpdkIn :: FromDPDKDevice($PIPE_DPDK_PORT, MODE "none", PROMISC true);
 //    dpdkIn :: DataRecorder("data.csv"); 
 dpdkOut :: ToDPDKDevice($PIPE_DPDK_PORT);
 
-internetIn :: FromDPDKDevice($INTERNET_DPDK_PORT, MODE "none", PROMISC true);
+FromDPDKDevice($INTERNET_DPDK_PORT, MODE "none", PROMISC true) -> 
+	internetIn :: DataRecorder("data.csv");
 internetOut :: ToDPDKDevice($INTERNET_DPDK_PORT);
-// internetOut :: Queue;
-// internetOut -> internetOut;
 
 
 // Create control socket to interface with
 // ControlSocket(unix, /tmp/ClickRecordSocket);
-
 
 
 // Classify incoming content into ARP queries, ARP responses, and rest
@@ -92,7 +92,10 @@ DPDK_ARP :: ARPResponder($ip_in $mac_in);
 c[0] -> DPDK_ARP; // -> dpdkOut;
 c[1] -> [1]internalARP;
 // Absolutely awesome way to do IP address resolution
-c[2] -> Strip(14) -> GetIPAddress(16) -> LinuxIPLookup($intr_out) -> [0]outInternetARP;
+// c[2] -> Strip(14) -> GetIPAddress(16) -> LinuxIPLookup($intr_out) -> [0]outInternetARP;
+
+// Strip off the 
+c[2] -> Strip(14) -> SetIPAddress($next_hop) -> [0]outInternetARP;
 
 DPDK_ARP[0] -> dpdkOut;
 DPDK_ARP[1] -> Discard;

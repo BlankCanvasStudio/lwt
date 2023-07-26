@@ -10,7 +10,7 @@ export pipe_rcv_data_file="pipe_rcv.csv"
 # How long to wait to start the tapped server
 export tap_start_end_delay=5
 # How long to run the experiment for
-export test_time=25
+export test_time=20
 
 
 # Hosts generation pipe for experiment
