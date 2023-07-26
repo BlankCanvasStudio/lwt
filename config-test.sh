@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Revision tag: 17f1c298f6c2170ed3a4e6747f4cefda1e305dba
+
 # This doubles as the folder where data will be generated in data/
 export expr_name="expr22"
 
