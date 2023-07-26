@@ -22,12 +22,6 @@ if [ -d "$data_path" ]; then
 fi
 
 
-echo "Writing /etc/resolv.conf"
-ssh $click_collector "sudo rm /etc/resolv.conf"
-ssh $click_collector "echo 'nameserver 172.30.0.1' | sudo tee -a /etc/resolv.conf"
-ssh $click_collector "echo 'search build.init.lwt' | sudo tee -a /etc/resolv.conf"
-
-
 # Set up the recieving connections
 echo "Setting up both recievers"
 ssh $pipe_rcv "~/rcv" &
@@ -35,15 +29,18 @@ ssh $srvr_tap "~/rcv" &
 
 
 # Set up the data collection
+./nfra/run-router.sh -s
 
-echo "Starting click data collector"
+
+#echo "Starting click data collector"
 # Remove the old data from the click collector
-ssh $click_collector "rm -f $loc_click_datafile"
+#ssh $click_collector "rm -f $loc_click_datafile"
 # Make sure the interface is bound
-ssh $click_collector "~/bind.sh $tap_interface" # Don't mute in case
-ssh $click_collector "~/bind.sh $internet_interface" # Bind the internet interface as well
+#ssh $click_collector "~/bind.sh $tap_interface" # Don't mute in case
+#ssh $click_collector "~/bind.sh $internet_interface" # Bind the internet interface as well
 # Start the click router
-ssh $click_collector "cd ~; sudo ~/fastclick/bin/click ~/router.cpp --dpdk" &
+#ssh $click_collector "cd ~; sudo ~/fastclick/bin/click ~/router.cpp --dpdk" &
+
 
 echo "Starting TCP recording on tapped server"
 # Remove the old tcpdump
