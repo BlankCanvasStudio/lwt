@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # This doubles as the folder where data will be generated in data/
-export expr_name="expr17"
+export expr_name="expr15"
 
 # The names you'd like to give the files of the recorded data
 export srvr_tap_data_file="srvr_tap.pcap"
@@ -24,7 +24,7 @@ export pipe_uses_iperf3=true
 export pipe_iperf3_port=12345
 export pipe_iperf3_interval=0.5 # corresponds to -i flag
 export pipe_iperf3_udp=true # Use UDP or TCP data
-export pipe_iperf3_bps=100G # Datarate you want iperf3 to use
+export pipe_iperf3_bps=100M # Datarate you want iperf3 to use
 export pipe_iperf3_server_ip="10.0.6.2"
 export pipe_iperf3_output_file="pipe-iperf3.res"
 
@@ -49,8 +49,7 @@ export tap_iperf3_output_file="tap-iperf3.res"
 
 # This is all the info relating to the click data collector
 export click_collector=clickrcv
-export internet_interface="eth1"
-export tap_interface="eth2"
+export dpdk_interface="eth2"
 export router_file="./nfra/collection/timestamping-router/recorder.cpp"
 # There are 2 (.cc and .hh). We always need to refer to both so use *
 # The object this generates should be called DataRecorder

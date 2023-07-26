@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # This doubles as the folder where data will be generated in data/
-export expr_name="expr17"
+export expr_name="expr16"
 
 # The names you'd like to give the files of the recorded data
 export srvr_tap_data_file="srvr_tap.pcap"
@@ -49,8 +49,7 @@ export tap_iperf3_output_file="tap-iperf3.res"
 
 # This is all the info relating to the click data collector
 export click_collector=clickrcv
-export internet_interface="eth1"
-export tap_interface="eth2"
+export dpdk_interface="eth2"
 export router_file="./nfra/collection/timestamping-router/recorder.cpp"
 # There are 2 (.cc and .hh). We always need to refer to both so use *
 # The object this generates should be called DataRecorder

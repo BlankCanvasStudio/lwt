@@ -4,29 +4,28 @@ define (
 
 
     // Network config for the pipercv side of router
-    $DPDK_PORT 0,
+    $PIPE_DPDK_PORT 0,
     $ip_in 10.0.6.1,
     $mac_in 52:dc:28:b7:21:53,
 
 
     // Outward facing internet
+    $INTERNET_DPDK_PORT 1,
     $ip_out 10.0.4.2,
     $mac_out 62:56:e5:a3:21:0a, 
-    $intr_out eth1,
-
-    $next_hop 10.0.1.1
 )
 
 // Set up all the interfaces
 // Always call your recording object DataRecorder then this program
 //   works between various compiles too
-FromDPDKDevice($DPDK_PORT, MODE "none", PROMISC true) -> 
-    dpdkIn :: DataRecorder("data.csv"); 
-dpdkOut :: ToDPDKDevice($DPDK_PORT);
+FromDPDKDevice($PIPE_DPDK_PORT, MODE "none", PROMISC true) -> dpdkIn :: Print("RAW PACKETS DPDK", MAXLENGTH 5120);
+//    dpdkIn :: DataRecorder("data.csv"); 
+dpdkOut :: ToDPDKDevice($PIPE_DPDK_PORT);
 
-internetOut :: ToDevice($intr_out);
-internetOutQueue :: Queue;
-internetOutQueue -> internetOut;
+internetIn :: FromDPDKDevice($INTERNET_DPDK_PORT, MODE "none", PROMISC true);
+internetOut :: ToDPDKDevice($INTERNET_DPDK_PORT);
+// internetOut :: Queue;
+// internetOut -> internetOut;
 
 
 // Create control socket to interface with
@@ -37,7 +36,7 @@ internetOutQueue -> internetOut;
 // Classify incoming content into ARP queries, ARP responses, and rest
 //     This is for data coming into the public interface
 internet_class :: Classifier(12/0806 20/0001, 12/0806 20/0002, -);
-FromDevice($intr_out) -> internet_class;
+internetIn -> internet_class;
 
 
 // Handle ARP request coming into eth2 (internet facing)
@@ -47,7 +46,7 @@ inInternetARP[1] -> Discard;
 
 // ARP response coming into eth2 
 outInternetARP :: ARPQuerier($ip_out, $mac_out); 
-outInternetARP -> internetOutQueue;
+outInternetARP -> internetOut;
 
 
 // ARP adjusting for protected node
@@ -76,7 +75,7 @@ tcpCheck[0] -> dpdkOut;
 tcpCheck[1] -> Print("TCP check failed", MAXLENGTH 5120) -> Discard;
 
 
-internet_class[0] -> inInternetARP[0] -> internetOutQueue;
+internet_class[0] -> inInternetARP[0] -> internetOut;
 internet_class[1] -> [1]outInternetARP;
 // This needs to be improved to handle proper reverse translation
 internet_class[2] -> Strip(14) -> SetIPAddress($pipe_ip) -> [0]internalARP;
