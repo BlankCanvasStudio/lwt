@@ -107,12 +107,8 @@ if [ "$pipe_uses_iperf3" = false ]; then
 fi
 
 
-
-# Shut down the router
-echo "Shutting down Click Router"
-router_pid=$(ssh $click_collector "pgrep -o click")
-ssh $click_collector "sudo kill $router_pid"
-
+# Shutting down click router
+./nfra/close-router.sh
 
 # Shut down the TCPdump
 echo "Shutting down TCP recording on tapped server"
