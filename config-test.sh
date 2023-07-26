@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # This doubles as the folder where data will be generated in data/
-export expr_name="expr21"
+export expr_name="expr22"
 
 # The names you'd like to give the files of the recorded data
 export srvr_tap_data_file="srvr_tap.pcap"
@@ -24,7 +24,7 @@ export pipe_uses_iperf3=true
 export pipe_iperf3_port=12345
 export pipe_iperf3_interval=0.5 # corresponds to -i flag
 export pipe_iperf3_udp=true # Use UDP or TCP data
-export pipe_iperf3_bps=500M # Datarate you want iperf3 to use
+export pipe_iperf3_bps=800M # Datarate you want iperf3 to use
 export pipe_iperf3_server_ip="10.0.6.2"
 export pipe_iperf3_output_file="pipe-iperf3.res"
 
