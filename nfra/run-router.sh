@@ -1,5 +1,7 @@
 #!/bin/bash
 
+source ./config-test.sh
+
 if [ "$1" = "-s" ]; then
     silent=true
 fi
