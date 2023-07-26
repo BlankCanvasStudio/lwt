@@ -49,7 +49,7 @@ sleep $tap_start_end_delay
 
 echo "Starting tapped client"
 # Start the packet sending
-ssh $user_tap "~/gen" > "./data/$expr_name" &
+ssh $user_tap "~/gen" > "./data/$expr_name/tapped-sending-info.txt" &
 
 
 
