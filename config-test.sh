@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # This doubles as the folder where data will be generated in data/
-export expr_name="expr18"
+export expr_name="expr19"
 
 # The names you'd like to give the files of the recorded data
 export srvr_tap_data_file="srvr_tap.pcap"
