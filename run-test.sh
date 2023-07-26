@@ -16,7 +16,7 @@ if [ -d "$data_path" ]; then
         echo "Preventing overwrite. Exiting";
 	exit;
     else
-	# Remove the data so that you don't run into any conflicts
+        # Remove the data so that you don't run into any conflicts
         rm -f $data_path/*
     fi
 fi
@@ -30,16 +30,6 @@ ssh $srvr_tap "~/rcv" &
 
 # Set up the data collection
 ./nfra/run-router.sh -s
-
-
-#echo "Starting click data collector"
-# Remove the old data from the click collector
-#ssh $click_collector "rm -f $loc_click_datafile"
-# Make sure the interface is bound
-#ssh $click_collector "~/bind.sh $tap_interface" # Don't mute in case
-#ssh $click_collector "~/bind.sh $internet_interface" # Bind the internet interface as well
-# Start the click router
-#ssh $click_collector "cd ~; sudo ~/fastclick/bin/click ~/router.cpp --dpdk" &
 
 
 echo "Starting TCP recording on tapped server"
