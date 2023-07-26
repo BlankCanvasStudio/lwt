@@ -3,6 +3,12 @@
 source ./config-test.sh
 
 
+echo "Writing /etc/resolv.conf"
+ssh $click_collector "sudo rm /etc/resolv.conf"
+ssh $click_collector "echo 'nameserver 172.30.0.1' | sudo tee -a /etc/resolv.conf"
+ssh $click_collector "echo 'search build.init.lwt' | sudo tee -a /etc/resolv.conf"
+
+
 # Build the click router
 echo "Building click router"
 ./init/xdc/fc.sh $click_collector

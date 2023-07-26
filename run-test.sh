@@ -1,5 +1,6 @@
 #!/bin/bash
 
+
 # Import the config settings so everything is easy to manage
 source ./config-test.sh
 
@@ -19,6 +20,12 @@ if [ -d "$data_path" ]; then
         rm -f $data_path/*
     fi
 fi
+
+
+echo "Writing /etc/resolv.conf"
+ssh $click_collector "sudo rm /etc/resolv.conf"
+ssh $click_collector "echo 'nameserver 172.30.0.1' | sudo tee -a /etc/resolv.conf"
+ssh $click_collector "echo 'search build.init.lwt' | sudo tee -a /etc/resolv.conf"
 
 
 # Set up the recieving connections
@@ -139,6 +146,11 @@ if [ "$tap_uses_iperf3" = true ]; then
     ssh $srvr_tap "rm -f ~/$tap_iperf3_output_file"
 fi
 
+
+echo "Rewriting /etc/resolv.conf"
+ssh $click_collector "sudo rm /etc/resolv.conf"
+ssh $click_collector "echo 'nameserver 172.30.0.1' | sudo tee -a /etc/resolv.conf"
+ssh $click_collector "echo 'search build.init.lwt' | sudo tee -a /etc/resolv.conf"
 
 echo "Test completed"
 
