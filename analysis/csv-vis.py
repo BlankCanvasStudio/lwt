@@ -2,7 +2,7 @@
 
 import matplotlib.pyplot as plt
 
-data_file = "./data/expr4/pipe_rcv.csv"
+data_file = "./data/expr20/pipe_rcv.csv"
 
 fd = open(data_file)
 
@@ -19,8 +19,8 @@ for point in data_tuples_text:
         [length, time] = point.split(':')
         data_points_full += [ [int(length), float(time)] ]
         x += [ float(time) * 10**15  ]
-        y += [ len(y) + 1 ]
-        # y += [ 1 ]
+        # y += [ len(y) + 1 ]
+        y += [ 1 ]
 
 
 plt.scatter(x=x, y=y)
