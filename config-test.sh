@@ -3,7 +3,7 @@
 # Revision tag: cc494378cb5daafd1a4d0d6087c8826f12e589d5
 
 # This doubles as the folder where data will be generated in data/
-export expr_name="expr25"
+export expr_name="01"
 
 # The names you'd like to give the files of the recorded data
 export srvr_tap_data_file="srvr_tap.pcap"
