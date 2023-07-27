@@ -19,6 +19,7 @@ filled_interface=eth1
 filled_router=routertwo
 # Should you record pcap at that link?
 record_filled_pcap=false
+filled_router_pcap_filename="filled-router.pcap"
 
 
 # Hosts generation pipe for experiment
