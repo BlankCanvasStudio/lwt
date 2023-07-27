@@ -30,6 +30,13 @@ ssh $pipe_rcv "~/rcv" &
 ssh $srvr_tap "~/rcv" &
 
 
+# Set up pcap recording on remote server
+if [ "$record_filled_pcap" = "true" ]; then
+    echo "Recording pcap on filled router link"
+    ssh $filled_router "cd ~; sudo tcpdump -U -i $filled_router -w ~/$filled_router_pcap_filename" &
+fi
+
+
 # Set up the data collection
 ./nfra/run-router.sh -s
 
@@ -44,11 +51,6 @@ ssh $srvr_tap "cd ~; sudo tcpdump -U -i eth1 -w ~/$srvr_tap_data_file" &
 echo "Starting pipe generation"
 # Set up the pipe generation
 ssh $pipe_gen "~/gen" &
-
-if [ "$record_filled_pcap" = "true" ]; then
-    echo "Recording pcap on filled router link"
-    ssh $filled_router "cd ~; sudo tcpdump -U -i $filled_router -w ~/$filled_router_pcap_filename" &
-fi
 
 # Delay the tap starting so we can get some consistent data
 echo "Pausing before initiating tap data client"
