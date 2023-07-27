@@ -45,6 +45,11 @@ echo "Starting pipe generation"
 # Set up the pipe generation
 ssh $pipe_gen "~/gen" &
 
+if [ "$record_filled_pcap" = "true" ]; then
+    echo "Recording pcap on filled router link"
+    ssh $filled_router "cd ~; sudo tcpdump -U -i $filled_router -w ~/$filled_router_pcap_filename" &
+fi
+
 # Delay the tap starting so we can get some consistent data
 echo "Pausing before initiating tap data client"
 sleep $tap_start_end_delay
@@ -98,15 +103,24 @@ if [ "$pipe_uses_iperf3" = false ]; then
     ssh $pipe_rcv "kill $rcv_pid"
 fi
 
-
-# Shutting down click router
-./nfra/stop-router.sh
-
 # Shut down the TCPdump
 echo "Shutting down TCP recording on tapped server"
 tcpdump_pid=$(ssh $srvr_tap "pgrep -o tcpdump")
 ssh $srvr_tap "sudo kill $tcpdump_pid"
 
+
+# Shutting down click router
+./nfra/stop-router.sh
+
+
+# Shut down TCP dump on filled router
+if [ "$record_filled_pcap" = "true" ]; then
+    echo "Shutting down TCP recording on filled router"
+    tcpdump_pid=$(ssh $filled_router "pgrep -o tcpdump")
+    ssh $filled_router "sudo kill $tcpdump_pid"
+    # Save the data 
+    scp $filled_router:"~/$filled_router_pcap_filename" "./data/$expr_name/$filled_router_pcap_filename"
+fi
 
 
 # Save the data
@@ -116,10 +130,12 @@ scp $click_collector:"$loc_click_datafile" "./data/$expr_name/$pipe_rcv_data_fil
 # Write a copy of the config to the folder. Makes life easier
 cp "./config-test.sh" "./data/$expr_name"
 
+
 # Remove the data from the experiment infra
 echo "Removing data files from the infrastructure"
 ssh $srvr_tap "rm -f ~/$srvr_tap_data_file"
 ssh $click_collector "rm -f $loc_click_datafile"
+
 
 # Copy the iperf files & remove if necessary
 if [ "$pipe_uses_iperf3" = true ]; then

@@ -52,13 +52,14 @@ indexes_in_range = [ index for index, value in enumerate(aligned_time) if min_de
 
 for ind in indexes_in_range:
     # if gaps_list[ind] < 0.00011 or gaps_list[ind] > 0.00013:
-    if gaps_list[ind] > 0.00015:
+    if gaps_list[ind] > 0.00013:
         lower_index = ind - 5 if ind > 5 else 0
         upper_index = ind - 5 if ind > 5 else 0
-        for i in range(ind-5, ind+5):
-            print('delay:', gaps_list[ind])
-            print('time: ', aligned_time[ind])
-            print('size: ', sizes[ind])
+        width = 5
+        for i in range(ind-width, ind+width):
+            print('delay:', gaps_list[i])
+            print('time: ', aligned_time[i])
+            print('size: ', sizes[i])
             print('')
 
         print('\n\n')

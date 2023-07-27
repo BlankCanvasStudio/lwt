@@ -14,6 +14,12 @@ export tap_start_end_delay=0
 # How long to run the experiment for
 export test_time=20
 
+# info on link you're trying to fill
+filled_interface=eth1
+filled_router=routertwo
+# Should you record pcap at that link?
+record_filled_pcap=false
+
 
 # Hosts generation pipe for experiment
 export pipe_gen=pipegen
