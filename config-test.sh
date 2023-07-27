@@ -3,14 +3,14 @@
 # Revision tag: cc494378cb5daafd1a4d0d6087c8826f12e589d5
 
 # This doubles as the folder where data will be generated in data/
-export expr_name="01"
+export expr_name="02"
 
 # The names you'd like to give the files of the recorded data
 export srvr_tap_data_file="srvr_tap.pcap"
 export pipe_rcv_data_file="pipe_rcv.csv"
 
 # How long to wait to start the tapped server
-export tap_start_end_delay=5
+export tap_start_end_delay=0
 # How long to run the experiment for
 export test_time=20
 
