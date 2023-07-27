@@ -22,7 +22,7 @@ def align_time_data(time_data):
     return shifted_data
  
 
-sizes, arrivales = load_full_data('./data/01/pipe_rcv.csv')
+sizes, arrivales = load_full_data('./data/02/pipe_rcv.csv')
 
 gaps_list = []
 gaps = {}
@@ -46,14 +46,18 @@ top_sorted = sorted_list[(len(sorted_list) - 30):]
 
 aligned_time = align_time_data(arrivales)
 
-min_delay = 7
-max_delay = 9
+min_delay = 8
+max_delay = 10
 indexes_in_range = [ index for index, value in enumerate(aligned_time) if min_delay <= value <= max_delay ]
 
 for ind in indexes_in_range:
     # if gaps_list[ind] < 0.00011 or gaps_list[ind] > 0.00013:
     if gaps_list[ind] > 0.00015:
-        print('delay:', gaps_list[ind])
-        print('time: ',aligned_time[ind])
-        print('')
+        lower_index = ind - 5 if ind > 5 else 0
+        upper_index = ind - 5 if ind > 5 else 0
+        for i in range(ind-5, ind+5):
+            print('delay:', gaps_list[ind])
+            print('time: ', aligned_time[ind])
+            print('size: ', sizes[ind])
+            print('')
 
