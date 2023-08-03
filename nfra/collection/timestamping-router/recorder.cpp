@@ -20,13 +20,13 @@ define (
 // Set up all the interfaces
 // Always call your recording object DataRecorder then this program
 //   works between various compiles too
-dpdkIn :: FromDPDKDevice($PIPE_DPDK_PORT, MODE "none", PROMISC true);
+dpdkIn :: FromDPDKDevice($PIPE_DPDK_PORT, MODE "none", PROMISC true, N_QUEUES 1);
 //    dpdkIn :: DataRecorder("data.csv"); 
-dpdkOut :: ToDPDKDevice($PIPE_DPDK_PORT);
+dpdkOut :: ToDPDKDevice($PIPE_DPDK_PORT, N_QUEUES 1);
 
-FromDPDKDevice($INTERNET_DPDK_PORT, MODE "none", PROMISC true) -> 
-	internetIn :: DataRecorder("data.csv");
-internetOut :: ToDPDKDevice($INTERNET_DPDK_PORT);
+FromDPDKDevice($INTERNET_DPDK_PORT, MODE "none", PROMISC true, N_QUEUES 1) -> 
+    internetIn :: DataRecorder("data.csv");
+internetOut :: ToDPDKDevice($INTERNET_DPDK_PORT, N_QUEUES 1);
 
 
 // Create control socket to interface with
