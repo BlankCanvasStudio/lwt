@@ -1,0 +1,127 @@
+baseline with:
+    - 17 3 times
+        - 17 wget google
+    - 18 2 times
+        - 18 wget multiple (4 times)
+    - 20 2 times
+        - 20 regular wget (6 times)
+    - 21 3 times
+        - 21 scp linux (2 times)
+    - 23 7 times
+        - 23 wget wikipedia (4 times)
+
+
+4 is partially confused with 7 and last cat   (8 times)
+    - 4 ping 2s-15B
+    - 7 ping 5s 35B
+
+
+5 is confused with 8 (once)
+    - ping 2s 250B
+    - 8 ping 5s 350B
+
+
+13 is confusing with 12 (2 times)
+    - 12 f-ping-400B h iperf 100M
+    - 13 f-ping-400B h iperf 80M
+
+
+14 confused with 19 (6 times)
+    - 14 amazon add to cart
+    - 19 amazon browse front
+
+
+15 confused with 4 (3 times)
+    - 15 facebook load default route
+    - 4 ping 2s 15B
+
+
+15 confused with 8 (1 times)
+    - Ping 5s 350B
+15 confused with 20 (1 time)
+    - regular wget
+15 with 21 (1 time)
+    - scp linux
+15 with 23 (1 time)
+    - wget wikipedia
+
+
+16 confused with 26 in a big way (13 times)
+    - 16 gdocs listen to writing same
+    - 26 gdocs listen to writing diff
+
+16 with 28 (1 time)
+    - 28 recieving gmail
+    - 16 gdocs listen to writing
+
+16 with 22 (1 time)
+    - 16 gdocs listen to writing
+    - 22 gdocs basic writing
+
+17 with 15 (1 time)
+    - 17 wget google
+    - 15 facebook default route
+
+17 confused with 18, 20, 21, 23
+    - 17 wget google
+    - 18 wget multiple (4 times)
+    - 20 regular wget (6 times)
+    - 21 scp linux (2 times)
+    - 23 wget wikipedia (4 times)
+
+18 is confused in the same way
+20 in same way
+21 in same way
+23 in same way
+
+19 with 14 (1 time)
+    - 19 amazon browse front
+    - 14 amazon add to cart
+
+26 with 16 and 27
+    - 26 gdocs listen and writing diff
+    - 16 gdocs listen to writing diff (2 times)
+    - 27 gdocs listen to writing same (2 times)
+    !! Need to investigate if its learning the typing pattern
+
+27 with 22 and 16
+    - 27 gdocs listen to writing same (1 time)
+    - 16 gdocs listen to writing diff (2 times)
+    - 22 gdocs basic writing (3 times)
+
+31 and 32 are confused with eachother
+    - 31 gtranslate basic lorem
+    - 32 gtranslate french lorem
+
+36 and 37 consfused with eachother
+    - 36 amazon add to cart reverse
+    - 37 amazon browse reverse
+
+40 and 43 are confused (1 time)
+    - gdocs basic writing reverse
+    - gmail basic sending
+
+44 and 45 are confused with eachother (basically 50/50)
+    - google basic search reversed
+    - gtranslate basic lorem reversed
+    !! BECAUSE THIS IS PROMPTING BACK FROM TEXT INPUT??????
+
+46 and 47 confused (50/50) Very weird
+    - french lorem reversed
+    - wget wikipedia
+    $ look into this
+
+49 confused with 50 (1 time) and 51 (4 times)
+    - 49 mixed gdoc basic writing & youtube with ads
+    - 50 mixed scp rsync
+    - mixed twitch curl https
+
+50 with 52 (1 time)
+    - 50 mixed scp rsync
+    - mixed twitch iperf 100K
+
+51 and 52 are confused (both bias towards iperf for some reason)
+    - 51 mixed twitch curl https
+    - 52 mixed twitch iperf 100K
+
+

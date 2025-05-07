@@ -1,0 +1,25 @@
+intertimestats
+    1) np.max(Out)
+    2) np.max(Total)
+    3) avg_out
+    4) avg_total
+    5) np.std(Out)
+    6) np.std(Total)
+    7) np.percentile(Out, 75)
+    8) np.percentile(Total, 75)
+timestats
+number_pkts
+avg_per_sec
+std_per_sec
+avg_order_in
+std_order_in
+med_per_sec
+min_per_sec
+max_per_sec
+alt_per_sec
+sum(alt_per_sec)
+sum(intertimestats)
+sum(timestats)
+sum(number_pkts)
+conc
+per_sec

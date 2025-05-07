@@ -1,0 +1,858 @@
+Creating training features... 945
+0%... ../../../../tiktok/cw-ow-timing-class/data/0-10/pipe_rcv.csv
+1%... ../../../../tiktok/cw-ow-timing-class/data/0-19/pipe_rcv.csv
+2%... ../../../../tiktok/cw-ow-timing-class/data/0-29/pipe_rcv.csv
+3%... ../../../../tiktok/cw-ow-timing-class/data/0-38/pipe_rcv.csv
+4%... ../../../../tiktok/cw-ow-timing-class/data/0-48/pipe_rcv.csv
+5%... ../../../../tiktok/cw-ow-timing-class/data/0-57/pipe_rcv.csv
+6%... ../../../../tiktok/cw-ow-timing-class/data/0-67/pipe_rcv.csv
+7%... ../../../../tiktok/cw-ow-timing-class/data/0-76/pipe_rcv.csv
+8%... ../../../../tiktok/cw-ow-timing-class/data/0-86/pipe_rcv.csv
+9%... ../../../../tiktok/cw-ow-timing-class/data/0-95/pipe_rcv.csv
+10%... ../../../../tiktok/cw-ow-timing-class/data/0-104/pipe_rcv.csv
+11%... ../../../../tiktok/cw-ow-timing-class/data/0-129/pipe_rcv.csv
+12%... ../../../../tiktok/cw-ow-timing-class/data/0-138/pipe_rcv.csv
+13%... ../../../../tiktok/cw-ow-timing-class/data/0-148/pipe_rcv.csv
+14%... ../../../../tiktok/cw-ow-timing-class/data/1-7/pipe_rcv.csv
+15%... ../../../../tiktok/cw-ow-timing-class/data/1-17/pipe_rcv.csv
+16%... ../../../../tiktok/cw-ow-timing-class/data/1-26/pipe_rcv.csv
+17%... ../../../../tiktok/cw-ow-timing-class/data/1-36/pipe_rcv.csv
+18%... ../../../../tiktok/cw-ow-timing-class/data/1-45/pipe_rcv.csv
+19%... ../../../../tiktok/cw-ow-timing-class/data/1-55/pipe_rcv.csv
+20%... ../../../../tiktok/cw-ow-timing-class/data/1-64/pipe_rcv.csv
+21%... ../../../../tiktok/cw-ow-timing-class/data/1-73/pipe_rcv.csv
+22%... ../../../../tiktok/cw-ow-timing-class/data/1-83/pipe_rcv.csv
+23%... ../../../../tiktok/cw-ow-timing-class/data/1-92/pipe_rcv.csv
+24%... ../../../../tiktok/cw-ow-timing-class/data/1-102/pipe_rcv.csv
+25%... ../../../../tiktok/cw-ow-timing-class/data/1-126/pipe_rcv.csv
+26%... ../../../../tiktok/cw-ow-timing-class/data/1-136/pipe_rcv.csv
+27%... ../../../../tiktok/cw-ow-timing-class/data/1-145/pipe_rcv.csv
+28%... ../../../../tiktok/cw-ow-timing-class/data/2-5/pipe_rcv.csv
+29%... ../../../../tiktok/cw-ow-timing-class/data/2-14/pipe_rcv.csv
+30%... ../../../../tiktok/cw-ow-timing-class/data/2-23/pipe_rcv.csv
+31%... ../../../../tiktok/cw-ow-timing-class/data/2-33/pipe_rcv.csv
+32%... ../../../../tiktok/cw-ow-timing-class/data/2-42/pipe_rcv.csv
+33%... ../../../../tiktok/cw-ow-timing-class/data/2-52/pipe_rcv.csv
+34%... ../../../../tiktok/cw-ow-timing-class/data/2-61/pipe_rcv.csv
+35%... ../../../../tiktok/cw-ow-timing-class/data/2-71/pipe_rcv.csv
+36%... ../../../../tiktok/cw-ow-timing-class/data/2-80/pipe_rcv.csv
+37%... ../../../../tiktok/cw-ow-timing-class/data/2-90/pipe_rcv.csv
+38%... ../../../../tiktok/cw-ow-timing-class/data/2-99/pipe_rcv.csv
+39%... ../../../../tiktok/cw-ow-timing-class/data/2-124/pipe_rcv.csv
+40%... ../../../../tiktok/cw-ow-timing-class/data/2-133/pipe_rcv.csv
+41%... ../../../../tiktok/cw-ow-timing-class/data/2-142/pipe_rcv.csv
+42%... ../../../../tiktok/cw-ow-timing-class/data/3-2/pipe_rcv.csv
+43%... ../../../../tiktok/cw-ow-timing-class/data/3-11/pipe_rcv.csv
+44%... ../../../../tiktok/cw-ow-timing-class/data/3-21/pipe_rcv.csv
+45%... ../../../../tiktok/cw-ow-timing-class/data/3-30/pipe_rcv.csv
+46%... ../../../../tiktok/cw-ow-timing-class/data/3-40/pipe_rcv.csv
+47%... ../../../../tiktok/cw-ow-timing-class/data/3-49/pipe_rcv.csv
+48%... ../../../../tiktok/cw-ow-timing-class/data/3-59/pipe_rcv.csv
+49%... ../../../../tiktok/cw-ow-timing-class/data/3-68/pipe_rcv.csv
+50%... ../../../../tiktok/cw-ow-timing-class/data/3-77/pipe_rcv.csv
+51%... ../../../../tiktok/cw-ow-timing-class/data/3-87/pipe_rcv.csv
+52%... ../../../../tiktok/cw-ow-timing-class/data/3-96/pipe_rcv.csv
+53%... ../../../../tiktok/cw-ow-timing-class/data/3-121/pipe_rcv.csv
+54%... ../../../../tiktok/cw-ow-timing-class/data/3-130/pipe_rcv.csv
+55%... ../../../../tiktok/cw-ow-timing-class/data/3-140/pipe_rcv.csv
+56%... ../../../../tiktok/cw-ow-timing-class/data/3-149/pipe_rcv.csv
+57%... ../../../../tiktok/cw-ow-timing-class/data/4-9/pipe_rcv.csv
+58%... ../../../../tiktok/cw-ow-timing-class/data/4-18/pipe_rcv.csv
+59%... ../../../../tiktok/cw-ow-timing-class/data/4-28/pipe_rcv.csv
+60%... ../../../../tiktok/cw-ow-timing-class/data/4-37/pipe_rcv.csv
+61%... ../../../../tiktok/cw-ow-timing-class/data/4-46/pipe_rcv.csv
+62%... ../../../../tiktok/cw-ow-timing-class/data/4-56/pipe_rcv.csv
+63%... ../../../../tiktok/cw-ow-timing-class/data/4-65/pipe_rcv.csv
+64%... ../../../../tiktok/cw-ow-timing-class/data/4-75/pipe_rcv.csv
+65%... ../../../../tiktok/cw-ow-timing-class/data/4-84/pipe_rcv.csv
+66%... ../../../../tiktok/cw-ow-timing-class/data/4-94/pipe_rcv.csv
+67%... ../../../../tiktok/cw-ow-timing-class/data/4-103/pipe_rcv.csv
+68%... ../../../../tiktok/cw-ow-timing-class/data/4-128/pipe_rcv.csv
+69%... ../../../../tiktok/cw-ow-timing-class/data/4-137/pipe_rcv.csv
+70%... ../../../../tiktok/cw-ow-timing-class/data/4-146/pipe_rcv.csv
+71%... ../../../../tiktok/cw-ow-timing-class/data/5-6/pipe_rcv.csv
+72%... ../../../../tiktok/cw-ow-timing-class/data/5-15/pipe_rcv.csv
+73%... ../../../../tiktok/cw-ow-timing-class/data/5-25/pipe_rcv.csv
+74%... ../../../../tiktok/cw-ow-timing-class/data/5-34/pipe_rcv.csv
+75%... ../../../../tiktok/cw-ow-timing-class/data/5-44/pipe_rcv.csv
+76%... ../../../../tiktok/cw-ow-timing-class/data/5-53/pipe_rcv.csv
+77%... ../../../../tiktok/cw-ow-timing-class/data/5-63/pipe_rcv.csv
+78%... ../../../../tiktok/cw-ow-timing-class/data/5-72/pipe_rcv.csv
+79%... ../../../../tiktok/cw-ow-timing-class/data/5-82/pipe_rcv.csv
+80%... ../../../../tiktok/cw-ow-timing-class/data/5-91/pipe_rcv.csv
+81%... ../../../../tiktok/cw-ow-timing-class/data/5-100/pipe_rcv.csv
+82%... ../../../../tiktok/cw-ow-timing-class/data/5-125/pipe_rcv.csv
+83%... ../../../../tiktok/cw-ow-timing-class/data/5-134/pipe_rcv.csv
+84%... ../../../../tiktok/cw-ow-timing-class/data/5-144/pipe_rcv.csv
+85%... ../../../../tiktok/cw-ow-timing-class/data/3/pipe_rcv.csv
+86%... ../../../../tiktok/cw-ow-timing-class/data/13/pipe_rcv.csv
+87%... ../../../../tiktok/cw-ow-timing-class/data/22/pipe_rcv.csv
+88%... ../../../../tiktok/cw-ow-timing-class/data/32/pipe_rcv.csv
+89%... ../../../../tiktok/cw-ow-timing-class/data/41/pipe_rcv.csv
+90%... ../../../../tiktok/cw-ow-timing-class/data/50/pipe_rcv.csv
+91%... ../../../../tiktok/cw-ow-timing-class/data/60/pipe_rcv.csv
+92%... ../../../../tiktok/cw-ow-timing-class/data/69/pipe_rcv.csv
+93%... ../../../../tiktok/cw-ow-timing-class/data/79/pipe_rcv.csv
+94%... ../../../../tiktok/cw-ow-timing-class/data/88/pipe_rcv.csv
+95%... ../../../../tiktok/cw-ow-timing-class/data/98/pipe_rcv.csv
+96%... ../../../../tiktok/cw-ow-timing-class/data/122/pipe_rcv.csv
+97%... ../../../../tiktok/cw-ow-timing-class/data/132/pipe_rcv.csv
+98%... ../../../../tiktok/cw-ow-timing-class/data/141/pipe_rcv.csv
+Creating testing features... 105
+0%... ../../../../tiktok/cw-ow-timing-class/data/0-107/pipe_rcv.csv
+1%... ../../../../tiktok/cw-ow-timing-class/data/0-108/pipe_rcv.csv
+2%... ../../../../tiktok/cw-ow-timing-class/data/0-109/pipe_rcv.csv
+3%... ../../../../tiktok/cw-ow-timing-class/data/0-110/pipe_rcv.csv
+4%... ../../../../tiktok/cw-ow-timing-class/data/0-111/pipe_rcv.csv
+5%... ../../../../tiktok/cw-ow-timing-class/data/0-112/pipe_rcv.csv
+6%... ../../../../tiktok/cw-ow-timing-class/data/0-113/pipe_rcv.csv
+7%... ../../../../tiktok/cw-ow-timing-class/data/0-114/pipe_rcv.csv
+8%... ../../../../tiktok/cw-ow-timing-class/data/0-115/pipe_rcv.csv
+9%... ../../../../tiktok/cw-ow-timing-class/data/0-116/pipe_rcv.csv
+10%... ../../../../tiktok/cw-ow-timing-class/data/0-117/pipe_rcv.csv
+11%... ../../../../tiktok/cw-ow-timing-class/data/0-118/pipe_rcv.csv
+12%... ../../../../tiktok/cw-ow-timing-class/data/0-119/pipe_rcv.csv
+13%... ../../../../tiktok/cw-ow-timing-class/data/1-105/pipe_rcv.csv
+14%... ../../../../tiktok/cw-ow-timing-class/data/1-106/pipe_rcv.csv
+15%... ../../../../tiktok/cw-ow-timing-class/data/1-107/pipe_rcv.csv
+16%... ../../../../tiktok/cw-ow-timing-class/data/1-108/pipe_rcv.csv
+17%... ../../../../tiktok/cw-ow-timing-class/data/1-109/pipe_rcv.csv
+18%... ../../../../tiktok/cw-ow-timing-class/data/1-110/pipe_rcv.csv
+19%... ../../../../tiktok/cw-ow-timing-class/data/1-112/pipe_rcv.csv
+20%... ../../../../tiktok/cw-ow-timing-class/data/1-113/pipe_rcv.csv
+21%... ../../../../tiktok/cw-ow-timing-class/data/1-114/pipe_rcv.csv
+22%... ../../../../tiktok/cw-ow-timing-class/data/1-115/pipe_rcv.csv
+23%... ../../../../tiktok/cw-ow-timing-class/data/1-116/pipe_rcv.csv
+24%... ../../../../tiktok/cw-ow-timing-class/data/1-117/pipe_rcv.csv
+25%... ../../../../tiktok/cw-ow-timing-class/data/1-118/pipe_rcv.csv
+26%... ../../../../tiktok/cw-ow-timing-class/data/1-119/pipe_rcv.csv
+27%... ../../../../tiktok/cw-ow-timing-class/data/2-105/pipe_rcv.csv
+28%... ../../../../tiktok/cw-ow-timing-class/data/2-106/pipe_rcv.csv
+29%... ../../../../tiktok/cw-ow-timing-class/data/2-107/pipe_rcv.csv
+30%... ../../../../tiktok/cw-ow-timing-class/data/2-108/pipe_rcv.csv
+31%... ../../../../tiktok/cw-ow-timing-class/data/2-109/pipe_rcv.csv
+32%... ../../../../tiktok/cw-ow-timing-class/data/2-110/pipe_rcv.csv
+33%... ../../../../tiktok/cw-ow-timing-class/data/2-111/pipe_rcv.csv
+34%... ../../../../tiktok/cw-ow-timing-class/data/2-112/pipe_rcv.csv
+35%... ../../../../tiktok/cw-ow-timing-class/data/2-113/pipe_rcv.csv
+36%... ../../../../tiktok/cw-ow-timing-class/data/2-114/pipe_rcv.csv
+37%... ../../../../tiktok/cw-ow-timing-class/data/2-115/pipe_rcv.csv
+38%... ../../../../tiktok/cw-ow-timing-class/data/2-116/pipe_rcv.csv
+39%... ../../../../tiktok/cw-ow-timing-class/data/2-118/pipe_rcv.csv
+40%... ../../../../tiktok/cw-ow-timing-class/data/2-119/pipe_rcv.csv
+41%... ../../../../tiktok/cw-ow-timing-class/data/3-105/pipe_rcv.csv
+42%... ../../../../tiktok/cw-ow-timing-class/data/3-106/pipe_rcv.csv
+43%... ../../../../tiktok/cw-ow-timing-class/data/3-107/pipe_rcv.csv
+44%... ../../../../tiktok/cw-ow-timing-class/data/3-108/pipe_rcv.csv
+45%... ../../../../tiktok/cw-ow-timing-class/data/3-109/pipe_rcv.csv
+46%... ../../../../tiktok/cw-ow-timing-class/data/3-110/pipe_rcv.csv
+47%... ../../../../tiktok/cw-ow-timing-class/data/3-111/pipe_rcv.csv
+48%... ../../../../tiktok/cw-ow-timing-class/data/3-112/pipe_rcv.csv
+49%... ../../../../tiktok/cw-ow-timing-class/data/3-113/pipe_rcv.csv
+50%... ../../../../tiktok/cw-ow-timing-class/data/3-114/pipe_rcv.csv
+51%... ../../../../tiktok/cw-ow-timing-class/data/3-115/pipe_rcv.csv
+52%... ../../../../tiktok/cw-ow-timing-class/data/3-116/pipe_rcv.csv
+53%... ../../../../tiktok/cw-ow-timing-class/data/3-117/pipe_rcv.csv
+54%... ../../../../tiktok/cw-ow-timing-class/data/3-118/pipe_rcv.csv
+55%... ../../../../tiktok/cw-ow-timing-class/data/3-119/pipe_rcv.csv
+56%... ../../../../tiktok/cw-ow-timing-class/data/4-105/pipe_rcv.csv
+57%... ../../../../tiktok/cw-ow-timing-class/data/4-106/pipe_rcv.csv
+58%... ../../../../tiktok/cw-ow-timing-class/data/4-107/pipe_rcv.csv
+59%... ../../../../tiktok/cw-ow-timing-class/data/4-109/pipe_rcv.csv
+60%... ../../../../tiktok/cw-ow-timing-class/data/4-110/pipe_rcv.csv
+61%... ../../../../tiktok/cw-ow-timing-class/data/4-111/pipe_rcv.csv
+62%... ../../../../tiktok/cw-ow-timing-class/data/4-112/pipe_rcv.csv
+63%... ../../../../tiktok/cw-ow-timing-class/data/4-113/pipe_rcv.csv
+64%... ../../../../tiktok/cw-ow-timing-class/data/4-114/pipe_rcv.csv
+65%... ../../../../tiktok/cw-ow-timing-class/data/4-115/pipe_rcv.csv
+66%... ../../../../tiktok/cw-ow-timing-class/data/4-116/pipe_rcv.csv
+67%... ../../../../tiktok/cw-ow-timing-class/data/4-117/pipe_rcv.csv
+68%... ../../../../tiktok/cw-ow-timing-class/data/4-118/pipe_rcv.csv
+69%... ../../../../tiktok/cw-ow-timing-class/data/4-119/pipe_rcv.csv
+70%... ../../../../tiktok/cw-ow-timing-class/data/5-105/pipe_rcv.csv
+71%... ../../../../tiktok/cw-ow-timing-class/data/5-106/pipe_rcv.csv
+72%... ../../../../tiktok/cw-ow-timing-class/data/5-107/pipe_rcv.csv
+73%... ../../../../tiktok/cw-ow-timing-class/data/5-108/pipe_rcv.csv
+74%... ../../../../tiktok/cw-ow-timing-class/data/5-109/pipe_rcv.csv
+75%... ../../../../tiktok/cw-ow-timing-class/data/5-110/pipe_rcv.csv
+76%... ../../../../tiktok/cw-ow-timing-class/data/5-111/pipe_rcv.csv
+77%... ../../../../tiktok/cw-ow-timing-class/data/5-112/pipe_rcv.csv
+78%... ../../../../tiktok/cw-ow-timing-class/data/5-113/pipe_rcv.csv
+79%... ../../../../tiktok/cw-ow-timing-class/data/5-115/pipe_rcv.csv
+80%... ../../../../tiktok/cw-ow-timing-class/data/5-116/pipe_rcv.csv
+81%... ../../../../tiktok/cw-ow-timing-class/data/5-117/pipe_rcv.csv
+82%... ../../../../tiktok/cw-ow-timing-class/data/5-118/pipe_rcv.csv
+83%... ../../../../tiktok/cw-ow-timing-class/data/5-119/pipe_rcv.csv
+84%... ../../../../tiktok/cw-ow-timing-class/data/105/pipe_rcv.csv
+85%... ../../../../tiktok/cw-ow-timing-class/data/106/pipe_rcv.csv
+86%... ../../../../tiktok/cw-ow-timing-class/data/107/pipe_rcv.csv
+87%... ../../../../tiktok/cw-ow-timing-class/data/108/pipe_rcv.csv
+88%... ../../../../tiktok/cw-ow-timing-class/data/109/pipe_rcv.csv
+89%... ../../../../tiktok/cw-ow-timing-class/data/110/pipe_rcv.csv
+90%... ../../../../tiktok/cw-ow-timing-class/data/111/pipe_rcv.csv
+91%... ../../../../tiktok/cw-ow-timing-class/data/112/pipe_rcv.csv
+92%... ../../../../tiktok/cw-ow-timing-class/data/113/pipe_rcv.csv
+93%... ../../../../tiktok/cw-ow-timing-class/data/114/pipe_rcv.csv
+94%... ../../../../tiktok/cw-ow-timing-class/data/115/pipe_rcv.csv
+95%... ../../../../tiktok/cw-ow-timing-class/data/116/pipe_rcv.csv
+96%... ../../../../tiktok/cw-ow-timing-class/data/117/pipe_rcv.csv
+97%... ../../../../tiktok/cw-ow-timing-class/data/118/pipe_rcv.csv
+98%... ../../../../tiktok/cw-ow-timing-class/data/119/pipe_rcv.csv
+Training ...
+
+
+Accuracy for class 0: 0.45695364238410596
+Accuracy for class 1: 0.98
+Accuracy for class 2: 0.9865771812080537
+Accuracy for class 3: 0.875
+Accuracy for class 4: 0.8220858895705522
+Accuracy for class 5: 0.9166666666666666
+Accuracy for class 6: 0.475177304964539
+
+
+Precision for class 0: 0.45695364238410596
+Precision for class 1: 0.98
+Precision for class 2: 0.9865771812080537
+Precision for class 3: 0.875
+Precision for class 4: 0.8220858895705522
+Precision for class 5: 0.9166666666666666
+Precision for class 6: 0.475177304964539
+
+
+Recall for class 0: 0.46
+Recall for class 1: 0.98
+Recall for class 2: 0.98
+Recall for class 3: 0.8866666666666667
+Recall for class 4: 0.8933333333333333
+Recall for class 5: 0.88
+Recall for class 6: 0.44666666666666666
+
+
+F1 for class 0: 0.45847176079734214
+F1 for class 1: 0.98
+F1 for class 2: 0.9832775919732442
+F1 for class 3: 0.880794701986755
+F1 for class 4: 0.8562300319488818
+F1 for class 5: 0.8979591836734694
+F1 for class 6: 0.46048109965635736
+
+
+[[ 69.   0.   0.   4.   9.   1.  67.]
+ [  0. 147.   2.   0.   0.   0.   1.]
+ [  0.   3. 147.   0.   0.   0.   0.]
+ [  6.   0.   0. 133.   3.   6.   2.]
+ [  4.   0.   0.   5. 134.   4.   3.]
+ [  3.   0.   0.   6.   8. 132.   1.]
+ [ 69.   0.   0.   4.   9.   1.  67.]]
+vertical is what was actually guessed
+
+
+Generating Feature Importance
+
+
+feature_importances_ based on mean decrease in impurity
+[0.         0.03407051 0.03426502 0.         0.01072903 0.01239755
+ 0.         0.04587003 0.02136628 0.         0.03829096 0.0370428
+ 0.         0.         0.         0.         0.0554587  0.06102
+ 0.06882449 0.03316513 0.06196234 0.0602763  0.05562874 0.03602585
+ 0.         0.02271795 0.00806058 0.         0.         0.
+ 0.         0.         0.         0.01849759 0.02167318 0.02988748
+ 0.         0.02365812 0.         0.         0.02236495 0.
+ 0.01393015 0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.01058625 0.
+ 0.         0.         0.         0.         0.         0.01155356
+ 0.         0.02535911 0.04613583 0.04909762 0.01925458 0.
+ 0.         0.00323363 0.0075957  0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.        ]
+None
+
+
+Creating training features... 945
+0%... ../../../../tiktok/cw-ow-timing-class/data/0-10/pipe_rcv.csv
+1%... ../../../../tiktok/cw-ow-timing-class/data/0-19/pipe_rcv.csv
+2%... ../../../../tiktok/cw-ow-timing-class/data/0-29/pipe_rcv.csv
+3%... ../../../../tiktok/cw-ow-timing-class/data/0-38/pipe_rcv.csv
+4%... ../../../../tiktok/cw-ow-timing-class/data/0-48/pipe_rcv.csv
+5%... ../../../../tiktok/cw-ow-timing-class/data/0-57/pipe_rcv.csv
+6%... ../../../../tiktok/cw-ow-timing-class/data/0-67/pipe_rcv.csv
+7%... ../../../../tiktok/cw-ow-timing-class/data/0-76/pipe_rcv.csv
+8%... ../../../../tiktok/cw-ow-timing-class/data/0-86/pipe_rcv.csv
+9%... ../../../../tiktok/cw-ow-timing-class/data/0-95/pipe_rcv.csv
+10%... ../../../../tiktok/cw-ow-timing-class/data/0-104/pipe_rcv.csv
+11%... ../../../../tiktok/cw-ow-timing-class/data/0-129/pipe_rcv.csv
+12%... ../../../../tiktok/cw-ow-timing-class/data/0-138/pipe_rcv.csv
+13%... ../../../../tiktok/cw-ow-timing-class/data/0-148/pipe_rcv.csv
+14%... ../../../../tiktok/cw-ow-timing-class/data/1-7/pipe_rcv.csv
+15%... ../../../../tiktok/cw-ow-timing-class/data/1-17/pipe_rcv.csv
+16%... ../../../../tiktok/cw-ow-timing-class/data/1-26/pipe_rcv.csv
+17%... ../../../../tiktok/cw-ow-timing-class/data/1-36/pipe_rcv.csv
+18%... ../../../../tiktok/cw-ow-timing-class/data/1-45/pipe_rcv.csv
+19%... ../../../../tiktok/cw-ow-timing-class/data/1-55/pipe_rcv.csv
+20%... ../../../../tiktok/cw-ow-timing-class/data/1-64/pipe_rcv.csv
+21%... ../../../../tiktok/cw-ow-timing-class/data/1-73/pipe_rcv.csv
+22%... ../../../../tiktok/cw-ow-timing-class/data/1-83/pipe_rcv.csv
+23%... ../../../../tiktok/cw-ow-timing-class/data/1-92/pipe_rcv.csv
+24%... ../../../../tiktok/cw-ow-timing-class/data/1-102/pipe_rcv.csv
+25%... ../../../../tiktok/cw-ow-timing-class/data/1-126/pipe_rcv.csv
+26%... ../../../../tiktok/cw-ow-timing-class/data/1-136/pipe_rcv.csv
+27%... ../../../../tiktok/cw-ow-timing-class/data/1-145/pipe_rcv.csv
+28%... ../../../../tiktok/cw-ow-timing-class/data/2-5/pipe_rcv.csv
+29%... ../../../../tiktok/cw-ow-timing-class/data/2-14/pipe_rcv.csv
+30%... ../../../../tiktok/cw-ow-timing-class/data/2-23/pipe_rcv.csv
+31%... ../../../../tiktok/cw-ow-timing-class/data/2-33/pipe_rcv.csv
+32%... ../../../../tiktok/cw-ow-timing-class/data/2-42/pipe_rcv.csv
+33%... ../../../../tiktok/cw-ow-timing-class/data/2-52/pipe_rcv.csv
+34%... ../../../../tiktok/cw-ow-timing-class/data/2-61/pipe_rcv.csv
+35%... ../../../../tiktok/cw-ow-timing-class/data/2-71/pipe_rcv.csv
+36%... ../../../../tiktok/cw-ow-timing-class/data/2-80/pipe_rcv.csv
+37%... ../../../../tiktok/cw-ow-timing-class/data/2-90/pipe_rcv.csv
+38%... ../../../../tiktok/cw-ow-timing-class/data/2-99/pipe_rcv.csv
+39%... ../../../../tiktok/cw-ow-timing-class/data/2-124/pipe_rcv.csv
+40%... ../../../../tiktok/cw-ow-timing-class/data/2-133/pipe_rcv.csv
+41%... ../../../../tiktok/cw-ow-timing-class/data/2-142/pipe_rcv.csv
+42%... ../../../../tiktok/cw-ow-timing-class/data/3-2/pipe_rcv.csv
+43%... ../../../../tiktok/cw-ow-timing-class/data/3-11/pipe_rcv.csv
+44%... ../../../../tiktok/cw-ow-timing-class/data/3-21/pipe_rcv.csv
+45%... ../../../../tiktok/cw-ow-timing-class/data/3-30/pipe_rcv.csv
+46%... ../../../../tiktok/cw-ow-timing-class/data/3-40/pipe_rcv.csv
+47%... ../../../../tiktok/cw-ow-timing-class/data/3-49/pipe_rcv.csv
+48%... ../../../../tiktok/cw-ow-timing-class/data/3-59/pipe_rcv.csv
+49%... ../../../../tiktok/cw-ow-timing-class/data/3-68/pipe_rcv.csv
+50%... ../../../../tiktok/cw-ow-timing-class/data/3-77/pipe_rcv.csv
+51%... ../../../../tiktok/cw-ow-timing-class/data/3-87/pipe_rcv.csv
+52%... ../../../../tiktok/cw-ow-timing-class/data/3-96/pipe_rcv.csv
+53%... ../../../../tiktok/cw-ow-timing-class/data/3-121/pipe_rcv.csv
+54%... ../../../../tiktok/cw-ow-timing-class/data/3-130/pipe_rcv.csv
+55%... ../../../../tiktok/cw-ow-timing-class/data/3-140/pipe_rcv.csv
+56%... ../../../../tiktok/cw-ow-timing-class/data/3-149/pipe_rcv.csv
+57%... ../../../../tiktok/cw-ow-timing-class/data/4-9/pipe_rcv.csv
+58%... ../../../../tiktok/cw-ow-timing-class/data/4-18/pipe_rcv.csv
+59%... ../../../../tiktok/cw-ow-timing-class/data/4-28/pipe_rcv.csv
+60%... ../../../../tiktok/cw-ow-timing-class/data/4-37/pipe_rcv.csv
+61%... ../../../../tiktok/cw-ow-timing-class/data/4-46/pipe_rcv.csv
+62%... ../../../../tiktok/cw-ow-timing-class/data/4-56/pipe_rcv.csv
+63%... ../../../../tiktok/cw-ow-timing-class/data/4-65/pipe_rcv.csv
+64%... ../../../../tiktok/cw-ow-timing-class/data/4-75/pipe_rcv.csv
+65%... ../../../../tiktok/cw-ow-timing-class/data/4-84/pipe_rcv.csv
+66%... ../../../../tiktok/cw-ow-timing-class/data/4-94/pipe_rcv.csv
+67%... ../../../../tiktok/cw-ow-timing-class/data/4-103/pipe_rcv.csv
+68%... ../../../../tiktok/cw-ow-timing-class/data/4-128/pipe_rcv.csv
+69%... ../../../../tiktok/cw-ow-timing-class/data/4-137/pipe_rcv.csv
+70%... ../../../../tiktok/cw-ow-timing-class/data/4-146/pipe_rcv.csv
+71%... ../../../../tiktok/cw-ow-timing-class/data/5-6/pipe_rcv.csv
+72%... ../../../../tiktok/cw-ow-timing-class/data/5-15/pipe_rcv.csv
+73%... ../../../../tiktok/cw-ow-timing-class/data/5-25/pipe_rcv.csv
+74%... ../../../../tiktok/cw-ow-timing-class/data/5-34/pipe_rcv.csv
+75%... ../../../../tiktok/cw-ow-timing-class/data/5-44/pipe_rcv.csv
+76%... ../../../../tiktok/cw-ow-timing-class/data/5-53/pipe_rcv.csv
+77%... ../../../../tiktok/cw-ow-timing-class/data/5-63/pipe_rcv.csv
+78%... ../../../../tiktok/cw-ow-timing-class/data/5-72/pipe_rcv.csv
+79%... ../../../../tiktok/cw-ow-timing-class/data/5-82/pipe_rcv.csv
+80%... ../../../../tiktok/cw-ow-timing-class/data/5-91/pipe_rcv.csv
+81%... ../../../../tiktok/cw-ow-timing-class/data/5-100/pipe_rcv.csv
+82%... ../../../../tiktok/cw-ow-timing-class/data/5-125/pipe_rcv.csv
+83%... ../../../../tiktok/cw-ow-timing-class/data/5-134/pipe_rcv.csv
+84%... ../../../../tiktok/cw-ow-timing-class/data/5-144/pipe_rcv.csv
+85%... ../../../../tiktok/cw-ow-timing-class/data/3/pipe_rcv.csv
+86%... ../../../../tiktok/cw-ow-timing-class/data/13/pipe_rcv.csv
+87%... ../../../../tiktok/cw-ow-timing-class/data/22/pipe_rcv.csv
+88%... ../../../../tiktok/cw-ow-timing-class/data/32/pipe_rcv.csv
+89%... ../../../../tiktok/cw-ow-timing-class/data/41/pipe_rcv.csv
+90%... ../../../../tiktok/cw-ow-timing-class/data/50/pipe_rcv.csv
+91%... ../../../../tiktok/cw-ow-timing-class/data/60/pipe_rcv.csv
+92%... ../../../../tiktok/cw-ow-timing-class/data/69/pipe_rcv.csv
+93%... ../../../../tiktok/cw-ow-timing-class/data/79/pipe_rcv.csv
+94%... ../../../../tiktok/cw-ow-timing-class/data/88/pipe_rcv.csv
+95%... ../../../../tiktok/cw-ow-timing-class/data/98/pipe_rcv.csv
+96%... ../../../../tiktok/cw-ow-timing-class/data/122/pipe_rcv.csv
+97%... ../../../../tiktok/cw-ow-timing-class/data/132/pipe_rcv.csv
+98%... ../../../../tiktok/cw-ow-timing-class/data/141/pipe_rcv.csv
+Creating testing features... 105
+0%... ../../../../tiktok/cw-ow-timing-class/data/0-107/pipe_rcv.csv
+1%... ../../../../tiktok/cw-ow-timing-class/data/0-108/pipe_rcv.csv
+2%... ../../../../tiktok/cw-ow-timing-class/data/0-109/pipe_rcv.csv
+3%... ../../../../tiktok/cw-ow-timing-class/data/0-110/pipe_rcv.csv
+4%... ../../../../tiktok/cw-ow-timing-class/data/0-111/pipe_rcv.csv
+5%... ../../../../tiktok/cw-ow-timing-class/data/0-112/pipe_rcv.csv
+6%... ../../../../tiktok/cw-ow-timing-class/data/0-113/pipe_rcv.csv
+7%... ../../../../tiktok/cw-ow-timing-class/data/0-114/pipe_rcv.csv
+8%... ../../../../tiktok/cw-ow-timing-class/data/0-115/pipe_rcv.csv
+9%... ../../../../tiktok/cw-ow-timing-class/data/0-116/pipe_rcv.csv
+10%... ../../../../tiktok/cw-ow-timing-class/data/0-117/pipe_rcv.csv
+11%... ../../../../tiktok/cw-ow-timing-class/data/0-118/pipe_rcv.csv
+12%... ../../../../tiktok/cw-ow-timing-class/data/0-119/pipe_rcv.csv
+13%... ../../../../tiktok/cw-ow-timing-class/data/1-105/pipe_rcv.csv
+14%... ../../../../tiktok/cw-ow-timing-class/data/1-106/pipe_rcv.csv
+15%... ../../../../tiktok/cw-ow-timing-class/data/1-107/pipe_rcv.csv
+16%... ../../../../tiktok/cw-ow-timing-class/data/1-108/pipe_rcv.csv
+17%... ../../../../tiktok/cw-ow-timing-class/data/1-109/pipe_rcv.csv
+18%... ../../../../tiktok/cw-ow-timing-class/data/1-110/pipe_rcv.csv
+19%... ../../../../tiktok/cw-ow-timing-class/data/1-112/pipe_rcv.csv
+20%... ../../../../tiktok/cw-ow-timing-class/data/1-113/pipe_rcv.csv
+21%... ../../../../tiktok/cw-ow-timing-class/data/1-114/pipe_rcv.csv
+22%... ../../../../tiktok/cw-ow-timing-class/data/1-115/pipe_rcv.csv
+23%... ../../../../tiktok/cw-ow-timing-class/data/1-116/pipe_rcv.csv
+24%... ../../../../tiktok/cw-ow-timing-class/data/1-117/pipe_rcv.csv
+25%... ../../../../tiktok/cw-ow-timing-class/data/1-118/pipe_rcv.csv
+26%... ../../../../tiktok/cw-ow-timing-class/data/1-119/pipe_rcv.csv
+27%... ../../../../tiktok/cw-ow-timing-class/data/2-105/pipe_rcv.csv
+28%... ../../../../tiktok/cw-ow-timing-class/data/2-106/pipe_rcv.csv
+29%... ../../../../tiktok/cw-ow-timing-class/data/2-107/pipe_rcv.csv
+30%... ../../../../tiktok/cw-ow-timing-class/data/2-108/pipe_rcv.csv
+31%... ../../../../tiktok/cw-ow-timing-class/data/2-109/pipe_rcv.csv
+32%... ../../../../tiktok/cw-ow-timing-class/data/2-110/pipe_rcv.csv
+33%... ../../../../tiktok/cw-ow-timing-class/data/2-111/pipe_rcv.csv
+34%... ../../../../tiktok/cw-ow-timing-class/data/2-112/pipe_rcv.csv
+35%... ../../../../tiktok/cw-ow-timing-class/data/2-113/pipe_rcv.csv
+36%... ../../../../tiktok/cw-ow-timing-class/data/2-114/pipe_rcv.csv
+37%... ../../../../tiktok/cw-ow-timing-class/data/2-115/pipe_rcv.csv
+38%... ../../../../tiktok/cw-ow-timing-class/data/2-116/pipe_rcv.csv
+39%... ../../../../tiktok/cw-ow-timing-class/data/2-118/pipe_rcv.csv
+40%... ../../../../tiktok/cw-ow-timing-class/data/2-119/pipe_rcv.csv
+41%... ../../../../tiktok/cw-ow-timing-class/data/3-105/pipe_rcv.csv
+42%... ../../../../tiktok/cw-ow-timing-class/data/3-106/pipe_rcv.csv
+43%... ../../../../tiktok/cw-ow-timing-class/data/3-107/pipe_rcv.csv
+44%... ../../../../tiktok/cw-ow-timing-class/data/3-108/pipe_rcv.csv
+45%... ../../../../tiktok/cw-ow-timing-class/data/3-109/pipe_rcv.csv
+46%... ../../../../tiktok/cw-ow-timing-class/data/3-110/pipe_rcv.csv
+47%... ../../../../tiktok/cw-ow-timing-class/data/3-111/pipe_rcv.csv
+48%... ../../../../tiktok/cw-ow-timing-class/data/3-112/pipe_rcv.csv
+49%... ../../../../tiktok/cw-ow-timing-class/data/3-113/pipe_rcv.csv
+50%... ../../../../tiktok/cw-ow-timing-class/data/3-114/pipe_rcv.csv
+51%... ../../../../tiktok/cw-ow-timing-class/data/3-115/pipe_rcv.csv
+52%... ../../../../tiktok/cw-ow-timing-class/data/3-116/pipe_rcv.csv
+53%... ../../../../tiktok/cw-ow-timing-class/data/3-117/pipe_rcv.csv
+54%... ../../../../tiktok/cw-ow-timing-class/data/3-118/pipe_rcv.csv
+55%... ../../../../tiktok/cw-ow-timing-class/data/3-119/pipe_rcv.csv
+56%... ../../../../tiktok/cw-ow-timing-class/data/4-105/pipe_rcv.csv
+57%... ../../../../tiktok/cw-ow-timing-class/data/4-106/pipe_rcv.csv
+58%... ../../../../tiktok/cw-ow-timing-class/data/4-107/pipe_rcv.csv
+59%... ../../../../tiktok/cw-ow-timing-class/data/4-109/pipe_rcv.csv
+60%... ../../../../tiktok/cw-ow-timing-class/data/4-110/pipe_rcv.csv
+61%... ../../../../tiktok/cw-ow-timing-class/data/4-111/pipe_rcv.csv
+62%... ../../../../tiktok/cw-ow-timing-class/data/4-112/pipe_rcv.csv
+63%... ../../../../tiktok/cw-ow-timing-class/data/4-113/pipe_rcv.csv
+64%... ../../../../tiktok/cw-ow-timing-class/data/4-114/pipe_rcv.csv
+65%... ../../../../tiktok/cw-ow-timing-class/data/4-115/pipe_rcv.csv
+66%... ../../../../tiktok/cw-ow-timing-class/data/4-116/pipe_rcv.csv
+67%... ../../../../tiktok/cw-ow-timing-class/data/4-117/pipe_rcv.csv
+68%... ../../../../tiktok/cw-ow-timing-class/data/4-118/pipe_rcv.csv
+69%... ../../../../tiktok/cw-ow-timing-class/data/4-119/pipe_rcv.csv
+70%... ../../../../tiktok/cw-ow-timing-class/data/5-105/pipe_rcv.csv
+71%... ../../../../tiktok/cw-ow-timing-class/data/5-106/pipe_rcv.csv
+72%... ../../../../tiktok/cw-ow-timing-class/data/5-107/pipe_rcv.csv
+73%... ../../../../tiktok/cw-ow-timing-class/data/5-108/pipe_rcv.csv
+74%... ../../../../tiktok/cw-ow-timing-class/data/5-109/pipe_rcv.csv
+75%... ../../../../tiktok/cw-ow-timing-class/data/5-110/pipe_rcv.csv
+76%... ../../../../tiktok/cw-ow-timing-class/data/5-111/pipe_rcv.csv
+77%... ../../../../tiktok/cw-ow-timing-class/data/5-112/pipe_rcv.csv
+78%... ../../../../tiktok/cw-ow-timing-class/data/5-113/pipe_rcv.csv
+79%... ../../../../tiktok/cw-ow-timing-class/data/5-115/pipe_rcv.csv
+80%... ../../../../tiktok/cw-ow-timing-class/data/5-116/pipe_rcv.csv
+81%... ../../../../tiktok/cw-ow-timing-class/data/5-117/pipe_rcv.csv
+82%... ../../../../tiktok/cw-ow-timing-class/data/5-118/pipe_rcv.csv
+83%... ../../../../tiktok/cw-ow-timing-class/data/5-119/pipe_rcv.csv
+84%... ../../../../tiktok/cw-ow-timing-class/data/105/pipe_rcv.csv
+85%... ../../../../tiktok/cw-ow-timing-class/data/106/pipe_rcv.csv
+86%... ../../../../tiktok/cw-ow-timing-class/data/107/pipe_rcv.csv
+87%... ../../../../tiktok/cw-ow-timing-class/data/108/pipe_rcv.csv
+88%... ../../../../tiktok/cw-ow-timing-class/data/109/pipe_rcv.csv
+89%... ../../../../tiktok/cw-ow-timing-class/data/110/pipe_rcv.csv
+90%... ../../../../tiktok/cw-ow-timing-class/data/111/pipe_rcv.csv
+91%... ../../../../tiktok/cw-ow-timing-class/data/112/pipe_rcv.csv
+92%... ../../../../tiktok/cw-ow-timing-class/data/113/pipe_rcv.csv
+93%... ../../../../tiktok/cw-ow-timing-class/data/114/pipe_rcv.csv
+94%... ../../../../tiktok/cw-ow-timing-class/data/115/pipe_rcv.csv
+95%... ../../../../tiktok/cw-ow-timing-class/data/116/pipe_rcv.csv
+96%... ../../../../tiktok/cw-ow-timing-class/data/117/pipe_rcv.csv
+97%... ../../../../tiktok/cw-ow-timing-class/data/118/pipe_rcv.csv
+98%... ../../../../tiktok/cw-ow-timing-class/data/119/pipe_rcv.csv
+Training ...
+
+
+Accuracy for class 0: 0.4573643410852713
+Accuracy for class 1: 0.9671052631578947
+Accuracy for class 2: 0.9863945578231292
+Accuracy for class 3: 0.8355263157894737
+Accuracy for class 4: 0.8561643835616438
+Accuracy for class 5: 0.8562091503267973
+Accuracy for class 6: 0.45614035087719296
+
+
+Precision for class 0: 0.4573643410852713
+Precision for class 1: 0.9671052631578947
+Precision for class 2: 0.9863945578231292
+Precision for class 3: 0.8355263157894737
+Precision for class 4: 0.8561643835616438
+Precision for class 5: 0.8562091503267973
+Precision for class 6: 0.45614035087719296
+
+
+Recall for class 0: 0.3933333333333333
+Recall for class 1: 0.98
+Recall for class 2: 0.9666666666666667
+Recall for class 3: 0.8466666666666667
+Recall for class 4: 0.8333333333333334
+Recall for class 5: 0.8733333333333333
+Recall for class 6: 0.52
+
+
+F1 for class 0: 0.4229390681003584
+F1 for class 1: 0.9735099337748344
+F1 for class 2: 0.9764309764309764
+F1 for class 3: 0.8410596026490067
+F1 for class 4: 0.8445945945945946
+F1 for class 5: 0.8646864686468646
+F1 for class 6: 0.48598130841121495
+
+
+[[ 59.   0.   0.   6.   5.   2.  78.]
+ [  0. 147.   2.   0.   0.   0.   1.]
+ [  0.   5. 145.   0.   0.   0.   0.]
+ [  2.   0.   0. 127.   3.  13.   5.]
+ [  9.   0.   0.   5. 125.   5.   6.]
+ [  0.   0.   0.   8.   8. 131.   3.]
+ [ 59.   0.   0.   6.   5.   2.  78.]]
+vertical is what was actually guessed
+
+
+Generating Feature Importance
+
+
+feature_importances_ based on mean decrease in impurity
+[0.         0.03091258 0.03454966 0.         0.00843375 0.04154475
+ 0.         0.05171862 0.021808   0.         0.04083457 0.03732208
+ 0.         0.         0.         0.         0.05371959 0.04424004
+ 0.05725637 0.03330036 0.05376391 0.06338619 0.05889036 0.02796371
+ 0.         0.00027473 0.0017368  0.         0.         0.
+ 0.         0.         0.         0.02146289 0.01284599 0.05301145
+ 0.         0.00147807 0.         0.         0.02561138 0.
+ 0.0265135  0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.0307501  0.
+ 0.         0.         0.         0.         0.         0.00185987
+ 0.         0.00064947 0.04199902 0.07269673 0.03851394 0.
+ 0.         0.00538767 0.00556385 0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.        ]
+None
+
+
+Creating training features... 945
+0%... ../../../../tiktok/cw-ow-timing-class/data/0-10/pipe_rcv.csv
+1%... ../../../../tiktok/cw-ow-timing-class/data/0-19/pipe_rcv.csv
+2%... ../../../../tiktok/cw-ow-timing-class/data/0-29/pipe_rcv.csv
+3%... ../../../../tiktok/cw-ow-timing-class/data/0-38/pipe_rcv.csv
+4%... ../../../../tiktok/cw-ow-timing-class/data/0-48/pipe_rcv.csv
+5%... ../../../../tiktok/cw-ow-timing-class/data/0-57/pipe_rcv.csv
+6%... ../../../../tiktok/cw-ow-timing-class/data/0-67/pipe_rcv.csv
+7%... ../../../../tiktok/cw-ow-timing-class/data/0-76/pipe_rcv.csv
+8%... ../../../../tiktok/cw-ow-timing-class/data/0-86/pipe_rcv.csv
+9%... ../../../../tiktok/cw-ow-timing-class/data/0-95/pipe_rcv.csv
+10%... ../../../../tiktok/cw-ow-timing-class/data/0-104/pipe_rcv.csv
+11%... ../../../../tiktok/cw-ow-timing-class/data/0-129/pipe_rcv.csv
+12%... ../../../../tiktok/cw-ow-timing-class/data/0-138/pipe_rcv.csv
+13%... ../../../../tiktok/cw-ow-timing-class/data/0-148/pipe_rcv.csv
+14%... ../../../../tiktok/cw-ow-timing-class/data/1-7/pipe_rcv.csv
+15%... ../../../../tiktok/cw-ow-timing-class/data/1-17/pipe_rcv.csv
+16%... ../../../../tiktok/cw-ow-timing-class/data/1-26/pipe_rcv.csv
+17%... ../../../../tiktok/cw-ow-timing-class/data/1-36/pipe_rcv.csv
+18%... ../../../../tiktok/cw-ow-timing-class/data/1-45/pipe_rcv.csv
+19%... ../../../../tiktok/cw-ow-timing-class/data/1-55/pipe_rcv.csv
+20%... ../../../../tiktok/cw-ow-timing-class/data/1-64/pipe_rcv.csv
+21%... ../../../../tiktok/cw-ow-timing-class/data/1-73/pipe_rcv.csv
+22%... ../../../../tiktok/cw-ow-timing-class/data/1-83/pipe_rcv.csv
+23%... ../../../../tiktok/cw-ow-timing-class/data/1-92/pipe_rcv.csv
+24%... ../../../../tiktok/cw-ow-timing-class/data/1-102/pipe_rcv.csv
+25%... ../../../../tiktok/cw-ow-timing-class/data/1-126/pipe_rcv.csv
+26%... ../../../../tiktok/cw-ow-timing-class/data/1-136/pipe_rcv.csv
+27%... ../../../../tiktok/cw-ow-timing-class/data/1-145/pipe_rcv.csv
+28%... ../../../../tiktok/cw-ow-timing-class/data/2-5/pipe_rcv.csv
+29%... ../../../../tiktok/cw-ow-timing-class/data/2-14/pipe_rcv.csv
+30%... ../../../../tiktok/cw-ow-timing-class/data/2-23/pipe_rcv.csv
+31%... ../../../../tiktok/cw-ow-timing-class/data/2-33/pipe_rcv.csv
+32%... ../../../../tiktok/cw-ow-timing-class/data/2-42/pipe_rcv.csv
+33%... ../../../../tiktok/cw-ow-timing-class/data/2-52/pipe_rcv.csv
+34%... ../../../../tiktok/cw-ow-timing-class/data/2-61/pipe_rcv.csv
+35%... ../../../../tiktok/cw-ow-timing-class/data/2-71/pipe_rcv.csv
+36%... ../../../../tiktok/cw-ow-timing-class/data/2-80/pipe_rcv.csv
+37%... ../../../../tiktok/cw-ow-timing-class/data/2-90/pipe_rcv.csv
+38%... ../../../../tiktok/cw-ow-timing-class/data/2-99/pipe_rcv.csv
+39%... ../../../../tiktok/cw-ow-timing-class/data/2-124/pipe_rcv.csv
+40%... ../../../../tiktok/cw-ow-timing-class/data/2-133/pipe_rcv.csv
+41%... ../../../../tiktok/cw-ow-timing-class/data/2-142/pipe_rcv.csv
+42%... ../../../../tiktok/cw-ow-timing-class/data/3-2/pipe_rcv.csv
+43%... ../../../../tiktok/cw-ow-timing-class/data/3-11/pipe_rcv.csv
+44%... ../../../../tiktok/cw-ow-timing-class/data/3-21/pipe_rcv.csv
+45%... ../../../../tiktok/cw-ow-timing-class/data/3-30/pipe_rcv.csv
+46%... ../../../../tiktok/cw-ow-timing-class/data/3-40/pipe_rcv.csv
+47%... ../../../../tiktok/cw-ow-timing-class/data/3-49/pipe_rcv.csv
+48%... ../../../../tiktok/cw-ow-timing-class/data/3-59/pipe_rcv.csv
+49%... ../../../../tiktok/cw-ow-timing-class/data/3-68/pipe_rcv.csv
+50%... ../../../../tiktok/cw-ow-timing-class/data/3-77/pipe_rcv.csv
+51%... ../../../../tiktok/cw-ow-timing-class/data/3-87/pipe_rcv.csv
+52%... ../../../../tiktok/cw-ow-timing-class/data/3-96/pipe_rcv.csv
+53%... ../../../../tiktok/cw-ow-timing-class/data/3-121/pipe_rcv.csv
+54%... ../../../../tiktok/cw-ow-timing-class/data/3-130/pipe_rcv.csv
+55%... ../../../../tiktok/cw-ow-timing-class/data/3-140/pipe_rcv.csv
+56%... ../../../../tiktok/cw-ow-timing-class/data/3-149/pipe_rcv.csv
+57%... ../../../../tiktok/cw-ow-timing-class/data/4-9/pipe_rcv.csv
+58%... ../../../../tiktok/cw-ow-timing-class/data/4-18/pipe_rcv.csv
+59%... ../../../../tiktok/cw-ow-timing-class/data/4-28/pipe_rcv.csv
+60%... ../../../../tiktok/cw-ow-timing-class/data/4-37/pipe_rcv.csv
+61%... ../../../../tiktok/cw-ow-timing-class/data/4-46/pipe_rcv.csv
+62%... ../../../../tiktok/cw-ow-timing-class/data/4-56/pipe_rcv.csv
+63%... ../../../../tiktok/cw-ow-timing-class/data/4-65/pipe_rcv.csv
+64%... ../../../../tiktok/cw-ow-timing-class/data/4-75/pipe_rcv.csv
+65%... ../../../../tiktok/cw-ow-timing-class/data/4-84/pipe_rcv.csv
+66%... ../../../../tiktok/cw-ow-timing-class/data/4-94/pipe_rcv.csv
+67%... ../../../../tiktok/cw-ow-timing-class/data/4-103/pipe_rcv.csv
+68%... ../../../../tiktok/cw-ow-timing-class/data/4-128/pipe_rcv.csv
+69%... ../../../../tiktok/cw-ow-timing-class/data/4-137/pipe_rcv.csv
+70%... ../../../../tiktok/cw-ow-timing-class/data/4-146/pipe_rcv.csv
+71%... ../../../../tiktok/cw-ow-timing-class/data/5-6/pipe_rcv.csv
+72%... ../../../../tiktok/cw-ow-timing-class/data/5-15/pipe_rcv.csv
+73%... ../../../../tiktok/cw-ow-timing-class/data/5-25/pipe_rcv.csv
+74%... ../../../../tiktok/cw-ow-timing-class/data/5-34/pipe_rcv.csv
+75%... ../../../../tiktok/cw-ow-timing-class/data/5-44/pipe_rcv.csv
+76%... ../../../../tiktok/cw-ow-timing-class/data/5-53/pipe_rcv.csv
+77%... ../../../../tiktok/cw-ow-timing-class/data/5-63/pipe_rcv.csv
+78%... ../../../../tiktok/cw-ow-timing-class/data/5-72/pipe_rcv.csv
+79%... ../../../../tiktok/cw-ow-timing-class/data/5-82/pipe_rcv.csv
+80%... ../../../../tiktok/cw-ow-timing-class/data/5-91/pipe_rcv.csv
+81%... ../../../../tiktok/cw-ow-timing-class/data/5-100/pipe_rcv.csv
+82%... ../../../../tiktok/cw-ow-timing-class/data/5-125/pipe_rcv.csv
+83%... ../../../../tiktok/cw-ow-timing-class/data/5-134/pipe_rcv.csv
+84%... ../../../../tiktok/cw-ow-timing-class/data/5-144/pipe_rcv.csv
+85%... ../../../../tiktok/cw-ow-timing-class/data/3/pipe_rcv.csv
+86%... ../../../../tiktok/cw-ow-timing-class/data/13/pipe_rcv.csv
+87%... ../../../../tiktok/cw-ow-timing-class/data/22/pipe_rcv.csv
+88%... ../../../../tiktok/cw-ow-timing-class/data/32/pipe_rcv.csv
+89%... ../../../../tiktok/cw-ow-timing-class/data/41/pipe_rcv.csv
+90%... ../../../../tiktok/cw-ow-timing-class/data/50/pipe_rcv.csv
+91%... ../../../../tiktok/cw-ow-timing-class/data/60/pipe_rcv.csv
+92%... ../../../../tiktok/cw-ow-timing-class/data/69/pipe_rcv.csv
+93%... ../../../../tiktok/cw-ow-timing-class/data/79/pipe_rcv.csv
+94%... ../../../../tiktok/cw-ow-timing-class/data/88/pipe_rcv.csv
+95%... ../../../../tiktok/cw-ow-timing-class/data/98/pipe_rcv.csv
+96%... ../../../../tiktok/cw-ow-timing-class/data/122/pipe_rcv.csv
+97%... ../../../../tiktok/cw-ow-timing-class/data/132/pipe_rcv.csv
+98%... ../../../../tiktok/cw-ow-timing-class/data/141/pipe_rcv.csv
+Creating testing features... 105
+0%... ../../../../tiktok/cw-ow-timing-class/data/0-107/pipe_rcv.csv
+1%... ../../../../tiktok/cw-ow-timing-class/data/0-108/pipe_rcv.csv
+2%... ../../../../tiktok/cw-ow-timing-class/data/0-109/pipe_rcv.csv
+3%... ../../../../tiktok/cw-ow-timing-class/data/0-110/pipe_rcv.csv
+4%... ../../../../tiktok/cw-ow-timing-class/data/0-111/pipe_rcv.csv
+5%... ../../../../tiktok/cw-ow-timing-class/data/0-112/pipe_rcv.csv
+6%... ../../../../tiktok/cw-ow-timing-class/data/0-113/pipe_rcv.csv
+7%... ../../../../tiktok/cw-ow-timing-class/data/0-114/pipe_rcv.csv
+8%... ../../../../tiktok/cw-ow-timing-class/data/0-115/pipe_rcv.csv
+9%... ../../../../tiktok/cw-ow-timing-class/data/0-116/pipe_rcv.csv
+10%... ../../../../tiktok/cw-ow-timing-class/data/0-117/pipe_rcv.csv
+11%... ../../../../tiktok/cw-ow-timing-class/data/0-118/pipe_rcv.csv
+12%... ../../../../tiktok/cw-ow-timing-class/data/0-119/pipe_rcv.csv
+13%... ../../../../tiktok/cw-ow-timing-class/data/1-105/pipe_rcv.csv
+14%... ../../../../tiktok/cw-ow-timing-class/data/1-106/pipe_rcv.csv
+15%... ../../../../tiktok/cw-ow-timing-class/data/1-107/pipe_rcv.csv
+16%... ../../../../tiktok/cw-ow-timing-class/data/1-108/pipe_rcv.csv
+17%... ../../../../tiktok/cw-ow-timing-class/data/1-109/pipe_rcv.csv
+18%... ../../../../tiktok/cw-ow-timing-class/data/1-110/pipe_rcv.csv
+19%... ../../../../tiktok/cw-ow-timing-class/data/1-112/pipe_rcv.csv
+20%... ../../../../tiktok/cw-ow-timing-class/data/1-113/pipe_rcv.csv
+21%... ../../../../tiktok/cw-ow-timing-class/data/1-114/pipe_rcv.csv
+22%... ../../../../tiktok/cw-ow-timing-class/data/1-115/pipe_rcv.csv
+23%... ../../../../tiktok/cw-ow-timing-class/data/1-116/pipe_rcv.csv
+24%... ../../../../tiktok/cw-ow-timing-class/data/1-117/pipe_rcv.csv
+25%... ../../../../tiktok/cw-ow-timing-class/data/1-118/pipe_rcv.csv
+26%... ../../../../tiktok/cw-ow-timing-class/data/1-119/pipe_rcv.csv
+27%... ../../../../tiktok/cw-ow-timing-class/data/2-105/pipe_rcv.csv
+28%... ../../../../tiktok/cw-ow-timing-class/data/2-106/pipe_rcv.csv
+29%... ../../../../tiktok/cw-ow-timing-class/data/2-107/pipe_rcv.csv
+30%... ../../../../tiktok/cw-ow-timing-class/data/2-108/pipe_rcv.csv
+31%... ../../../../tiktok/cw-ow-timing-class/data/2-109/pipe_rcv.csv
+32%... ../../../../tiktok/cw-ow-timing-class/data/2-110/pipe_rcv.csv
+33%... ../../../../tiktok/cw-ow-timing-class/data/2-111/pipe_rcv.csv
+34%... ../../../../tiktok/cw-ow-timing-class/data/2-112/pipe_rcv.csv
+35%... ../../../../tiktok/cw-ow-timing-class/data/2-113/pipe_rcv.csv
+36%... ../../../../tiktok/cw-ow-timing-class/data/2-114/pipe_rcv.csv
+37%... ../../../../tiktok/cw-ow-timing-class/data/2-115/pipe_rcv.csv
+38%... ../../../../tiktok/cw-ow-timing-class/data/2-116/pipe_rcv.csv
+39%... ../../../../tiktok/cw-ow-timing-class/data/2-118/pipe_rcv.csv
+40%... ../../../../tiktok/cw-ow-timing-class/data/2-119/pipe_rcv.csv
+41%... ../../../../tiktok/cw-ow-timing-class/data/3-105/pipe_rcv.csv
+42%... ../../../../tiktok/cw-ow-timing-class/data/3-106/pipe_rcv.csv
+43%... ../../../../tiktok/cw-ow-timing-class/data/3-107/pipe_rcv.csv
+44%... ../../../../tiktok/cw-ow-timing-class/data/3-108/pipe_rcv.csv
+45%... ../../../../tiktok/cw-ow-timing-class/data/3-109/pipe_rcv.csv
+46%... ../../../../tiktok/cw-ow-timing-class/data/3-110/pipe_rcv.csv
+47%... ../../../../tiktok/cw-ow-timing-class/data/3-111/pipe_rcv.csv
+48%... ../../../../tiktok/cw-ow-timing-class/data/3-112/pipe_rcv.csv
+49%... ../../../../tiktok/cw-ow-timing-class/data/3-113/pipe_rcv.csv
+50%... ../../../../tiktok/cw-ow-timing-class/data/3-114/pipe_rcv.csv
+51%... ../../../../tiktok/cw-ow-timing-class/data/3-115/pipe_rcv.csv
+52%... ../../../../tiktok/cw-ow-timing-class/data/3-116/pipe_rcv.csv
+53%... ../../../../tiktok/cw-ow-timing-class/data/3-117/pipe_rcv.csv
+54%... ../../../../tiktok/cw-ow-timing-class/data/3-118/pipe_rcv.csv
+55%... ../../../../tiktok/cw-ow-timing-class/data/3-119/pipe_rcv.csv
+56%... ../../../../tiktok/cw-ow-timing-class/data/4-105/pipe_rcv.csv
+57%... ../../../../tiktok/cw-ow-timing-class/data/4-106/pipe_rcv.csv
+58%... ../../../../tiktok/cw-ow-timing-class/data/4-107/pipe_rcv.csv
+59%... ../../../../tiktok/cw-ow-timing-class/data/4-109/pipe_rcv.csv
+60%... ../../../../tiktok/cw-ow-timing-class/data/4-110/pipe_rcv.csv
+61%... ../../../../tiktok/cw-ow-timing-class/data/4-111/pipe_rcv.csv
+62%... ../../../../tiktok/cw-ow-timing-class/data/4-112/pipe_rcv.csv
+63%... ../../../../tiktok/cw-ow-timing-class/data/4-113/pipe_rcv.csv
+64%... ../../../../tiktok/cw-ow-timing-class/data/4-114/pipe_rcv.csv
+65%... ../../../../tiktok/cw-ow-timing-class/data/4-115/pipe_rcv.csv
+66%... ../../../../tiktok/cw-ow-timing-class/data/4-116/pipe_rcv.csv
+67%... ../../../../tiktok/cw-ow-timing-class/data/4-117/pipe_rcv.csv
+68%... ../../../../tiktok/cw-ow-timing-class/data/4-118/pipe_rcv.csv
+69%... ../../../../tiktok/cw-ow-timing-class/data/4-119/pipe_rcv.csv
+70%... ../../../../tiktok/cw-ow-timing-class/data/5-105/pipe_rcv.csv
+71%... ../../../../tiktok/cw-ow-timing-class/data/5-106/pipe_rcv.csv
+72%... ../../../../tiktok/cw-ow-timing-class/data/5-107/pipe_rcv.csv
+73%... ../../../../tiktok/cw-ow-timing-class/data/5-108/pipe_rcv.csv
+74%... ../../../../tiktok/cw-ow-timing-class/data/5-109/pipe_rcv.csv
+75%... ../../../../tiktok/cw-ow-timing-class/data/5-110/pipe_rcv.csv
+76%... ../../../../tiktok/cw-ow-timing-class/data/5-111/pipe_rcv.csv
+77%... ../../../../tiktok/cw-ow-timing-class/data/5-112/pipe_rcv.csv
+78%... ../../../../tiktok/cw-ow-timing-class/data/5-113/pipe_rcv.csv
+79%... ../../../../tiktok/cw-ow-timing-class/data/5-115/pipe_rcv.csv
+80%... ../../../../tiktok/cw-ow-timing-class/data/5-116/pipe_rcv.csv
+81%... ../../../../tiktok/cw-ow-timing-class/data/5-117/pipe_rcv.csv
+82%... ../../../../tiktok/cw-ow-timing-class/data/5-118/pipe_rcv.csv
+83%... ../../../../tiktok/cw-ow-timing-class/data/5-119/pipe_rcv.csv
+84%... ../../../../tiktok/cw-ow-timing-class/data/105/pipe_rcv.csv
+85%... ../../../../tiktok/cw-ow-timing-class/data/106/pipe_rcv.csv
+86%... ../../../../tiktok/cw-ow-timing-class/data/107/pipe_rcv.csv
+87%... ../../../../tiktok/cw-ow-timing-class/data/108/pipe_rcv.csv
+88%... ../../../../tiktok/cw-ow-timing-class/data/109/pipe_rcv.csv
+89%... ../../../../tiktok/cw-ow-timing-class/data/110/pipe_rcv.csv
+90%... ../../../../tiktok/cw-ow-timing-class/data/111/pipe_rcv.csv
+91%... ../../../../tiktok/cw-ow-timing-class/data/112/pipe_rcv.csv
+92%... ../../../../tiktok/cw-ow-timing-class/data/113/pipe_rcv.csv
+93%... ../../../../tiktok/cw-ow-timing-class/data/114/pipe_rcv.csv
+94%... ../../../../tiktok/cw-ow-timing-class/data/115/pipe_rcv.csv
+95%... ../../../../tiktok/cw-ow-timing-class/data/116/pipe_rcv.csv
+96%... ../../../../tiktok/cw-ow-timing-class/data/117/pipe_rcv.csv
+97%... ../../../../tiktok/cw-ow-timing-class/data/118/pipe_rcv.csv
+98%... ../../../../tiktok/cw-ow-timing-class/data/119/pipe_rcv.csv
+Training ...
+
+
+Accuracy for class 0: 0.2
+Accuracy for class 1: 0.8666666666666667
+Accuracy for class 2: 0.9285714285714286
+Accuracy for class 3: 0.16666666666666666
+Accuracy for class 4: 0.1
+Accuracy for class 5: 0.3125
+Accuracy for class 6: 0.29411764705882354
+
+
+Precision for class 0: 0.2
+Precision for class 1: 0.8666666666666667
+Precision for class 2: 0.9285714285714286
+Precision for class 3: 0.16666666666666666
+Precision for class 4: 0.1
+Precision for class 5: 0.3125
+Precision for class 6: 0.29411764705882354
+
+
+Recall for class 0: 0.06666666666666667
+Recall for class 1: 0.8666666666666667
+Recall for class 2: 0.8666666666666667
+Recall for class 3: 0.2
+Recall for class 4: 0.13333333333333333
+Recall for class 5: 0.3333333333333333
+Recall for class 6: 0.3333333333333333
+
+
+F1 for class 0: 0.1
+F1 for class 1: 0.8666666666666667
+F1 for class 2: 0.896551724137931
+F1 for class 3: 0.1818181818181818
+F1 for class 4: 0.1142857142857143
+F1 for class 5: 0.3225806451612903
+F1 for class 6: 0.3125
+
+
+[[ 1.  0.  0.  4.  5.  0.  5.]
+ [ 0. 13.  1.  0.  0.  0.  1.]
+ [ 0.  2. 13.  0.  0.  0.  0.]
+ [ 1.  0.  0.  3.  3.  6.  2.]
+ [ 2.  0.  0.  3.  2.  5.  3.]
+ [ 0.  0.  0.  4.  5.  5.  1.]
+ [ 1.  0.  0.  4.  5.  0.  5.]]
+vertical is what was actually guessed
+
+
+Generating Feature Importance
+
+
+feature_importances_ based on mean decrease in impurity
+[0.         0.03401384 0.03074628 0.         0.00649171 0.02238582
+ 0.         0.07248908 0.00294325 0.         0.04538018 0.04120458
+ 0.         0.         0.         0.         0.05710445 0.04979801
+ 0.05779871 0.03664276 0.05306881 0.06013509 0.07971882 0.02946831
+ 0.         0.00928091 0.00083863 0.         0.         0.
+ 0.         0.         0.         0.02014119 0.01633823 0.00847253
+ 0.         0.00081695 0.         0.         0.00386293 0.
+ 0.01281346 0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.02011057 0.
+ 0.         0.         0.         0.         0.         0.00341481
+ 0.         0.02300666 0.06875964 0.05637488 0.00213873 0.
+ 0.         0.00271161 0.07152857 0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.        ]
+None
+
+

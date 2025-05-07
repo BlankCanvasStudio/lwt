@@ -1,0 +1,43 @@
+4.82736411e-02 : 50 percentile of # packets per second
+4.74356073e-02 : 50th percentile arrival time
+4.74271348e-02 : 50th percentile arrival time
+4.66568408e-02 : 75th
+4.62995738e-02 : 75th percentile arrival time
+4.57009374e-02 : 25th percentile of arrival time
+4.52497011e-02 : Returns 25th percentile of arrival data. Value below which most of the data falls 
+4.34553450e-02 : Max interarrival time in experiment
+4.31276353e-02 : Max interarrival time
+4.22163240e-02 : Sum of the percentile stats
+4.19121957e-02 : Sum of max, min, mean, std, average time out, average size packet sent out, the standard deviation an the 75th percentile packet time out
+4.05103337e-02 : Std of # of packets per second
+3.79472937e-02 : Out # packets
+3.77459030e-02 : Total # of packets
+3.76963088e-02 : Standard deviation of when packets were sent (ie where middle of data is)
+3.73646620e-02 : Sum of num pkts total
+3.73494426e-02 : Average index when packets were sent (ie where middle of data is)
+3.72461335e-02 : Num of packets going into the program
+3.37930253e-02 : 100th percentile arrival time
+3.30807307e-02 : 100th percentile arrival time
+3.20327444e-02 : Standard deviation of the arrival times in
+3.18438043e-02 : Standard deviation of the arrival times in
+3.05205333e-02 : Avgerage pkts per sec
+2.33133180e-02 : Min # packets per second
+
+50 percentile of # packets per second
+50th percentile arrival time
+75th percentile arrival time
+25th percentile of arrival time
+Max interarrival time
+Sum of the percentile stats (25, 50, 75, 100)
+Sum of max, min, mean, std, average time out, average size packet sent out, the standard deviation an the 75th percentile packet time out
+Std of # of packets per second
+Total # of packets sent
+Standard deviation of when packets were sent
+Sum of num pkts total
+Average index when packets were sent
+Num of packets going into the program
+100th percentile arrival time
+Standard deviation of the arrival times in
+Avgerage pkts per sec
+Min # packets per second
+

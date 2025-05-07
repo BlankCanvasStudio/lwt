@@ -1,0 +1,59 @@
+./Pa-CUMUL-new.py options.txt
+{'OUTPUT_FILE': 'output', 'OUTPUT_LOC': './results', 'DATA_LOC': '../tiktok/cw-ow-timing-class/data/', 'FOLD_MODE': 3, 'FOLD_NUM': 7, 'DATA_TYPE': 'csv', 'CLOSED_SITENUM': 35, 'CLOSED_INSTNUM': 200, 'OPEN_SITENUM': 35, 'OPEN_INSTNUM': 200, 'GEN_OWN_LIST': 1, 'DO_NOT_EXTRACT': 0, 'EXTRACT_TRAIN_LOC': './output.train', 'EXTRACT_TEST_LOC': './output.test'}
+remove old data file before running
+./Pa-CUMUL-new.py options.txt
+{'OUTPUT_FILE': 'output', 'OUTPUT_LOC': './results', 'DATA_LOC': '../tiktok/cw-ow-timing-class/data/', 'FOLD_MODE': 3, 'FOLD_NUM': 7, 'DATA_TYPE': 'csv', 'CLOSED_SITENUM': 35, 'CLOSED_INSTNUM': 200, 'OPEN_SITENUM': 35, 'OPEN_INSTNUM': 200, 'GEN_OWN_LIST': 1, 'DO_NOT_EXTRACT': 0, 'EXTRACT_TRAIN_LOC': './output.train', 'EXTRACT_TEST_LOC': './output.test'}
+remove old data file before running
+./Pa-CUMUL-new.py options.txt
+{'OUTPUT_FILE': 'output', 'OUTPUT_LOC': './results', 'DATA_LOC': '../tiktok/cw-ow-timing-class/data/', 'FOLD_MODE': 3, 'FOLD_NUM': 7, 'DATA_TYPE': 'csv', 'CLOSED_SITENUM': 35, 'CLOSED_INSTNUM': 200, 'OPEN_SITENUM': 35, 'OPEN_INSTNUM': 200, 'GEN_OWN_LIST': 1, 'DO_NOT_EXTRACT': 0, 'EXTRACT_TRAIN_LOC': './output.train', 'EXTRACT_TEST_LOC': './output.test'}
+remove old data file before running
+./Pa-CUMUL-new.py options.txt
+{'OUTPUT_FILE': 'output', 'OUTPUT_LOC': './results', 'DATA_LOC': '../tiktok/cw-ow-timing-class/data/', 'FOLD_MODE': 3, 'FOLD_NUM': 7, 'DATA_TYPE': 'csv', 'CLOSED_SITENUM': 35, 'CLOSED_INSTNUM': 200, 'OPEN_SITENUM': 35, 'OPEN_INSTNUM': 200, 'GEN_OWN_LIST': 1, 'DO_NOT_EXTRACT': 0, 'EXTRACT_TRAIN_LOC': './output.train', 'EXTRACT_TEST_LOC': './output.test'}
+Extracting features...
+Site 0 of 36
+Site 1 of 36
+Site 2 of 36
+Site 3 of 36
+./Pa-CUMUL-new.py options.txt
+{'OUTPUT_FILE': 'output', 'OUTPUT_LOC': './results', 'DATA_LOC': '../tiktok/cw-ow-timing-class/data/', 'FOLD_MODE': 3, 'FOLD_NUM': 7, 'DATA_TYPE': 'csv', 'CLOSED_SITENUM': 35, 'CLOSED_INSTNUM': 200, 'OPEN_SITENUM': 35, 'OPEN_INSTNUM': 200, 'GEN_OWN_LIST': 1, 'DO_NOT_EXTRACT': 0, 'EXTRACT_TRAIN_LOC': './output.train', 'EXTRACT_TEST_LOC': './output.test'}
+Extracting features...
+Site 0 of 36
+Site 1 of 36
+Site 2 of 36
+Site 3 of 36
+Site 4 of 36
+Site 5 of 36
+Site 6 of 36
+Site 7 of 36
+Site 8 of 36
+Site 9 of 36
+Site 10 of 36
+Site 11 of 36
+Site 12 of 36
+Site 13 of 36
+Site 14 of 36
+Site 15 of 36
+Site 16 of 36
+Site 17 of 36
+Site 18 of 36
+Site 19 of 36
+Site 20 of 36
+Site 21 of 36
+Site 22 of 36
+Site 23 of 36
+Site 24 of 36
+Site 25 of 36
+Site 26 of 36
+Site 27 of 36
+Site 28 of 36
+Site 29 of 36
+Site 30 of 36
+Site 31 of 36
+Site 32 of 36
+Site 33 of 36
+Site 34 of 36
+Site 35 of 36
+./Pa-CUMUL-new.py options.txt
+{'OUTPUT_FILE': 'output', 'OUTPUT_LOC': './results', 'DATA_LOC': '../tiktok/cw-ow-timing-class/data/', 'FOLD_MODE': 3, 'FOLD_NUM': 7, 'DATA_TYPE': 'csv', 'CLOSED_SITENUM': 35, 'CLOSED_INSTNUM': 200, 'OPEN_SITENUM': 35, 'OPEN_INSTNUM': 200, 'GEN_OWN_LIST': 1, 'DO_NOT_EXTRACT': 0, 'EXTRACT_TRAIN_LOC': './output.train', 'EXTRACT_TEST_LOC': './output.test'}
+Extracting features...
+Site 0 of 36

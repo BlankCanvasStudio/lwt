@@ -1,0 +1,35 @@
+!! CAN DO DATA REPLACEMENT
+
+Build flearner with:
+    $ g++ flearner.cpp -o flearner
+        - flearner.cpp is classifier file. fleaner is necessary output name
+    $ g++ classifier.cpp -o flearner
+
+
+The Wa-kNN file writes a series of files, one with file names of training set, one with testing
+    set, one with weights (idk what that is yet). The it makes a log file, then it makes a log 
+    file for the classifier. 
+
+You set everything in options.txt
+
+All options are saved to log file so you know what outputs are related
+
+The files are in data_loc
+
+The data is separated in files with the format
+
+    <site-num>-<trial-num>.<data_type>
+
+All these files are pointed to in the config files built in the beginning of Wa-kNN.py
+
+The the feature extractor is called on these files
+    $ This is the section of the program we need to overload
+
+Then the c++ classifier is called on the data
+    - This looks like it handles all the training and such
+
+
+## TO RUN:
+    $ ./Wa-kNN.py options.txt
+
+

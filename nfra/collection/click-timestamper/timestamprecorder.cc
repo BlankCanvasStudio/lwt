@@ -31,7 +31,7 @@ DataRecorder::simple_action(Packet *p) {
 
     // Verify the packet is of type IPv4
     // Yes, I can reduce but easier to understand 4 normies
-    // if (!(p->data()[12] == 0x08 && p->data()[13] == 0x00)) { return p; }
+    if (!(p->data()[12] == 0x08 && p->data()[13] == 0x00)) { return p; }
     
     // Save the packet length
     uint16_t higher_order_length = p->data()[16];

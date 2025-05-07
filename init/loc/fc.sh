@@ -1,11 +1,12 @@
 #!/bin/bash
 
-compile() {
+source ./click-config.sh
 
-./configure --enable-dpdk --enable-intel-cpu --verbose --enable-select=poll CFLAGS="-O3" CXXFLAGS="-std=c++11 -O3"  --disable-dynamic-linking --enable-poll --enable-bound-port-transfer --enable-local --enable-flow --disable-task-stats --disable-cpu-load
-make
+if [[ "$1" == "-f" ]]; then
+    echo "Removing old fastclick files"
+    sudo rm -rf ./fastclick
+fi
 
-}
 
 if [[ "$1" == "recomp" ]]; then
     cd fastclick
@@ -13,32 +14,24 @@ if [[ "$1" == "recomp" ]]; then
     exit
 fi
 
-if [ ! -f "./timestamprecorder.cc" ]; then
-    echo "Cannot find timestamprecorder.cc. Quitting"
-    exit
-fi
-
-if [ ! -f "./timestamprecorder.hh" ]; then
-    echo "Cannot find timestamprecorder.hh. Quitting"
-    exit
-fi
-
-
 sudo apt update && sudo apt upgrade -y
 
 sudo apt install -y git
 
 sudo apt install -y build-essential
 
-git clone https://github.com/tbarbette/fastclick.git
+sudo apt install -y autoconf
 
 sudo apt install -y dpdk-dev
+git clone https://github.com/tbarbette/fastclick.git
 
-mv ./timestamprecorder.cc ./timestamprecorder.hh ./fastclick/elements/local
+mv ./dpdk-element.cpp ./fastclick/elements/userlevel/fromdpdkdevice.cc
+mv ./*.cc ./fastclick/elements/local
+mv ./*.hh ./fastclick/elements/local
 
 cd fastclick
-compile
 chmod +x ./deps.sh
 sudo ./deps.sh
+compile
 echo 'export PATH="$PATH:~/fastclick/bin"' >> ~/.bashrc
 

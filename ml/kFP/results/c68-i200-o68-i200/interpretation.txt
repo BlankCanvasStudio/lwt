@@ -1,0 +1,11 @@
+mixed-twitch-ping-2s-350B and true-ftp-rand-data gets confused
+
+2 rows are missing but thats fixed
+
+mixed-stutter-wget-ftp-large-gdocs and wget-ftp-rand-data are getting confused
+
+curl-https-rand-data and wget-https-rand-data are getting confused
+    $ This is actually a fine thing
+
+
+

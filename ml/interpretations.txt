@@ -1,0 +1,161 @@
+
+THESE WERE ALL DONE WITH A BAD FOLD MODE
+    ## Going to re-eval with fold=3
+tiktok: 18% accuracy
+df: 21% accuracy
+
+kFP: 89% accuracy (see how this is going)
+CUMUL: 72% (verifying this)
+
+SVM: Has 54% accurancy
+    - TPR: 765 / 1600
+    - TNR: 199 / 200
+    !! Good to know this is the most effective method for this
+
+
+$ With proper fold mode:
+    CUMUL: 77% !! This is due to number of packets in and size of packets in. Fix open world and we might get 100%
+        - This is almost certainly due to the kinds of data we are asking about
+    kFP:  77%
+
+
+kNN: Stalling for some reason
+    - Ignoring for now. Looking into analysis
+
+
+
+Next set of work is do 3 things:
+    1) More traffic types
+    2) Does it work if we are using tcp foreground traffic
+        - check congestion. More realistic deployment
+    3) What happens when there is even more noise
+        - Less than full pipe
+        - More than one app
+
+
+2 WAYS TO EXPAND DATA
+    - Different types of app
+    - Different instances of those apps
+        - Like a billion ways to do file transfer. Check them
+
+
+
+
+
+kFP important features based on model.feature_importance_
+
+    - 16:  timestats len 3 in
+    - 17:  timestats len 4 in
+    - 18:  timestats len 5 in
+    - 20:  timestats len. 7 in
+    - 21:  timestats len 8 in
+    - 22:  timestats len 9 in
+    - 25:  number_pkts 1st element
+    - 26:  number_pkts 1 in
+    - 33:  avgconc (el zero)
+    - 34:  avg_per_sec
+    - 35:  std_per_sec
+    - 37:  avg_order_out
+    - 40:  medconc
+    - 41:  med_per_sec
+    - 117: altconc(last element)
+    - 139: altconc sum
+    - 140: alt_per_sec
+    - 142: timestats sum
+    - 144: conc raw (1st and only element)
+
+
+
+
+intertimestats len: 1-12
+timestats len: 13-24
+number_pkts: 25-27
+thirtypkts len: 28-31
+pkt concentration len: 32-37
+num per sec len: 38-43
+num avg pkt ordering: 44-47
+perc inc: 49
+intertimestats len: 61
+timestats len: 73
+number_pkts: 76
+thirtypkts len: 80
+pkt concentration len: 86
+num per sec len: 92
+num avg pkt ordering: 96
+perc inc: 98
+
+
+
+## BIG RESULTS USING CONFUSION MATRIX
+
+df and tiktok can classify the ping traffic very well
+    - They can't classify the other traffic. This means we are classifying our traffic, this is
+        not the objective of our work
+
+CUMUL basically boils down to the # of packets in and the sum of their sizes
+    - This works surprisingly well
+    - Has a strong deficiency in the 15B vs 35B destinguishing. This is expected and points to 
+        the noise in our data
+    $ This plus the ineffectiveness of the neural nets on raw data suggests we were right to look 
+    $   into gen's work as the statistical approaches are going to be the best. Escpecially when
+    $   we look into adjusting the framing
+
+kFP has our best accuracy yet, this makes sense as it builds on CUMUL's effective technique with
+    even more statistical information
+    - Has trouble idetifying the 5s 35B packets. This is due to our noise. Makes sense
+    - This suggests the statistical methods have some limit to their fine grained ability
+    - Different features could fix this
+
+
+SVM says that everything is class 1 so its vector encoding scheme is definitely bad
+    - So the features in the vector matter QUITE a bit. Its not just about the methods as the
+        CUMUL vector runs on the same backend but has better results with less features
+    - Says everything is baseline except 1 correct classification on
+        4 & 5. This is ping 2s 350B and ping 2s 15B 
+        - So it can pick them up if they have enough frequency but thats it. Not very helpful
+
+tiktok thinks everything is 6
+    - Can semi-decently guess 13 & 14. Still a bit of confusion though
+    - 6 is ping 2s 850B. Very odd
+    - 13 & 14 are when you send ping instead of iperf, so this is actually bad that it can't 
+        tell these two situations appart as well
+    - The timing method of this definitely isn't good
+    - This could be due to windowing data and needing to size up the net but faster & more 
+        effective methods exist
+
+!! I think this dove tails nicely into proving the route gen went down was the right on
+    > Big ups that we have the whole thing end to end now.
+
+Hopefully gen has some good news for use
+
+? What are we doing to do about windowing ?
+
+
+
+
+
+------------------------------------------------------------------------------------------------
+
+DF models are functionally useless
+    - This indicates that we need to do more tuning
+
+Trials take a ton of time
+
+Large data is annoying & slow to deal with
+
+We have good results though !!
+    $ Use ablasion techniques to see what is important
+
+We are trying to see if we can detect different protocols
+    - We are also trying to see if we can detect dominant apps and apps in mixed cases
+
+
+
+------------------------------------------------------------------------------------------------
+
+kFP small is very good but how is it working so well?????
+
+TCP loses a lot of granularity but we can still do prediction pretty well which is nice
+
+
+

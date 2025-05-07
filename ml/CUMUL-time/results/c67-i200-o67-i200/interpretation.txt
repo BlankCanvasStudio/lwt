@@ -1,0 +1,9 @@
+mixed-scp-rsync and mixed-twitch-curl-https get confused
+    - Check the bandwidth of the programs
+    - Check the packet sizes
+
+mixed-twitch-iperf-100K and mixed-wget-https-large-wget-short
+
+mixed-stutter-wget-ftp-large-youtube and scp-rand-data
+
+

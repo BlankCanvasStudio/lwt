@@ -1,0 +1,12 @@
+!! CAN DO DIFFERENT DATA LOADING FOR THIS ONE
+    $ NEED TO MODIFY final_features_process.py
+
+To run close world attack run:
+    python3 ./cw_attack.py -t ./data -a 2
+
+directory name is `class-instance`
+    - Needs pipe_rcv.csv file in the directory
+
+To run on gap est data:
+    python3 ./cw_attack.py -t ./data -a 2 -p processing approx-arrival -l 5000
+

@@ -2,6 +2,7 @@
 #define CLICK_TIMESTAMPRECORDER_HH
 #include <click/batchelement.hh>
 #include <click/string.hh>
+#include "threadpool.cc"
 CLICK_DECLS
 
 class DataRecorder: public SimpleElement<DataRecorder> { public:
@@ -16,6 +17,8 @@ class DataRecorder: public SimpleElement<DataRecorder> { public:
     Packet *simple_action(Packet *);
 
     String _name;
+
+    ThreadPool* _pool;
 };
 
 CLICK_ENDDECLS

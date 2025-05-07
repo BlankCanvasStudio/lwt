@@ -1,0 +1,44 @@
+./Pa-FeaturesSVM.py options.txt
+{'OUTPUT_FILE': 'output', 'OUTPUT_LOC': './result', 'DATA_LOC': '../tiktok/cw-ow-timing-class/data/', 'FOLD_MODE': 3, 'FOLD_NUM': 7, 'DATA_TYPE': 'csv', 'CLOSED_SITENUM': 3, 'CLOSED_INSTNUM': 10, 'OPEN_SITENUM': 3, 'OPEN_INSTNUM': 10, 'GEN_OWN_LIST': 1, 'DO_NOT_EXTRACT': 0}
+Extracting features...
+Site 0 of 4
+Site 1 of 4
+Site 2 of 4
+Site 3 of 4
+Site 0 of 4
+Site 1 of 4
+Site 2 of 4
+Site 3 of 4
+Start training...
+Start testing...
+
+
+Accuracy for class  0 : -1
+Accuracy for class  1 : -1
+Accuracy for class  2 : -1
+Accuracy for class  3 : 0.25
+
+
+Precision for class 0 : -1
+Precision for class 1 : -1
+Precision for class 2 : -1
+Precision for class 3 : 0.25
+
+
+Recall for class 0 : 0.0
+Recall for class 1 : 0.0
+Recall for class 2 : 0.0
+Recall for class 3 : 1.0
+
+
+F1for class 0 : 0.0
+F1for class 1 : 0.0
+F1for class 2 : 0.0
+F1for class 3 : 0.4
+
+
+[[0. 0. 0. 1.]
+ [0. 0. 0. 1.]
+ [0. 0. 0. 1.]
+ [0. 0. 0. 1.]]
+vertical is what was actually guessed

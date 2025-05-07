@@ -1,0 +1,1549 @@
+./Pa-CUMUL.py options.txt
+{'OUTPUT_FILE': 'output', 'OUTPUT_LOC': './results', 'DATA_LOC': '../tiktok/cw-ow-timing-class/data/', 'FOLD_MODE': 3, 'FOLD_NUM': 7, 'DATA_TYPE': 'csv', 'CLOSED_SITENUM': 69, 'CLOSED_INSTNUM': 200, 'OPEN_SITENUM': 69, 'OPEN_INSTNUM': 200, 'GEN_OWN_LIST': 1, 'DO_NOT_EXTRACT': 0, 'EXTRACT_TRAIN_LOC': './output.train', 'EXTRACT_TEST_LOC': './output.test'}
+Extracting features...
+0%... ../tiktok/cw-ow-timing-class/data/0-127/pipe_rcv.csv
+1%... ../tiktok/cw-ow-timing-class/data/1-73/pipe_rcv.csv
+2%... ../tiktok/cw-ow-timing-class/data/2-19/pipe_rcv.csv
+3%... ../tiktok/cw-ow-timing-class/data/2-165/pipe_rcv.csv
+4%... ../tiktok/cw-ow-timing-class/data/3-91/pipe_rcv.csv
+5%... ../tiktok/cw-ow-timing-class/data/4-37/pipe_rcv.csv
+6%... ../tiktok/cw-ow-timing-class/data/4-183/pipe_rcv.csv
+7%... ../tiktok/cw-ow-timing-class/data/5-109/pipe_rcv.csv
+8%... ../tiktok/cw-ow-timing-class/data/6-55/pipe_rcv.csv
+9%... ../tiktok/cw-ow-timing-class/data/7-1/pipe_rcv.csv
+10%... ../tiktok/cw-ow-timing-class/data/7-127/pipe_rcv.csv
+11%... ../tiktok/cw-ow-timing-class/data/8-73/pipe_rcv.csv
+12%... ../tiktok/cw-ow-timing-class/data/9-19/pipe_rcv.csv
+13%... ../tiktok/cw-ow-timing-class/data/9-165/pipe_rcv.csv
+14%... ../tiktok/cw-ow-timing-class/data/10-91/pipe_rcv.csv
+15%... ../tiktok/cw-ow-timing-class/data/11-37/pipe_rcv.csv
+16%... ../tiktok/cw-ow-timing-class/data/11-183/pipe_rcv.csv
+17%... ../tiktok/cw-ow-timing-class/data/12-109/pipe_rcv.csv
+18%... ../tiktok/cw-ow-timing-class/data/13-55/pipe_rcv.csv
+19%... ../tiktok/cw-ow-timing-class/data/14-1/pipe_rcv.csv
+20%... ../tiktok/cw-ow-timing-class/data/14-127/pipe_rcv.csv
+21%... ../tiktok/cw-ow-timing-class/data/15-73/pipe_rcv.csv
+22%... ../tiktok/cw-ow-timing-class/data/16-19/pipe_rcv.csv
+23%... ../tiktok/cw-ow-timing-class/data/16-165/pipe_rcv.csv
+24%... ../tiktok/cw-ow-timing-class/data/17-91/pipe_rcv.csv
+25%... ../tiktok/cw-ow-timing-class/data/18-37/pipe_rcv.csv
+26%... ../tiktok/cw-ow-timing-class/data/18-183/pipe_rcv.csv
+27%... ../tiktok/cw-ow-timing-class/data/19-109/pipe_rcv.csv
+28%... ../tiktok/cw-ow-timing-class/data/20-55/pipe_rcv.csv
+29%... ../tiktok/cw-ow-timing-class/data/21-1/pipe_rcv.csv
+30%... ../tiktok/cw-ow-timing-class/data/21-127/pipe_rcv.csv
+31%... ../tiktok/cw-ow-timing-class/data/22-73/pipe_rcv.csv
+32%... ../tiktok/cw-ow-timing-class/data/23-19/pipe_rcv.csv
+33%... ../tiktok/cw-ow-timing-class/data/23-165/pipe_rcv.csv
+34%... ../tiktok/cw-ow-timing-class/data/24-91/pipe_rcv.csv
+35%... ../tiktok/cw-ow-timing-class/data/25-37/pipe_rcv.csv
+36%... ../tiktok/cw-ow-timing-class/data/25-183/pipe_rcv.csv
+37%... ../tiktok/cw-ow-timing-class/data/26-109/pipe_rcv.csv
+38%... ../tiktok/cw-ow-timing-class/data/27-55/pipe_rcv.csv
+39%... ../tiktok/cw-ow-timing-class/data/28-1/pipe_rcv.csv
+40%... ../tiktok/cw-ow-timing-class/data/28-127/pipe_rcv.csv
+41%... ../tiktok/cw-ow-timing-class/data/29-73/pipe_rcv.csv
+42%... ../tiktok/cw-ow-timing-class/data/30-19/pipe_rcv.csv
+43%... ../tiktok/cw-ow-timing-class/data/30-165/pipe_rcv.csv
+44%... ../tiktok/cw-ow-timing-class/data/31-91/pipe_rcv.csv
+45%... ../tiktok/cw-ow-timing-class/data/32-37/pipe_rcv.csv
+46%... ../tiktok/cw-ow-timing-class/data/32-183/pipe_rcv.csv
+47%... ../tiktok/cw-ow-timing-class/data/33-109/pipe_rcv.csv
+48%... ../tiktok/cw-ow-timing-class/data/34-55/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/35-0/pipe_rcv.csv
+49%... ../tiktok/cw-ow-timing-class/data/35-2/pipe_rcv.csv
+50%... ../tiktok/cw-ow-timing-class/data/35-128/pipe_rcv.csv
+51%... ../tiktok/cw-ow-timing-class/data/36-74/pipe_rcv.csv
+52%... ../tiktok/cw-ow-timing-class/data/37-20/pipe_rcv.csv
+53%... ../tiktok/cw-ow-timing-class/data/37-166/pipe_rcv.csv
+54%... ../tiktok/cw-ow-timing-class/data/38-92/pipe_rcv.csv
+55%... ../tiktok/cw-ow-timing-class/data/39-38/pipe_rcv.csv
+56%... ../tiktok/cw-ow-timing-class/data/39-184/pipe_rcv.csv
+57%... ../tiktok/cw-ow-timing-class/data/40-110/pipe_rcv.csv
+58%... ../tiktok/cw-ow-timing-class/data/41-56/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/41-160/pipe_rcv.csv
+59%... ../tiktok/cw-ow-timing-class/data/42-3/pipe_rcv.csv
+60%... ../tiktok/cw-ow-timing-class/data/42-129/pipe_rcv.csv
+61%... ../tiktok/cw-ow-timing-class/data/43-75/pipe_rcv.csv
+62%... ../tiktok/cw-ow-timing-class/data/44-21/pipe_rcv.csv
+63%... ../tiktok/cw-ow-timing-class/data/44-167/pipe_rcv.csv
+64%... ../tiktok/cw-ow-timing-class/data/45-93/pipe_rcv.csv
+65%... ../tiktok/cw-ow-timing-class/data/46-39/pipe_rcv.csv
+66%... ../tiktok/cw-ow-timing-class/data/46-185/pipe_rcv.csv
+67%... ../tiktok/cw-ow-timing-class/data/47-111/pipe_rcv.csv
+68%... ../tiktok/cw-ow-timing-class/data/48-57/pipe_rcv.csv
+69%... ../tiktok/cw-ow-timing-class/data/49-3/pipe_rcv.csv
+70%... ../tiktok/cw-ow-timing-class/data/49-129/pipe_rcv.csv
+71%... ../tiktok/cw-ow-timing-class/data/50-75/pipe_rcv.csv
+72%... ../tiktok/cw-ow-timing-class/data/51-21/pipe_rcv.csv
+73%... ../tiktok/cw-ow-timing-class/data/51-167/pipe_rcv.csv
+74%... ../tiktok/cw-ow-timing-class/data/52-93/pipe_rcv.csv
+75%... ../tiktok/cw-ow-timing-class/data/53-39/pipe_rcv.csv
+76%... ../tiktok/cw-ow-timing-class/data/53-185/pipe_rcv.csv
+77%... ../tiktok/cw-ow-timing-class/data/54-111/pipe_rcv.csv
+78%... ../tiktok/cw-ow-timing-class/data/55-57/pipe_rcv.csv
+79%... ../tiktok/cw-ow-timing-class/data/56-3/pipe_rcv.csv
+80%... ../tiktok/cw-ow-timing-class/data/56-129/pipe_rcv.csv
+81%... ../tiktok/cw-ow-timing-class/data/57-75/pipe_rcv.csv
+82%... ../tiktok/cw-ow-timing-class/data/58-21/pipe_rcv.csv
+83%... ../tiktok/cw-ow-timing-class/data/58-167/pipe_rcv.csv
+84%... ../tiktok/cw-ow-timing-class/data/59-93/pipe_rcv.csv
+85%... ../tiktok/cw-ow-timing-class/data/60-39/pipe_rcv.csv
+86%... ../tiktok/cw-ow-timing-class/data/60-185/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/61-49/pipe_rcv.csv
+87%... ../tiktok/cw-ow-timing-class/data/61-112/pipe_rcv.csv
+88%... ../tiktok/cw-ow-timing-class/data/62-58/pipe_rcv.csv
+89%... ../tiktok/cw-ow-timing-class/data/63-4/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/63-109/pipe_rcv.csv
+90%... ../tiktok/cw-ow-timing-class/data/63-131/pipe_rcv.csv
+91%... ../tiktok/cw-ow-timing-class/data/64-77/pipe_rcv.csv
+92%... ../tiktok/cw-ow-timing-class/data/65-23/pipe_rcv.csv
+93%... ../tiktok/cw-ow-timing-class/data/65-169/pipe_rcv.csv
+94%... ../tiktok/cw-ow-timing-class/data/66-95/pipe_rcv.csv
+95%... ../tiktok/cw-ow-timing-class/data/67-41/pipe_rcv.csv
+96%... ../tiktok/cw-ow-timing-class/data/67-187/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-0/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-1/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-2/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-3/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-4/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-5/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-6/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-7/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-8/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-9/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-10/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-11/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-12/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-13/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-14/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-15/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-16/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-17/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-18/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-19/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-20/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-21/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-22/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-23/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-24/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-25/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-26/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-27/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-28/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-29/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-30/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-31/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-32/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-33/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-34/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-35/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-36/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-37/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-38/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-39/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-40/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-41/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-42/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-43/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-44/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-45/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-46/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-47/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-48/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-49/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-50/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-51/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-52/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-53/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-54/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-55/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-56/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-57/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-58/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-59/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-60/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-61/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-62/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-63/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-64/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-65/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-66/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-67/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-68/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-69/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-70/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-71/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-72/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-73/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-74/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-75/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-76/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-77/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-78/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-79/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-80/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-81/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-82/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-83/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-84/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-85/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-86/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-87/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-88/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-89/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-90/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-91/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-92/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-93/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-94/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-95/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-96/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-97/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-98/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-99/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-100/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-101/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-102/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-103/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-104/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-105/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-106/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-107/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-108/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-109/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-110/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-111/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-112/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-113/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-114/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-115/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-116/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-117/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-118/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-119/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-120/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-121/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-122/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-123/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-124/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-125/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-126/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-127/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-128/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-129/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-130/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-131/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-132/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-133/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-134/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-135/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-136/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-137/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-138/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-139/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-160/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-161/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-162/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-163/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-164/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-165/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-166/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-167/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-168/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-169/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-170/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-171/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-172/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-173/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-174/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-175/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-176/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-177/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-178/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-179/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-180/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-181/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-182/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-183/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-184/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-185/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-186/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-187/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-188/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-189/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-190/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-191/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-192/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-193/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-194/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-195/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-196/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-197/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-198/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-199/pipe_rcv.csv
+97%... ../tiktok/cw-ow-timing-class/data/113/pipe_rcv.csv
+Creating testing features... 1400
+0%... ../tiktok/cw-ow-timing-class/data/0-155/pipe_rcv.csv
+1%... ../tiktok/cw-ow-timing-class/data/1-149/pipe_rcv.csv
+2%... ../tiktok/cw-ow-timing-class/data/2-143/pipe_rcv.csv
+3%... ../tiktok/cw-ow-timing-class/data/2-157/pipe_rcv.csv
+4%... ../tiktok/cw-ow-timing-class/data/3-151/pipe_rcv.csv
+5%... ../tiktok/cw-ow-timing-class/data/4-145/pipe_rcv.csv
+6%... ../tiktok/cw-ow-timing-class/data/4-159/pipe_rcv.csv
+7%... ../tiktok/cw-ow-timing-class/data/5-153/pipe_rcv.csv
+8%... ../tiktok/cw-ow-timing-class/data/6-147/pipe_rcv.csv
+9%... ../tiktok/cw-ow-timing-class/data/7-141/pipe_rcv.csv
+10%... ../tiktok/cw-ow-timing-class/data/7-155/pipe_rcv.csv
+11%... ../tiktok/cw-ow-timing-class/data/8-149/pipe_rcv.csv
+12%... ../tiktok/cw-ow-timing-class/data/9-143/pipe_rcv.csv
+13%... ../tiktok/cw-ow-timing-class/data/9-157/pipe_rcv.csv
+14%... ../tiktok/cw-ow-timing-class/data/10-151/pipe_rcv.csv
+15%... ../tiktok/cw-ow-timing-class/data/11-145/pipe_rcv.csv
+16%... ../tiktok/cw-ow-timing-class/data/11-159/pipe_rcv.csv
+17%... ../tiktok/cw-ow-timing-class/data/12-153/pipe_rcv.csv
+18%... ../tiktok/cw-ow-timing-class/data/13-147/pipe_rcv.csv
+19%... ../tiktok/cw-ow-timing-class/data/14-141/pipe_rcv.csv
+20%... ../tiktok/cw-ow-timing-class/data/14-155/pipe_rcv.csv
+21%... ../tiktok/cw-ow-timing-class/data/15-149/pipe_rcv.csv
+22%... ../tiktok/cw-ow-timing-class/data/16-143/pipe_rcv.csv
+23%... ../tiktok/cw-ow-timing-class/data/16-157/pipe_rcv.csv
+24%... ../tiktok/cw-ow-timing-class/data/17-151/pipe_rcv.csv
+25%... ../tiktok/cw-ow-timing-class/data/18-145/pipe_rcv.csv
+26%... ../tiktok/cw-ow-timing-class/data/18-159/pipe_rcv.csv
+27%... ../tiktok/cw-ow-timing-class/data/19-153/pipe_rcv.csv
+28%... ../tiktok/cw-ow-timing-class/data/20-147/pipe_rcv.csv
+29%... ../tiktok/cw-ow-timing-class/data/21-141/pipe_rcv.csv
+30%... ../tiktok/cw-ow-timing-class/data/21-155/pipe_rcv.csv
+31%... ../tiktok/cw-ow-timing-class/data/22-149/pipe_rcv.csv
+32%... ../tiktok/cw-ow-timing-class/data/23-143/pipe_rcv.csv
+33%... ../tiktok/cw-ow-timing-class/data/23-157/pipe_rcv.csv
+34%... ../tiktok/cw-ow-timing-class/data/24-151/pipe_rcv.csv
+35%... ../tiktok/cw-ow-timing-class/data/25-145/pipe_rcv.csv
+36%... ../tiktok/cw-ow-timing-class/data/25-159/pipe_rcv.csv
+37%... ../tiktok/cw-ow-timing-class/data/26-153/pipe_rcv.csv
+38%... ../tiktok/cw-ow-timing-class/data/27-147/pipe_rcv.csv
+39%... ../tiktok/cw-ow-timing-class/data/28-141/pipe_rcv.csv
+40%... ../tiktok/cw-ow-timing-class/data/28-155/pipe_rcv.csv
+41%... ../tiktok/cw-ow-timing-class/data/29-149/pipe_rcv.csv
+42%... ../tiktok/cw-ow-timing-class/data/30-143/pipe_rcv.csv
+43%... ../tiktok/cw-ow-timing-class/data/30-157/pipe_rcv.csv
+44%... ../tiktok/cw-ow-timing-class/data/31-151/pipe_rcv.csv
+45%... ../tiktok/cw-ow-timing-class/data/32-145/pipe_rcv.csv
+46%... ../tiktok/cw-ow-timing-class/data/32-159/pipe_rcv.csv
+47%... ../tiktok/cw-ow-timing-class/data/33-153/pipe_rcv.csv
+48%... ../tiktok/cw-ow-timing-class/data/34-147/pipe_rcv.csv
+49%... ../tiktok/cw-ow-timing-class/data/35-141/pipe_rcv.csv
+50%... ../tiktok/cw-ow-timing-class/data/35-155/pipe_rcv.csv
+51%... ../tiktok/cw-ow-timing-class/data/36-149/pipe_rcv.csv
+52%... ../tiktok/cw-ow-timing-class/data/37-143/pipe_rcv.csv
+53%... ../tiktok/cw-ow-timing-class/data/37-157/pipe_rcv.csv
+54%... ../tiktok/cw-ow-timing-class/data/38-151/pipe_rcv.csv
+55%... ../tiktok/cw-ow-timing-class/data/39-145/pipe_rcv.csv
+56%... ../tiktok/cw-ow-timing-class/data/39-159/pipe_rcv.csv
+57%... ../tiktok/cw-ow-timing-class/data/40-153/pipe_rcv.csv
+58%... ../tiktok/cw-ow-timing-class/data/41-147/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/41-148/pipe_rcv.csv
+59%... ../tiktok/cw-ow-timing-class/data/42-142/pipe_rcv.csv
+60%... ../tiktok/cw-ow-timing-class/data/42-156/pipe_rcv.csv
+61%... ../tiktok/cw-ow-timing-class/data/43-150/pipe_rcv.csv
+62%... ../tiktok/cw-ow-timing-class/data/44-144/pipe_rcv.csv
+63%... ../tiktok/cw-ow-timing-class/data/44-158/pipe_rcv.csv
+64%... ../tiktok/cw-ow-timing-class/data/45-152/pipe_rcv.csv
+65%... ../tiktok/cw-ow-timing-class/data/46-146/pipe_rcv.csv
+66%... ../tiktok/cw-ow-timing-class/data/47-140/pipe_rcv.csv
+67%... ../tiktok/cw-ow-timing-class/data/47-154/pipe_rcv.csv
+68%... ../tiktok/cw-ow-timing-class/data/48-148/pipe_rcv.csv
+69%... ../tiktok/cw-ow-timing-class/data/49-142/pipe_rcv.csv
+70%... ../tiktok/cw-ow-timing-class/data/49-156/pipe_rcv.csv
+71%... ../tiktok/cw-ow-timing-class/data/50-150/pipe_rcv.csv
+72%... ../tiktok/cw-ow-timing-class/data/51-144/pipe_rcv.csv
+73%... ../tiktok/cw-ow-timing-class/data/51-158/pipe_rcv.csv
+74%... ../tiktok/cw-ow-timing-class/data/52-152/pipe_rcv.csv
+75%... ../tiktok/cw-ow-timing-class/data/53-146/pipe_rcv.csv
+76%... ../tiktok/cw-ow-timing-class/data/54-140/pipe_rcv.csv
+77%... ../tiktok/cw-ow-timing-class/data/54-154/pipe_rcv.csv
+78%... ../tiktok/cw-ow-timing-class/data/55-148/pipe_rcv.csv
+79%... ../tiktok/cw-ow-timing-class/data/56-142/pipe_rcv.csv
+80%... ../tiktok/cw-ow-timing-class/data/56-156/pipe_rcv.csv
+81%... ../tiktok/cw-ow-timing-class/data/57-150/pipe_rcv.csv
+82%... ../tiktok/cw-ow-timing-class/data/58-144/pipe_rcv.csv
+83%... ../tiktok/cw-ow-timing-class/data/58-158/pipe_rcv.csv
+84%... ../tiktok/cw-ow-timing-class/data/59-152/pipe_rcv.csv
+85%... ../tiktok/cw-ow-timing-class/data/60-146/pipe_rcv.csv
+86%... ../tiktok/cw-ow-timing-class/data/61-140/pipe_rcv.csv
+87%... ../tiktok/cw-ow-timing-class/data/61-154/pipe_rcv.csv
+88%... ../tiktok/cw-ow-timing-class/data/62-148/pipe_rcv.csv
+89%... ../tiktok/cw-ow-timing-class/data/63-142/pipe_rcv.csv
+90%... ../tiktok/cw-ow-timing-class/data/63-156/pipe_rcv.csv
+91%... ../tiktok/cw-ow-timing-class/data/64-150/pipe_rcv.csv
+92%... ../tiktok/cw-ow-timing-class/data/65-144/pipe_rcv.csv
+93%... ../tiktok/cw-ow-timing-class/data/65-158/pipe_rcv.csv
+94%... ../tiktok/cw-ow-timing-class/data/66-152/pipe_rcv.csv
+95%... ../tiktok/cw-ow-timing-class/data/67-146/pipe_rcv.csv
+96%... ../tiktok/cw-ow-timing-class/data/68-140/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-140/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-141/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-142/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-143/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-144/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-145/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-146/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-147/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-148/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-149/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-150/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-151/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-152/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-153/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-154/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-155/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-156/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-157/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-158/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/68-159/pipe_rcv.csv
+97%... ../tiktok/cw-ow-timing-class/data/154/pipe_rcv.csv
+Logging rbf data
+
+
+Accuracy for class 0: -1
+Accuracy for class 1: 0.8
+Accuracy for class 2: 1.0
+Accuracy for class 3: 1.0
+Accuracy for class 4: 0.13513513513513514
+Accuracy for class 5: 0.43478260869565216
+Accuracy for class 6: 1.0
+Accuracy for class 7: -1
+Accuracy for class 8: 0.5862068965517241
+Accuracy for class 9: 0.5
+Accuracy for class 10: 1.0
+Accuracy for class 11: 1.0
+Accuracy for class 12: 1.0
+Accuracy for class 13: 0.95
+Accuracy for class 14: 0.14285714285714285
+Accuracy for class 15: -1
+Accuracy for class 16: 0.2903225806451613
+Accuracy for class 17: -1
+Accuracy for class 18: -1
+Accuracy for class 19: 0.3125
+Accuracy for class 20: 0.21052631578947367
+Accuracy for class 21: -1
+Accuracy for class 22: 0.36363636363636365
+Accuracy for class 23: 0.10588235294117647
+Accuracy for class 24: 0.45454545454545453
+Accuracy for class 25: 0.5
+Accuracy for class 26: 0.4
+Accuracy for class 27: 0.5
+Accuracy for class 28: 0.8
+Accuracy for class 29: 1.0
+Accuracy for class 30: 0.9090909090909091
+Accuracy for class 31: 0.38095238095238093
+Accuracy for class 32: 0.36363636363636365
+Accuracy for class 33: -1
+Accuracy for class 34: 1.0
+Accuracy for class 35: 0.75
+Accuracy for class 36: 0.0
+Accuracy for class 37: 0.0
+Accuracy for class 38: 0.5
+Accuracy for class 39: 0.2857142857142857
+Accuracy for class 40: 1.0
+Accuracy for class 41: -1
+Accuracy for class 42: 1.0
+Accuracy for class 43: 0.75
+Accuracy for class 44: 0.6666666666666666
+Accuracy for class 45: 0.5
+Accuracy for class 46: 0.8947368421052632
+Accuracy for class 47: 0.5
+Accuracy for class 48: 1.0
+Accuracy for class 49: 0.35714285714285715
+Accuracy for class 50: 0.625
+Accuracy for class 51: 0.7142857142857143
+Accuracy for class 52: 0.6296296296296297
+Accuracy for class 53: 0.18181818181818182
+Accuracy for class 54: 0.25
+Accuracy for class 55: 0.43478260869565216
+Accuracy for class 56: 0.8
+Accuracy for class 57: 0.46153846153846156
+Accuracy for class 58: 0.5833333333333334
+Accuracy for class 59: 0.7777777777777778
+Accuracy for class 60: 0.52
+Accuracy for class 61: -1
+Accuracy for class 62: 0.16666666666666666
+Accuracy for class 63: -1
+Accuracy for class 64: 0.09090909090909091
+Accuracy for class 65: 0.4
+Accuracy for class 66: 0.3888888888888889
+Accuracy for class 67: 0.027237354085603113
+Accuracy for class 68: -1
+Accuracy for class 69: -1
+
+
+Precision for class 0: -1
+Precision for class 1: 0.8
+Precision for class 2: 1.0
+Precision for class 3: 1.0
+Precision for class 4: 0.13513513513513514
+Precision for class 5: 0.43478260869565216
+Precision for class 6: 1.0
+Precision for class 7: -1
+Precision for class 8: 0.5862068965517241
+Precision for class 9: 0.5
+Precision for class 10: 1.0
+Precision for class 11: 1.0
+Precision for class 12: 1.0
+Precision for class 13: 0.95
+Precision for class 14: 0.14285714285714285
+Precision for class 15: -1
+Precision for class 16: 0.2903225806451613
+Precision for class 17: -1
+Precision for class 18: -1
+Precision for class 19: 0.3125
+Precision for class 20: 0.21052631578947367
+Precision for class 21: -1
+Precision for class 22: 0.36363636363636365
+Precision for class 23: 0.10588235294117647
+Precision for class 24: 0.45454545454545453
+Precision for class 25: 0.5
+Precision for class 26: 0.4
+Precision for class 27: 0.5
+Precision for class 28: 0.8
+Precision for class 29: 1.0
+Precision for class 30: 0.9090909090909091
+Precision for class 31: 0.38095238095238093
+Precision for class 32: 0.36363636363636365
+Precision for class 33: -1
+Precision for class 34: 1.0
+Precision for class 35: 0.75
+Precision for class 36: 0.0
+Precision for class 37: 0.0
+Precision for class 38: 0.5
+Precision for class 39: 0.2857142857142857
+Precision for class 40: 1.0
+Precision for class 41: -1
+Precision for class 42: 1.0
+Precision for class 43: 0.75
+Precision for class 44: 0.6666666666666666
+Precision for class 45: 0.5
+Precision for class 46: 0.8947368421052632
+Precision for class 47: 0.5
+Precision for class 48: 1.0
+Precision for class 49: 0.35714285714285715
+Precision for class 50: 0.625
+Precision for class 51: 0.7142857142857143
+Precision for class 52: 0.6296296296296297
+Precision for class 53: 0.18181818181818182
+Precision for class 54: 0.25
+Precision for class 55: 0.43478260869565216
+Precision for class 56: 0.8
+Precision for class 57: 0.46153846153846156
+Precision for class 58: 0.5833333333333334
+Precision for class 59: 0.7777777777777778
+Precision for class 60: 0.52
+Precision for class 61: -1
+Precision for class 62: 0.16666666666666666
+Precision for class 63: -1
+Precision for class 64: 0.09090909090909091
+Precision for class 65: 0.4
+Precision for class 66: 0.3888888888888889
+Precision for class 67: 0.027237354085603113
+Precision for class 68: -1
+Precision for class 69: -1
+
+
+Recall for class 0: 0.0
+Recall for class 1: 0.2
+Recall for class 2: 0.7
+Recall for class 3: 0.8
+Recall for class 4: 0.5
+Recall for class 5: 0.5
+Recall for class 6: 0.8
+Recall for class 7: 0.0
+Recall for class 8: 0.85
+Recall for class 9: 0.45
+Recall for class 10: 0.55
+Recall for class 11: 0.6
+Recall for class 12: 0.85
+Recall for class 13: 0.95
+Recall for class 14: 0.05
+Recall for class 15: 0.0
+Recall for class 16: 0.45
+Recall for class 17: 0.0
+Recall for class 18: 0.0
+Recall for class 19: 0.25
+Recall for class 20: 0.2
+Recall for class 21: 0.0
+Recall for class 22: 0.2
+Recall for class 23: 0.45
+Recall for class 24: 0.25
+Recall for class 25: 0.05
+Recall for class 26: 0.2
+Recall for class 27: 0.3
+Recall for class 28: 0.2
+Recall for class 29: 0.35
+Recall for class 30: 0.5
+Recall for class 31: 0.4
+Recall for class 32: 0.2
+Recall for class 33: 0.0
+Recall for class 34: 0.5
+Recall for class 35: 0.3
+Recall for class 36: 0.0
+Recall for class 37: 0.0
+Recall for class 38: 0.2
+Recall for class 39: 0.1
+Recall for class 40: 0.1
+Recall for class 41: 0.0
+Recall for class 42: 0.25
+Recall for class 43: 0.15
+Recall for class 44: 0.1
+Recall for class 45: 0.05
+Recall for class 46: 0.85
+Recall for class 47: 0.5
+Recall for class 48: 0.05
+Recall for class 49: 0.25
+Recall for class 50: 0.25
+Recall for class 51: 0.5
+Recall for class 52: 0.85
+Recall for class 53: 0.2
+Recall for class 54: 0.1
+Recall for class 55: 0.5
+Recall for class 56: 0.2
+Recall for class 57: 0.3
+Recall for class 58: 0.35
+Recall for class 59: 0.35
+Recall for class 60: 0.65
+Recall for class 61: 0.0
+Recall for class 62: 0.05
+Recall for class 63: 0.0
+Recall for class 64: 0.2
+Recall for class 65: 0.1
+Recall for class 66: 0.35
+Recall for class 67: 0.7
+Recall for class 68: -1
+Recall for class 69: 0.0
+
+
+F1 for class 0: 0.0
+F1 for class 1: 0.32000000000000006
+F1 for class 2: 0.8235294117647058
+F1 for class 3: 0.888888888888889
+F1 for class 4: 0.21276595744680854
+F1 for class 5: 0.46511627906976744
+F1 for class 6: 0.888888888888889
+F1 for class 7: 0.0
+F1 for class 8: 0.6938775510204082
+F1 for class 9: 0.4736842105263158
+F1 for class 10: 0.7096774193548387
+F1 for class 11: 0.7499999999999999
+F1 for class 12: 0.9189189189189189
+F1 for class 13: 0.9500000000000001
+F1 for class 14: 0.07407407407407408
+F1 for class 15: 0.0
+F1 for class 16: 0.3529411764705882
+F1 for class 17: 0.0
+F1 for class 18: 0.0
+F1 for class 19: 0.2777777777777778
+F1 for class 20: 0.20512820512820512
+F1 for class 21: 0.0
+F1 for class 22: 0.25806451612903225
+F1 for class 23: 0.17142857142857143
+F1 for class 24: 0.3225806451612903
+F1 for class 25: 0.09090909090909091
+F1 for class 26: 0.26666666666666666
+F1 for class 27: 0.37499999999999994
+F1 for class 28: 0.32000000000000006
+F1 for class 29: 0.5185185185185185
+F1 for class 30: 0.6451612903225806
+F1 for class 31: 0.3902439024390244
+F1 for class 32: 0.25806451612903225
+F1 for class 33: 0.0
+F1 for class 34: 0.6666666666666666
+F1 for class 35: 0.4285714285714285
+F1 for class 36: -1
+F1 for class 37: -1
+F1 for class 38: 0.28571428571428575
+F1 for class 39: 0.14814814814814817
+F1 for class 40: 0.18181818181818182
+F1 for class 41: 0.0
+F1 for class 42: 0.4
+F1 for class 43: 0.24999999999999997
+F1 for class 44: 0.1739130434782609
+F1 for class 45: 0.09090909090909091
+F1 for class 46: 0.8717948717948718
+F1 for class 47: 0.5
+F1 for class 48: 0.09523809523809523
+F1 for class 49: 0.2941176470588235
+F1 for class 50: 0.35714285714285715
+F1 for class 51: 0.588235294117647
+F1 for class 52: 0.723404255319149
+F1 for class 53: 0.1904761904761905
+F1 for class 54: 0.14285714285714288
+F1 for class 55: 0.46511627906976744
+F1 for class 56: 0.32000000000000006
+F1 for class 57: 0.3636363636363637
+F1 for class 58: 0.4375
+F1 for class 59: 0.48275862068965514
+F1 for class 60: 0.5777777777777778
+F1 for class 61: 0.0
+F1 for class 62: 0.07692307692307691
+F1 for class 63: 0.0
+F1 for class 64: 0.12500000000000003
+F1 for class 65: 0.16000000000000003
+F1 for class 66: 0.36842105263157887
+F1 for class 67: 0.05243445692883895
+F1 for class 68: -1.0
+F1 for class 69: 0.0
+
+
+[[ 0.  0.  0.  0.  9.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0. 11.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 0.  4.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  2.
+   0.  0.  0.  0.  0.  1.  0.  0.  0.  0.  6.  0.  0.  7.  0.  0.]
+ [ 0.  0. 14.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  6.  0.  0.]
+ [ 0.  0.  0. 16.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  4.  0.  0.]
+ [ 0.  0.  0.  0. 10.  0.  0.  0.  1.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  2.  0.  0.  5.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  2.  0.  0.]
+ [ 0.  0.  0.  0.  0. 10.  0.  0.  2.  7.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0. 16.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  3.  0.  0.]
+ [ 0.  0.  0.  0.  7.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  1.  0.  0. 10.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  2.  0.  0.]
+ [ 0.  0.  0.  0.  2.  0.  0.  0. 17.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.  0.  0.]
+ [ 0.  0.  0.  0.  0. 11.  0.  0.  0.  9.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0. 11.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  9.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0. 12.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  8.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0. 17.  1.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  2.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0. 19.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.  0.  0.  0.
+   0.  6.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0. 13.  0.  0.]
+ [ 0.  0.  0.  0.  6.  2.  0.  0.  6.  2.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  1.  0.  0.  2.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  9.  0.
+   0.  1.  0.  0.  2.  0.  0.  0.  1.  1.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  6.  0.  0.]
+ [ 0.  0.  0.  0.  9.  0.  0.  0.  1.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  4.  0.  0.  6.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 0.  0.  0.  0.  6.  0.  0.  0.  1.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  3.  0.  0. 10.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.  0.  0.  0.
+   0.  5.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0. 14.  0.  0.]
+ [ 0.  0.  0.  0.  8.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  4.  0.  0.  7.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.  0.  0.]
+ [ 0.  0.  0.  0.  4.  0.  0.  0.  1.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0. 14.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  7.  0.
+   0.  0.  0.  0.  4.  0.  0.  0.  5.  0.  0.  0.  0.  1.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  3.  0.  0.]
+ [ 0.  0.  0.  0.  4.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  4.  0.  0.  9.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  3.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  5.  1.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0. 14.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  6.  1.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0. 13.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0. 11.  0.
+   0.  0.  0.  0.  1.  0.  0.  0.  4.  1.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  3.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  2.  0.
+   0.  0.  0.  0.  4.  0.  0.  0.  0.  6.  1.  0.  0.  1.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  6.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  1.  0.  0.  0.  0.  0.  0.  0.  3.  4.  0.  0.  4.  2.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  6.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  7.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0. 13.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  3.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0. 10.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  7.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  8.  5.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  7.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  1.  0.  0.  1.  7.  4.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  7.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.  0.  0.  0.
+   0.  3.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0. 16.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.  0.  2.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0. 10.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  7.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  6.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0. 14.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  1.  0.  0.  4.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0. 15.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   2.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  5.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0. 13.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  4.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  3.  0.  0. 13.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  2.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  4.  0.  0.
+   0.  0.  0.  0.  0.  0.  2.  0.  0.  0.  0.  0.  8.  4.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  2.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0. 18.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   1.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0. 18.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  5.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0. 15.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  3.  0.  0.  0.  1.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0. 16.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  2.  0.  0.  0.  0.  0.  1.  2.  1.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0. 14.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   1.  1.  0.  0.  0.  0.  0.  0.  0.  1.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0. 17.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0. 17.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  1.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  2.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   2.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0. 10.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  8.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.  2.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0. 17.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  5.  0.  0.  0.  2.
+   0.  0.  0.  0.  2.  0.  0.  0.  0.  0.  0.  0.  0. 11.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  5.  0.  0.  0.
+   0.  0.  0.  1.  0.  0.  0.  0.  0.  0.  4.  0.  0. 10.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0. 10.  9.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0. 17.  0.
+   1.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  2.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  3.  0.  0.  0.  4.
+   0.  0.  0.  0.  3.  0.  0.  0.  0.  0.  0.  0.  0. 10.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   2. 12.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  6.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   5. 10.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  5.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  2.  0.  0.  0.  0.  0.  1.  0.
+   0.  1.  4.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0. 12.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  1.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  2.
+   0.  0.  0.  6.  0.  0.  0.  0.  1.  0.  3.  0.  0.  7.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  3.  0.  0.  0.  3.
+   0.  0.  0.  0.  7.  0.  0.  0.  0.  0.  0.  0.  0.  7.  0.  0.]
+ [ 0.  1.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.
+   0.  0.  0.  0.  0.  7.  0.  0.  0.  0.  6.  0.  0.  5.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  2.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0. 13.  0.  0.  0.  0.  0.  3.  2.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.  1.  0.  0.  2.
+   0.  0.  0.  2.  0.  1.  0.  0.  1.  0.  5.  0.  0.  7.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.  0.  0.  3.
+   0.  0.  0.  2.  0.  0.  0.  0.  1.  0.  4.  2.  0.  7.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  2.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  3.  0.  0. 14.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  1.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.  0.  0.  0.
+   0.  0.  0.  1.  0.  0.  0.  0.  1.  0.  4.  0.  0. 12.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  2.
+   0.  0.  0.  0.  0.  0.  0.  0.  1.  0.  3.  2.  0. 12.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  3.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0. 10.  0.  0.  0.  0.  0.  7.  0.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  1.  0.  0.  0.  0.  1.  0.  3.  1.  0. 14.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 0.  0.  0.  0.  9.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0. 11.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0. 21.]]
+vertical is what was actually guessed
+Logging poly data
+
+
+Accuracy for class 0: -1
+Accuracy for class 1: 0.14423076923076922
+Accuracy for class 2: 0.9523809523809523
+Accuracy for class 3: 1.0
+Accuracy for class 4: 0.011627906976744186
+Accuracy for class 5: -1
+Accuracy for class 6: 0.7037037037037037
+Accuracy for class 7: 0.0947867298578199
+Accuracy for class 8: -1
+Accuracy for class 9: -1
+Accuracy for class 10: -1
+Accuracy for class 11: -1
+Accuracy for class 12: -1
+Accuracy for class 13: -1
+Accuracy for class 14: -1
+Accuracy for class 15: 0.0
+Accuracy for class 16: 0.19
+Accuracy for class 17: -1
+Accuracy for class 18: -1
+Accuracy for class 19: -1
+Accuracy for class 20: 0.0
+Accuracy for class 21: -1
+Accuracy for class 22: -1
+Accuracy for class 23: 0.0
+Accuracy for class 24: 0.5714285714285714
+Accuracy for class 25: 0.4090909090909091
+Accuracy for class 26: -1
+Accuracy for class 27: -1
+Accuracy for class 28: 0.25806451612903225
+Accuracy for class 29: 0.9523809523809523
+Accuracy for class 30: 0.4878048780487805
+Accuracy for class 31: -1
+Accuracy for class 32: 0.37037037037037035
+Accuracy for class 33: 0.6666666666666666
+Accuracy for class 34: -1
+Accuracy for class 35: -1
+Accuracy for class 36: 0.5625
+Accuracy for class 37: -1
+Accuracy for class 38: 0.1941747572815534
+Accuracy for class 39: 0.2857142857142857
+Accuracy for class 40: 0.4318181818181818
+Accuracy for class 41: -1
+Accuracy for class 42: 1.0
+Accuracy for class 43: 0.7391304347826086
+Accuracy for class 44: 0.41935483870967744
+Accuracy for class 45: 0.25
+Accuracy for class 46: -1
+Accuracy for class 47: 0.5
+Accuracy for class 48: 0.6451612903225806
+Accuracy for class 49: -1
+Accuracy for class 50: -1
+Accuracy for class 51: -1
+Accuracy for class 52: 0.37254901960784315
+Accuracy for class 53: -1
+Accuracy for class 54: -1
+Accuracy for class 55: 0.34146341463414637
+Accuracy for class 56: -1
+Accuracy for class 57: 0.1111111111111111
+Accuracy for class 58: 0.39215686274509803
+Accuracy for class 59: -1
+Accuracy for class 60: -1
+Accuracy for class 61: -1
+Accuracy for class 62: -1
+Accuracy for class 63: -1
+Accuracy for class 64: -1
+Accuracy for class 65: -1
+Accuracy for class 66: -1
+Accuracy for class 67: -1
+Accuracy for class 68: -1
+Accuracy for class 69: -1
+
+
+Precision for class 0: -1
+Precision for class 1: 0.14423076923076922
+Precision for class 2: 0.9523809523809523
+Precision for class 3: 1.0
+Precision for class 4: 0.011627906976744186
+Precision for class 5: -1
+Precision for class 6: 0.7037037037037037
+Precision for class 7: 0.0947867298578199
+Precision for class 8: -1
+Precision for class 9: -1
+Precision for class 10: -1
+Precision for class 11: -1
+Precision for class 12: -1
+Precision for class 13: -1
+Precision for class 14: -1
+Precision for class 15: 0.0
+Precision for class 16: 0.19
+Precision for class 17: -1
+Precision for class 18: -1
+Precision for class 19: -1
+Precision for class 20: 0.0
+Precision for class 21: -1
+Precision for class 22: -1
+Precision for class 23: 0.0
+Precision for class 24: 0.5714285714285714
+Precision for class 25: 0.4090909090909091
+Precision for class 26: -1
+Precision for class 27: -1
+Precision for class 28: 0.25806451612903225
+Precision for class 29: 0.9523809523809523
+Precision for class 30: 0.4878048780487805
+Precision for class 31: -1
+Precision for class 32: 0.37037037037037035
+Precision for class 33: 0.6666666666666666
+Precision for class 34: -1
+Precision for class 35: -1
+Precision for class 36: 0.5625
+Precision for class 37: -1
+Precision for class 38: 0.1941747572815534
+Precision for class 39: 0.2857142857142857
+Precision for class 40: 0.4318181818181818
+Precision for class 41: -1
+Precision for class 42: 1.0
+Precision for class 43: 0.7391304347826086
+Precision for class 44: 0.41935483870967744
+Precision for class 45: 0.25
+Precision for class 46: -1
+Precision for class 47: 0.5
+Precision for class 48: 0.6451612903225806
+Precision for class 49: -1
+Precision for class 50: -1
+Precision for class 51: -1
+Precision for class 52: 0.37254901960784315
+Precision for class 53: -1
+Precision for class 54: -1
+Precision for class 55: 0.34146341463414637
+Precision for class 56: -1
+Precision for class 57: 0.1111111111111111
+Precision for class 58: 0.39215686274509803
+Precision for class 59: -1
+Precision for class 60: -1
+Precision for class 61: -1
+Precision for class 62: -1
+Precision for class 63: -1
+Precision for class 64: -1
+Precision for class 65: -1
+Precision for class 66: -1
+Precision for class 67: -1
+Precision for class 68: -1
+Precision for class 69: -1
+
+
+Recall for class 0: 0.0
+Recall for class 1: 0.75
+Recall for class 2: 1.0
+Recall for class 3: 1.0
+Recall for class 4: 0.05
+Recall for class 5: 0.0
+Recall for class 6: 0.95
+Recall for class 7: 1.0
+Recall for class 8: 0.0
+Recall for class 9: 0.0
+Recall for class 10: 0.0
+Recall for class 11: 0.0
+Recall for class 12: 0.0
+Recall for class 13: 0.0
+Recall for class 14: 0.0
+Recall for class 15: 0.0
+Recall for class 16: 0.95
+Recall for class 17: 0.0
+Recall for class 18: 0.0
+Recall for class 19: 0.0
+Recall for class 20: 0.0
+Recall for class 21: 0.0
+Recall for class 22: 0.0
+Recall for class 23: 0.0
+Recall for class 24: 0.4
+Recall for class 25: 0.45
+Recall for class 26: 0.0
+Recall for class 27: 0.0
+Recall for class 28: 0.8
+Recall for class 29: 1.0
+Recall for class 30: 1.0
+Recall for class 31: 0.0
+Recall for class 32: 0.5
+Recall for class 33: 0.3
+Recall for class 34: 0.0
+Recall for class 35: 0.0
+Recall for class 36: 0.45
+Recall for class 37: 0.0
+Recall for class 38: 1.0
+Recall for class 39: 0.8
+Recall for class 40: 0.95
+Recall for class 41: 0.0
+Recall for class 42: 0.95
+Recall for class 43: 0.85
+Recall for class 44: 0.65
+Recall for class 45: 0.1
+Recall for class 46: 0.0
+Recall for class 47: 0.95
+Recall for class 48: 1.0
+Recall for class 49: 0.0
+Recall for class 50: 0.0
+Recall for class 51: 0.0
+Recall for class 52: 0.95
+Recall for class 53: 0.0
+Recall for class 54: 0.0
+Recall for class 55: 0.7
+Recall for class 56: 0.0
+Recall for class 57: 0.05
+Recall for class 58: 1.0
+Recall for class 59: 0.0
+Recall for class 60: 0.0
+Recall for class 61: 0.0
+Recall for class 62: 0.0
+Recall for class 63: 0.0
+Recall for class 64: 0.0
+Recall for class 65: 0.0
+Recall for class 66: 0.0
+Recall for class 67: 0.0
+Recall for class 68: -1
+Recall for class 69: 0.0
+
+
+F1 for class 0: 0.0
+F1 for class 1: 0.24193548387096775
+F1 for class 2: 0.975609756097561
+F1 for class 3: 1.0
+F1 for class 4: 0.018867924528301886
+F1 for class 5: 0.0
+F1 for class 6: 0.8085106382978724
+F1 for class 7: 0.17316017316017313
+F1 for class 8: 0.0
+F1 for class 9: 0.0
+F1 for class 10: 0.0
+F1 for class 11: 0.0
+F1 for class 12: 0.0
+F1 for class 13: 0.0
+F1 for class 14: 0.0
+F1 for class 15: -1
+F1 for class 16: 0.3166666666666667
+F1 for class 17: 0.0
+F1 for class 18: 0.0
+F1 for class 19: 0.0
+F1 for class 20: -1
+F1 for class 21: 0.0
+F1 for class 22: 0.0
+F1 for class 23: -1
+F1 for class 24: 0.47058823529411764
+F1 for class 25: 0.4285714285714286
+F1 for class 26: 0.0
+F1 for class 27: 0.0
+F1 for class 28: 0.3902439024390244
+F1 for class 29: 0.975609756097561
+F1 for class 30: 0.6557377049180327
+F1 for class 31: 0.0
+F1 for class 32: 0.425531914893617
+F1 for class 33: 0.41379310344827586
+F1 for class 34: 0.0
+F1 for class 35: 0.0
+F1 for class 36: 0.5
+F1 for class 37: 0.0
+F1 for class 38: 0.3252032520325203
+F1 for class 39: 0.4210526315789473
+F1 for class 40: 0.59375
+F1 for class 41: 0.0
+F1 for class 42: 0.9743589743589743
+F1 for class 43: 0.7906976744186046
+F1 for class 44: 0.5098039215686274
+F1 for class 45: 0.14285714285714288
+F1 for class 46: 0.0
+F1 for class 47: 0.6551724137931034
+F1 for class 48: 0.7843137254901961
+F1 for class 49: 0.0
+F1 for class 50: 0.0
+F1 for class 51: 0.0
+F1 for class 52: 0.5352112676056339
+F1 for class 53: 0.0
+F1 for class 54: 0.0
+F1 for class 55: 0.4590163934426229
+F1 for class 56: 0.0
+F1 for class 57: 0.06896551724137932
+F1 for class 58: 0.5633802816901409
+F1 for class 59: 0.0
+F1 for class 60: 0.0
+F1 for class 61: 0.0
+F1 for class 62: 0.0
+F1 for class 63: 0.0
+F1 for class 64: 0.0
+F1 for class 65: 0.0
+F1 for class 66: 0.0
+F1 for class 67: 0.0
+F1 for class 68: -1.0
+F1 for class 69: 0.0
+
+
+[[ 0.  0.  0.  0.  0.  0.  0. 20.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 0. 15.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  3.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  2.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 0.  0. 20.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 0.  0.  0. 20.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 0.  0.  0.  0.  1.  0.  0. 19.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 0.  0.  0.  0. 20.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0. 19.  0.  0.  0.  0.  0.  0.  0.  0.  1.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0. 20.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 0.  0.  0.  0. 17.  0.  0.  3.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 0.  0.  0.  0. 20.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0. 20.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0. 20.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0. 20.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0. 20.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  9.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  3.  0.  3.  0.  1.  2.  0.  0.
+   0.  0.  0.  0.  2.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 0.  0.  0.  0. 11.  0.  0.  9.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0. 19.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 0.  0.  0.  0.  1.  0.  0. 19.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 0.  0.  0.  0.  1.  0.  0. 19.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  2.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  5.  0. 11.  0.  2.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0. 20.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 0.  0.  0.  0.  1.  0.  0. 19.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0. 18.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  2.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0. 20.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  8. 12.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 0.  0.  1.  0.  1.  0.  0.  4.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  5.  9.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0. 19.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  6.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0. 14.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  4.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0. 16.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0. 20.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0. 20.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  6.  0.  1.  0. 12.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  5.  0.  5.  0. 10.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  4.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  9.  0.  1.  0.  0.  6.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0. 18.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  2.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 0.  0.  0.  0.  8.  0.  8.  1.  0.  0.  0.  0.  0.  0.  0.  3.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   9.  0.  0.  0.  0.  0.  0.  2.  2.  0.  0.  7.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   7.  0.  0.  0.  2.  0.  0.  0.  1.  1.  0.  9.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0. 20.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0. 16.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  4.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.  0.  0.
+   0.  0.  0.  0. 19.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0. 19.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  1.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0. 19.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0. 17.  0.  0.  0.  3.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  1.  0.  0.  1. 13.  5.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  1.  0.  0.  2. 15.  2.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 0.  0.  0.  0.  3.  0.  0. 16.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  1.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  1.  0.  0.  0. 19.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0. 20.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  4.  0.  0.  0.  0.  0.
+   0.  0.  0.  0. 16.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 0.  1.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0. 18.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  1.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0. 20.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  1.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0. 19.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  5.  0.  0.  0.  0.  0.
+   0.  0.  0.  0. 15.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0. 20.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  6.  0.
+   0. 14.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 0.  0.  0.  0.  2.  0.  0.  1.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  1.  0.  0.  7.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  2.  0.
+   0.  7.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 0. 10.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  9.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  1.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0. 20.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 0. 20.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0. 20.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 0. 12.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  8.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 0. 11.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  8.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  1.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 0. 10.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  9.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  1.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 0.  8.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  1.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0. 11.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 0. 11.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  6.  0.  0.  0.  0.  0.  0.  0.  0.  0.  2.  0.  0.  0.  0.  0.
+   0.  0.  0.  1.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0. 20.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 0.  6.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  1.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0. 11.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  2.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+ [ 0.  0.  0.  0.  0.  0.  0. 20.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.
+   0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0. 21.]]
+vertical is what was actually guessed

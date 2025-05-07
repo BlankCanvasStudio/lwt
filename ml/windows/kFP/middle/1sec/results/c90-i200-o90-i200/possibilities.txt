@@ -1,0 +1,56 @@
+Feature 141 (intertimestats sum) split from 0 to 2
+
+Feature 22 seems mentioned a lot but isn't reported as used
+
+Feature 24 between 1 and 2
+
+feature 4 to split out to class 1
+
+feature 1 and 20 for class 0 and 2
+
+possibly feature 18
+
+feature 35 for split from class 1 and 2
+
+feature 9 and 3 are possible for plitting class 0 and 2
+    - This seems like a real option
+    - #3 <= 26.0
+
+feature 138 from class 1 and 0
+
+feature 23 ?
+
+feature 35 for data analysis
+
+feature 16  for separating out class 2 from class 0
+
+feature 7 for class 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

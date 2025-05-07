@@ -1,0 +1,6 @@
+It seems the important vector is spread evenly. This makes a lot of sense since the vector is 
+    basically time predicton
+
+
+
+

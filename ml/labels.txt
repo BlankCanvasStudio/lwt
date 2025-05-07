@@ -1,0 +1,281 @@
+baseline=0
+    - Self explanatory
+    - Foreground traffic is iperf filling 100M pipe
+
+iperf-1M=1
+    - Hidden traffic is iperf at 1Mbps
+    - Foreground traffic is iperf filling 100M pipe
+
+iperf-100K=2
+    - Hidden traffic is iperf at 100K
+    - Foreground traffic is iperf filling 100M pipe
+
+iperf-10K=3
+    - Hidden traffic is iperf at 10K
+    - Foreground traffic is iperf filling 100M pipe
+
+ping-2s-15B=4
+    - Hidden traffic is ping sending a 15B packet every 2s
+    - Foreground traffic is iperf filling 100M pipe
+
+ping-2s-350B=5
+    - Hidden traffic is ping sending a 350B packet every 2s
+    - Foreground traffic is iperf filling 100M pipe
+
+ping-2s-850B=6
+    - Hidden traffic is ping sending a 850B packet every 2s
+    - Foreground traffic is iperf filling 100M pipe
+
+ping-5s-35B=7
+    - Hidden traffic is ping sending a 35B packet every 5s
+    - Foreground traffic is iperf filling 100M pipe
+
+ping-5s-350B=8
+    - Hidden traffic is ping sending a 350B packet every 5s
+    - Foreground traffic is iperf filling 100M pipe
+
+ping-5s-850B=9
+    - Hidden traffic is ping sending a 850B packet every 5s
+    - Foreground traffic is iperf filling 100M pipe
+
+f-iperf-30M-h-iperf-30M=10
+    - Hidden traffic is iperf sending 30Mbps
+    - Foreground traffic is iperf at 30Mbps
+
+f-iperf-40M-h-iperf-40M=11
+    - Hidden traffic is iperf sending 40Mbps
+    - Foreground traffic is iperf at 40Mbps
+
+
+f-ping-400B-3s-h-iperf-100M=12
+    - Hidden traffic is iperf sending 100Mbps
+    - Foreground traffic is ping sending 400B packet every 3 sec
+
+f-ping-400B-3s-h-iperf-80M=13
+    - Hidden traffic is iperf sending 80Mbps
+    - Foreground traffic is ping sending 400B packet every 3 sec
+
+amazon-add-to-cart=14
+    - Hidden traggic is a user browsing amazon front page, categories, and products. Randomly adds to cart
+    - Foreground traffic is iperf filling 100M pipe
+
+facebook-default-route=15
+    - Hidden traffic is loading www.facebook.com
+        - Facebook has good anti-botting so anything more is quite hard
+    - Foreground traffic is iperf filling 100M pipe
+
+gdocs-listen-to-writing-diff=16
+    - Hidden traffic is a computer with google docs open reading what another user is typing
+    - Foreground traffic is iperf filling 100M pipe
+
+wget-google=17
+    - Hiddent traffic is a single wget to google.com
+    - Foreground traffic is iperf filling 100M pipe
+
+wget-multiple=18
+    - Hidden traffic is a wget the wikipedia, reddit, and google. In that order
+    - Foreground traffic is iperf filling 100M pipe
+
+amazon-browse-front=19
+    - Hidden traffic is a user browsing the front page of amazon, viewing some items
+    - Foreground traffic is iperf filling 100M pipe
+
+regular-wget=20
+    - An old copy of wget-multiple. To be removed
+    - Foreground traffic is iperf filling 100M pipe
+
+scp-linux=21
+    - Hidden traffic is linux SCPing a copy of the linux code files (no traffic sent to greater internet)
+    - Foreground traffic is iperf filling 100M pipe
+
+gdocs-basic-writing=22
+    - Hidden traffic is a user writing into google docs
+        - Pauses are drawn from gausian distribution so the alg isn't learning timing
+    - Foreground traffic is iperf filling 100M pipe
+
+wget-wikipedia=23
+    - A simple wget to wikipedia
+    - Foreground traffic is iperf filling 100M pipe
+
+astley-youtube-adblock=24
+    - Watching 'never gonna give you up' by rick astly with adblock running
+    - Foreground traffic is iperf filling 100M pipe
+
+astley-youtube-raw=25
+    - Watching 'never gonna give you up' by rick astly without adblock running
+    - Foreground traffic is iperf filling 100M pipe
+
+gdocs-listen-\&-writing-diff=26
+    - A simple google doc with is writing simulateneously with another user
+    - Foreground traffic is iperf filling 100M pipe
+
+gdocs-listen-to-writing-same=27
+    - Simply reads another computer writing to a google doc using the same account
+    - Foreground traffic is iperf filling 100M pipe
+
+gmail-basic-recieving=28
+    - Recieving an email via gmail
+    - Foreground traffic is iperf filling 100M pipe
+
+gmail-basic-sending=29
+    - Sending an email via gmail
+    - Foreground traffic is iperf filling 100M pipe
+
+google-basic-search=30
+    - A basic google search for the phrase "This is some text"
+    - Foreground traffic is iperf filling 100M pipe
+
+gtranslate-basic-lorem=31
+    - Google translating the lorem ipsum from latin to english
+    - Foreground traffic is iperf filling 100M pipe
+
+gtranslate-french-lorem=32
+    - Translating the lorem ipsum to french
+    - Foreground traffic is iperf filling 100M pipe
+
+twitch-basic-streamer-view=33
+    - Watching a streamer found from the home page
+    - Foreground traffic is iperf filling 100M pipe
+
+twitch-view-home=34
+    - Watching the home page
+    - Foreground traffic is iperf filling 100M pipe
+
+
+
+
+
+NOTE:
+I realized that the previous websites were actually finger printing the outbound requests, not 
+    the traffic into the client. This is definitely why there is much less clarity in the data 
+    (unless the client has to query the server for more information). To fix this issue, I re-ran
+    the simulations recording the traffic into the client and dubbed them `reverse`. The following
+    simulations record the reverse direction and use the same settings as their counterpart above:
+
+        - wget-multiple-reversed=35
+        - amazon-add-to-cart-reverse=36
+        - amazon-browse-front-reversed=37
+        - astley-youtube-adblock-reversed=38
+        - facebook-default-route-reversed=39
+        - gdocs-basic-writing-reversed=40
+        - gdocs-listen-to-writing-diff-reversed=41
+        - gmail-basic-recieving-reversed=42
+        - gmail-basic-sending-reversed=43
+        - google-basic-search-reversed=44
+        - gtranslate-basic-lorem-reversed=45
+        - gtranslate-french-lorem-reversed=46
+        - wget-wikipedia-reversed=47
+        - twitch-basic-streamer-view-reversed=48
+
+
+
+NOTE:
+All of the following mixed programs are running in the 'reverse' direction for both programs. This
+    means that all the data is flowing from the server to the client, in the same direction as the
+    foreground iperf traffic.
+
+mixed-gdoc-basic-writing-youtube-ads=49
+    - The hidden is a basic writing to a google doc (same settings as above) while also listening 
+        to a youtube video (rick astley, same settings as above)
+    - Foreground traffic is iperf filling 100M pipe
+
+mixed-scp-rsync=50
+    - This is downloading a randomly generated file over scp and rsync at the same time
+    - Foreground traffic is iperf filling 100M pipe
+
+mixed-twitch-curl-https=51
+    - This is watching the home page of twitch while downloading a file over https using curl
+    - Foreground traffic is iperf filling 100M pipe
+
+mixed-twitch-iperf-100K=52
+    - This is watching the home page of twitch while also running an iperf instance
+    - Foreground traffic is iperf filling 100M pipe
+
+mixed-twitch-ping-2s-350B=53
+    - This is watching the home page of twitch while also running ping
+    - Foreground traffic is iperf filling 100M pipe
+
+mixed-twitch-wget-ftp-large=54
+    - This runs twitch home page and uses wget to ftp a large file over the nextwork
+    - Foreground traffic is iperf filling 100M pipe
+
+mixed-wget-ftp-large-wget-short=55
+    - Uses wget to download a large file over ftp and uses wget about 10sec in to get a few 
+        webpages
+    - Foreground traffic is iperf filling 100M pipe
+
+mixed-wget-https-large-wget-short=56
+    - This uses wget to download a large file over https and has a short wget in the middle
+    - Foreground traffic is iperf filling 100M pipe
+
+true-ftp-rand-data = 57
+    - Hidden traffic is moving random data in same direction as pipe is flowing from an ftp 
+        server using the ftp command
+    - Foreground traffic is iperf filling 100M pipe
+
+mixed-stutter-wget-ftp-large-youtube = 58
+    - This is wget downloading a large random file from an FTP server run for 10 sec,
+        the a youtube video is started, then 10 sec later the wget is killed, and then the
+        experiment ends
+    - Foreground traffic is iperf filling 100M pipe
+
+mixed-stutter-wget-ftp-large-gdocs = 59
+    - This is wget downloading a large random file from an FTP server run for 10 sec,
+        the a gdoc is edited, then 10 sec later the wget is killed, and then the
+        experiment ends
+    - Foreground traffic is iperf filling 100M pipe
+
+curl-https-rand-data = 60
+    - Curl downloads a random file of https (all inside the testbed)
+    - Foreground traffic is iperf filling 100M pipe
+
+curl-http-rand-data = 61
+    -  Curl downloads a random file of https (all inside the testbed)
+    - Foreground traffic is iperf filling 100M pipe
+
+git-linux-from-github = 62
+    - git clone https://github.com/torvalds/linux.git
+    - Foreground traffic is iperf filling 100M pipe
+
+rsync-rand-data = 63
+    - rsync is used to copy large random file
+    - Foreground traffic is iperf filling 100M pipe
+
+scp-rand-data = 64
+    - scp is used to copy large random file
+    - Foreground traffic is iperf filling 100M pipe
+
+wget-ftp-rand-data = 65
+    - wget is used to download data off an ftp server
+    - Foreground traffic is iperf filling 100M pipe
+
+wget-https-rand-data = 66
+    - wget is used to download data over https
+    - Foreground traffic is iperf filling 100M pipe
+
+wget-http-rand-data = 67
+    - wget is used to download data over http
+    - Foreground traffic is iperf filling 100M pipe
+
+mixed-twitch-ping-5s-350B = 68
+    - twitch and ping running at the same time in same direction
+    - Foreground traffic is iperf filling 100M pipe
+
+mixed-twitch-iperf-10K = 69
+    - twitch and iperf being run at the same time
+    - Foreground traffic is iperf filling 100M pipe
+
+tcp-curl-ftp-rand-data = 70
+    - curl downloading rand data from ftp server
+    - Foreground traffic is iperf filling 100M pipe USING TCP INSTEAD OF UDP
+
+tcp-curl-http-rand-data = 71
+    - curl downloading random data over http
+    - Foreground traffic is iperf filling 100M pipe USING TCP INSTEAD OF UDP
+
+
+
+
+
+LAST CATEGORY IS ALWAYS ANOTHER BASELINE.
+

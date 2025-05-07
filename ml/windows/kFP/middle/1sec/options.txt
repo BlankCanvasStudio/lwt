@@ -1,0 +1,13 @@
+OUTPUT_LOC: ./results
+OUTPUT_FILE: output
+DATA_LOC: ../../../../tiktok/cw-ow-timing-class/data/ # This is raw appended to watch out
+FOLD_MODE: 3
+FOLD_NUM: 7
+DATA_TYPE: csv
+CLOSED_SITENUM: 92
+CLOSED_INSTNUM: 200
+OPEN_SITENUM: 92
+OPEN_INSTNUM: 200
+DO_NOT_EXTRACT: 0
+IN_MEM: 1
+

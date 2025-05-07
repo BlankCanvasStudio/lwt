@@ -1,0 +1,8 @@
+Given improvement in confusion of ping 15B 2s and ping 35B 5s, it seems like small improves 
+    some of the resolution
+
+Most of these errors don't actually seem like errors
+
+!! More resiliant to changes in traffic than CUMUL is
+
+

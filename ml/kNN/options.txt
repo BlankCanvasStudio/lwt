@@ -1,0 +1,13 @@
+OUTPUT_LOC: ./
+CORE_NAME:  tmp
+TRAIN_LIST: this
+TEST_LIST: that
+WEIGHT_LIST: other
+CLOSED_SITENUM: 4
+OPEN_SITENUM: 4
+OPEN_INSTNUM: 0
+CLOSED_INSTNUM: 5
+DATA_LOC: ../tiktok/cw-ow-timing-class/data/ # This is raw appended to watch out
+FOLD_MODE: 2
+FOLD_NUM: 7
+DATA_TYPE: csv

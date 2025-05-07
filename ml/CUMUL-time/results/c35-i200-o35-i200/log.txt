@@ -1,0 +1,34 @@
+[Errno 2] No such file or directory: 'results/c35-i200-o35-i200/data-train.txt'
+None
+Creating training features... 6480
+Failed to load trial: ../../tiktok/cw-ow-timing-class/data/0-0/pipe_rcv.csv
+Failed to load trial: ../../tiktok/cw-ow-timing-class/data/0-1/pipe_rcv.csv
+Failed to load trial: ../../tiktok/cw-ow-timing-class/data/0-2/pipe_rcv.csv
+Failed to load trial: ../../tiktok/cw-ow-timing-class/data/0-3/pipe_rcv.csv
+Failed to load trial: ../../tiktok/cw-ow-timing-class/data/0-4/pipe_rcv.csv
+Failed to load trial: ../../tiktok/cw-ow-timing-class/data/0-5/pipe_rcv.csv
+Creating training features... 6480
+Failed to load trial: ../../tiktok/cw-ow-timing-class/data/0-0/pipe_rcv.csv
+None
+Failed to load trial: ../../tiktok/cw-ow-timing-class/data/0-1/pipe_rcv.csv
+None
+Failed to load trial: ../../tiktok/cw-ow-timing-class/data/0-2/pipe_rcv.csv
+None
+Failed to load trial: ../../tiktok/cw-ow-timing-class/data/0-3/pipe_rcv.csv
+None
+Failed to load trial: ../../tiktok/cw-ow-timing-class/data/0-4/pipe_rcv.csv
+None
+Failed to load trial: ../../tiktok/cw-ow-timing-class/data/0-5/pipe_rcv.csv
+None
+Failed to load trial: ../../tiktok/cw-ow-timing-class/data/0-6/pipe_rcv.csv
+None
+Failed to load trial: ../../tiktok/cw-ow-timing-class/data/0-7/pipe_rcv.csv
+None
+Creating training features... 6480
+Failed to load trial: ../../tiktok/cw-ow-timing-class/data/0-0/pipe_rcv.csv
+None
+Failed to load trial: ../../tiktok/cw-ow-timing-class/data/0-1/pipe_rcv.csv
+None
+Failed to load trial: ../../tiktok/cw-ow-timing-class/data/0-2/pipe_rcv.csv
+None
+Creating training features... 6480

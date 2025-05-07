@@ -1,0 +1,292 @@
+Not all the values are important! 
+    - This means we can cut down on training time. What fun
+
+intertimestats: 1 - 12
+0.0
+0.01553679 
+0.01571014 
+0.
+0.00174994 
+0.00178613
+0.
+0.01101544 
+0.01089615 
+0.
+0.00487999 
+0.00535484
+
+
+timestats: 13 - 24
+0.
+0.
+0.
+0.
+0.01549075
+0.01600945
+0.01634518 
+0.01568669 
+0.01507214 
+0.01574559 
+0.01636641 
+0.01596573
+
+number_pkts: 25 - 27
+0.
+0.0138764
+0.01463768 
+
+
+
+thirtypkts: 28 - 31
+0.0003714
+0.00043868 
+0.00044413
+0.00027937 
+
+stdconc: 32 - 32
+0.
+
+avgconc: 33 - 33
+0.00031474 
+
+avg_per_sec: 34 - 34
+0.00875995 
+
+std_per_sec: 35 - 35
+0.01215192 
+
+avg_order_in: 36 - 36
+0.01413722
+
+avg_order_out: 37 - 37
+0.
+
+std_order_in: 38 - 38
+0.014109 
+
+std_order_out: 39 - 39
+0.
+
+medconc: 40 - 40
+0.0004392
+
+med_per_sec: 41 - 41
+0.01185061
+
+min_per_sec: 42 - 42
+0.00763451
+
+max_per_sec: 43 - 43
+0.00449308 
+
+maxconc: 44 - 44
+0.00022142 
+
+perc_in: 45 - 45
+0.
+
+perc_out: 46 - 46
+0.00024668 
+
+altconc: 47 - 117
+0.
+0.
+0.
+0.
+0.
+0.
+0.
+0.
+0.
+0.
+0.
+0.
+0.
+0.
+0.
+0.
+0.
+0.
+0.
+0.
+0.
+0.
+0.
+0.
+0.
+0.
+0.
+0.
+0.
+0.
+0.
+0.
+0.
+0.
+0.
+0.
+0.
+0.
+0.
+0.
+0.
+0.
+0.
+0.
+0.
+0.
+0.
+0.
+0.
+0.
+0.
+0.
+0.
+0.
+0.
+0.
+0.
+0.
+0.
+0.
+0.
+0.
+0.
+0.
+0.
+0.
+0.
+0.
+0.
+0.
+0.00034226 
+
+alt_per_sec: 118 - 138
+0.01074845 
+0.01984178 
+0.01831532
+0.01703696 
+0.03642437 
+0.02614402 
+0.01607305 
+0.01291384 
+0.01384305
+0.00789457 
+0.01165789 
+0.01175808 
+0.01096071 
+0.00800181 
+0.00885595
+0.0097704 
+0.0093803 
+0.0086704 
+0.00835193 
+0.01017566 
+0.00280526
+
+altconc sum: 139
+0.00026684 
+alt_per_sec sum: 140
+0.01375532 
+intertimestats sum: 141
+0.01440516
+timestats sum: 142
+0.01676591 
+
+number_pkts sum: 143
+0.01449145 
+conc raw: 144 - 144
+0.00043967
+per sec raw: 145 - 201
+0.01059146 
+0.00292428 
+0.00337102 
+0.00328534 
+0.00321244 
+0.00463974
+0.00372581 
+0.00368206 
+0.00397532 
+0.003829
+0.00410106 
+0.01094243
+0.01603843 
+0.02034655 
+0.01920433 
+0.02144919 
+0.02063061 
+0.02218024
+0.02211752 
+0.01669793 
+0.0136583 
+0.01305191 
+0.0108364 
+0.01204894
+0.01529345 
+0.0117394
+0.0121167
+0.01337026 
+0.01395771 
+0.01378423
+0.01509017
+
+
+Large peak at 122 is sum of input sizes at the start of the tapped data 
+    - This is a blessing and a curse. This means its tuned to starting at 10 sec
+    !! Could try sliding window divisions tbh
+
+Feature 145 is the start of the data flow (avg pack per sec at the start)
+Feature 156 is the start of tapped client sending data
+    $ We can see that it really cares about the start of the data and profiles based on this
+    - Features in the middle don't really seem to care
+
+
+!! Should try with smaller and sliding window to make sure it works well
+    - Gen's code would be nice for that
+
+
+Important features:
+np.max(In), , , avg_in, avg_out, avg_total, np.std(In), , np.percentile(In, 75), 
+intertimestats
+    2)  np.max(Out)
+    3)  np.max(Total)
+    8)  np.std(Out)
+    9)  np.std(Total)
+    11) np.percentile(Out, 75)
+    12) np.percentile(Total, 75)
+timestats: 25, 50, 75, 100 for In, Out, Total if exists
+    17) 25 out
+    18) 50 out
+    19) 75 out
+    20) 100 out
+    21) 25 total
+    22) 50 total
+    23) 75 total
+    24) 100 total
+number_pkts (sum In, sum out, sum total)
+    26) sum out 
+    27) sum total
+
+    34) avg_per_sec
+    35) std_per_sec
+    36) avg_order_in # Actually out
+    38) std_order_in # Actually out
+    41) med_per_sec
+    42) min_per_sec
+    43) max_per_sec
+    118-138) alt_per_sec
+        !! Could try to see how wide this window needs to be. Very interesting
+            - Possibly try classifying with gaps in the data for identification
+    140) alt_per_sec sum
+    141) intertimestats sum
+    142) timestats sum
+    143) number_pkts sum 
+    144) conc raw
+
+
+
+
+
+
+
+

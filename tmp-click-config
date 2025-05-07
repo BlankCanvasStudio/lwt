@@ -1,0 +1,4 @@
+compile() {
+./configure --enable-dpdk --enable-dpdk-pool --disable-bpf --enable-bound-port-transfer --enable-local --enable-intel-cpu --disable-batch --enable-select=poll CFLAGS="-O3" CXXFLAGS="-std=c++11 -O3" --enable-user-multithread --enable-multithread --enable-dpdk-packet
+make -j 12
+}

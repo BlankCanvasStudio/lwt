@@ -1,0 +1,389 @@
+======================
+-- Fold 0
+======================
+Compiling model...
+
+=> Train score: 3.8298652172088623
+=> Train accuracy: 0.036565229296684265
+
+=> Test score: 3.822784185409546
+=> Test accuracy: 0.04245283082127571
+======================
+-- Fold 1
+======================
+Compiling model...
+
+=> Train score: 3.826624870300293
+=> Train accuracy: 0.03809860721230507
+
+=> Test score: 3.844158411026001
+=> Test accuracy: 0.03207547217607498
+======================
+-- Fold 2
+======================
+Compiling model...
+
+=> Train score: 3.806593418121338
+=> Train accuracy: 0.03939608484506607
+
+=> Test score: 3.81758975982666
+=> Test accuracy: 0.040566038340330124
+======================
+-- Fold 3
+======================
+Compiling model...
+
+=> Train score: 3.8195130825042725
+=> Train accuracy: 0.04293465614318848
+
+=> Test score: 3.8344855308532715
+=> Test accuracy: 0.03396226465702057
+======================
+-- Fold 4
+======================
+Compiling model...
+
+=> Train score: 3.8322362899780273
+=> Train accuracy: 0.03798065707087517
+
+=> Test score: 3.8448994159698486
+=> Test accuracy: 0.03207547217607498
+======================
+-- Summary
+======================
+[(0.04245283082127571, <keras.src.engine.sequential.Sequential object at 0x7f63d38503a0>), (0.03207547217607498, <keras.src.engine.sequential.Sequential object at 0x7f632869ddf0>), (0.040566038340330124, <keras.src.engine.sequential.Sequential object at 0x7f63185c49a0>), (0.03396226465702057, <keras.src.engine.sequential.Sequential object at 0x7f63187459a0>), (0.03207547217607498, <keras.src.engine.sequential.Sequential object at 0x7f626822aca0>)]
+======================
+-- Fold 0
+======================
+Compiling model...
+
+=> Train score: 3.8133153915405273
+=> Train accuracy: 0.03809860721230507
+
+=> Test score: 3.8159103393554688
+=> Test accuracy: 0.033018868416547775
+======================
+-- Fold 1
+======================
+Compiling model...
+
+=> Train score: 3.822296380996704
+=> Train accuracy: 0.03868836909532547
+
+=> Test score: 3.837282657623291
+=> Test accuracy: 0.0292452834546566
+======================
+-- Fold 2
+======================
+Compiling model...
+
+=> Train score: 3.8197011947631836
+=> Train accuracy: 0.03892427310347557
+
+=> Test score: 3.822540760040283
+=> Test accuracy: 0.03962264209985733
+======================
+-- Fold 3
+======================
+Compiling model...
+
+=> Train score: 3.821974992752075
+=> Train accuracy: 0.03739089518785477
+
+=> Test score: 3.8364198207855225
+=> Test accuracy: 0.031132075935602188
+======================
+-- Fold 4
+======================
+Compiling model...
+
+=> Train score: 3.8207337856292725
+=> Train accuracy: 0.03739089518785477
+
+=> Test score: 3.826680898666382
+=> Test accuracy: 0.03962264209985733
+======================
+-- Summary
+======================
+[(0.033018868416547775, <keras.src.engine.sequential.Sequential object at 0x7f9f1863b2b0>), (0.0292452834546566, <keras.src.engine.sequential.Sequential object at 0x7f9ed85a9d30>), (0.03962264209985733, <keras.src.engine.sequential.Sequential object at 0x7f9ee802c1f0>), (0.031132075935602188, <keras.src.engine.sequential.Sequential object at 0x7f9e2c25b4f0>), (0.03962264209985733, <keras.src.engine.sequential.Sequential object at 0x7f9e80130760>)]
+
+
+Accuracy for class 0: -1
+Accuracy for class 1: -1
+Accuracy for class 2: -1
+Accuracy for class 3: -1
+Accuracy for class 4: -1
+Accuracy for class 5: -1
+Accuracy for class 6: -1
+Accuracy for class 7: -1
+Accuracy for class 8: -1
+Accuracy for class 9: -1
+Accuracy for class 10: -1
+Accuracy for class 11: -1
+Accuracy for class 12: -1
+Accuracy for class 13: -1
+Accuracy for class 14: -1
+Accuracy for class 15: -1
+Accuracy for class 16: -1
+Accuracy for class 17: -1
+Accuracy for class 18: -1
+Accuracy for class 19: -1
+Accuracy for class 20: -1
+Accuracy for class 21: -1
+Accuracy for class 22: -1
+Accuracy for class 23: -1
+Accuracy for class 24: -1
+Accuracy for class 25: -1
+Accuracy for class 26: -1
+Accuracy for class 27: -1
+Accuracy for class 28: -1
+Accuracy for class 29: -1
+Accuracy for class 30: -1
+Accuracy for class 31: -1
+Accuracy for class 32: -1
+Accuracy for class 33: -1
+Accuracy for class 34: -1
+Accuracy for class 35: -1
+Accuracy for class 36: -1
+Accuracy for class 37: -1
+Accuracy for class 38: -1
+Accuracy for class 39: -1
+Accuracy for class 40: -1
+Accuracy for class 41: -1
+Accuracy for class 42: -1
+Accuracy for class 43: -1
+Accuracy for class 44: -1
+Accuracy for class 45: -1
+Accuracy for class 46: -1
+Accuracy for class 47: -1
+Accuracy for class 48: -1
+Accuracy for class 49: -1
+Accuracy for class 50: -1
+Accuracy for class 51: -1
+Accuracy for class 52: -1
+Accuracy for class 53: -1
+
+
+Precision for class 0: -1
+Precision for class 1: -1
+Precision for class 2: -1
+Precision for class 3: -1
+Precision for class 4: -1
+Precision for class 5: -1
+Precision for class 6: -1
+Precision for class 7: -1
+Precision for class 8: -1
+Precision for class 9: -1
+Precision for class 10: -1
+Precision for class 11: -1
+Precision for class 12: 1.0
+Precision for class 13: -1
+Precision for class 14: -1
+Precision for class 15: -1
+Precision for class 16: -1
+Precision for class 17: -1
+Precision for class 18: -1
+Precision for class 19: -1
+Precision for class 20: -1
+Precision for class 21: -1
+Precision for class 22: -1
+Precision for class 23: -1
+Precision for class 24: -1
+Precision for class 25: -1
+Precision for class 26: -1
+Precision for class 27: -1
+Precision for class 28: -1
+Precision for class 29: -1
+Precision for class 30: -1
+Precision for class 31: -1
+Precision for class 32: -1
+Precision for class 33: -1
+Precision for class 34: -1
+Precision for class 35: -1
+Precision for class 36: -1
+Precision for class 37: -1
+Precision for class 38: -1
+Precision for class 39: -1
+Precision for class 40: -1
+Precision for class 41: -1
+Precision for class 42: -1
+Precision for class 43: -1
+Precision for class 44: 1.0
+Precision for class 45: -1
+Precision for class 46: -1
+Precision for class 47: -1
+Precision for class 48: -1
+Precision for class 49: -1
+Precision for class 50: -1
+Precision for class 51: -1
+Precision for class 52: -1
+Precision for class 53: -1
+
+
+Recall for class 0: 0.0
+Recall for class 1: 0.0
+Recall for class 2: 0.0
+Recall for class 3: 0.0
+Recall for class 4: 0.0
+Recall for class 5: 0.0
+Recall for class 6: 0.0
+Recall for class 7: 0.0
+Recall for class 8: 0.0
+Recall for class 9: 0.0
+Recall for class 10: 0.0
+Recall for class 11: 0.0
+Recall for class 12: 1.0
+Recall for class 13: 0.0
+Recall for class 14: 0.0
+Recall for class 15: 0.0
+Recall for class 16: 0.0
+Recall for class 17: 0.0
+Recall for class 18: 0.0
+Recall for class 19: 0.0
+Recall for class 20: 0.0
+Recall for class 21: 0.0
+Recall for class 22: 0.0
+Recall for class 23: 0.0
+Recall for class 24: 0.0
+Recall for class 25: 0.0
+Recall for class 26: 0.0
+Recall for class 27: 0.0
+Recall for class 28: 0.0
+Recall for class 29: 0.0
+Recall for class 30: 0.0
+Recall for class 31: 0.0
+Recall for class 32: 0.0
+Recall for class 33: 0.0
+Recall for class 34: 0.0
+Recall for class 35: 0.0
+Recall for class 36: 0.0
+Recall for class 37: 0.0
+Recall for class 38: 0.0
+Recall for class 39: 0.0
+Recall for class 40: 0.0
+Recall for class 41: 0.0
+Recall for class 42: 0.0
+Recall for class 43: 0.0
+Recall for class 44: 1.0
+Recall for class 45: 0.0
+Recall for class 46: -1
+Recall for class 47: 0.0
+Recall for class 48: 0.0
+Recall for class 49: 0.0
+Recall for class 50: 0.0
+Recall for class 51: 0.0
+Recall for class 52: 0.0
+Recall for class 53: 0.0
+
+
+F1 for class 0: 0.0
+F1 for class 1: 0.0
+F1 for class 2: 0.0
+F1 for class 3: 0.0
+F1 for class 4: 0.0
+F1 for class 5: 0.0
+F1 for class 6: 0.0
+F1 for class 7: 0.0
+F1 for class 8: 0.0
+F1 for class 9: 0.0
+F1 for class 10: 0.0
+F1 for class 11: 0.0
+F1 for class 12: 1.0
+F1 for class 13: 0.0
+F1 for class 14: 0.0
+F1 for class 15: 0.0
+F1 for class 16: 0.0
+F1 for class 17: 0.0
+F1 for class 18: 0.0
+F1 for class 19: 0.0
+F1 for class 20: 0.0
+F1 for class 21: 0.0
+F1 for class 22: 0.0
+F1 for class 23: 0.0
+F1 for class 24: 0.0
+F1 for class 25: 0.0
+F1 for class 26: 0.0
+F1 for class 27: 0.0
+F1 for class 28: 0.0
+F1 for class 29: 0.0
+F1 for class 30: 0.0
+F1 for class 31: 0.0
+F1 for class 32: 0.0
+F1 for class 33: 0.0
+F1 for class 34: 0.0
+F1 for class 35: 0.0
+F1 for class 36: 0.0
+F1 for class 37: 0.0
+F1 for class 38: 0.0
+F1 for class 39: 0.0
+F1 for class 40: 0.0
+F1 for class 41: 0.0
+F1 for class 42: 0.0
+F1 for class 43: 0.0
+F1 for class 44: 1.0
+F1 for class 45: 0.0
+F1 for class 46: -1.0
+F1 for class 47: 0.0
+F1 for class 48: 0.0
+F1 for class 49: 0.0
+F1 for class 50: 0.0
+F1 for class 51: 0.0
+F1 for class 52: 0.0
+F1 for class 53: 0.0
+
+
+[[  0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0. 200.   0.   0.   0.   0.   0.   0.   0.   0.   0.]
+ [  0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0. 200.   0.   0.   0.   0.   0.   0.   0.   0.   0.]
+ [  0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0. 200.   0.   0.   0.   0.   0.   0.   0.   0.   0.]
+ [  0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0. 200.   0.   0.   0.   0.   0.   0.   0.   0.   0.]
+ [  0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0. 200.   0.   0.   0.   0.   0.   0.   0.   0.   0.]
+ [  0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0. 200.   0.   0.   0.   0.   0.   0.   0.   0.   0.]
+ [  0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0. 200.   0.   0.   0.   0.   0.   0.   0.   0.   0.]
+ [  0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0. 200.   0.   0.   0.   0.   0.   0.   0.   0.   0.]
+ [  0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0. 200.   0.   0.   0.   0.   0.   0.   0.   0.   0.]
+ [  0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0. 200.   0.   0.   0.   0.   0.   0.   0.   0.   0.]
+ [  0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0. 200.   0.   0.   0.   0.   0.   0.   0.   0.   0.]
+ [  0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0. 200.   0.   0.   0.   0.   0.   0.   0.   0.   0.]
+ [  0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 200.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.]
+ [  0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 200.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.]
+ [  0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0. 200.   0.   0.   0.   0.   0.   0.   0.   0.   0.]
+ [  0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0. 200.   0.   0.   0.   0.   0.   0.   0.   0.   0.]
+ [  0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0. 200.   0.   0.   0.   0.   0.   0.   0.   0.   0.]
+ [  0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0. 200.   0.   0.   0.   0.   0.   0.   0.   0.   0.]
+ [  0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0. 200.   0.   0.   0.   0.   0.   0.   0.   0.   0.]
+ [  0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0. 200.   0.   0.   0.   0.   0.   0.   0.   0.   0.]
+ [  0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0. 200.   0.   0.   0.   0.   0.   0.   0.   0.   0.]
+ [  0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0. 200.   0.   0.   0.   0.   0.   0.   0.   0.   0.]
+ [  0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0. 200.   0.   0.   0.   0.   0.   0.   0.   0.   0.]
+ [  0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0. 200.   0.   0.   0.   0.   0.   0.   0.   0.   0.]
+ [  0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0. 200.   0.   0.   0.   0.   0.   0.   0.   0.   0.]
+ [  0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0. 200.   0.   0.   0.   0.   0.   0.   0.   0.   0.]
+ [  0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0. 200.   0.   0.   0.   0.   0.   0.   0.   0.   0.]
+ [  0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0. 200.   0.   0.   0.   0.   0.   0.   0.   0.   0.]
+ [  0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0. 200.   0.   0.   0.   0.   0.   0.   0.   0.   0.]
+ [  0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0. 200.   0.   0.   0.   0.   0.   0.   0.   0.   0.]
+ [  0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0. 200.   0.   0.   0.   0.   0.   0.   0.   0.   0.]
+ [  0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0. 200.   0.   0.   0.   0.   0.   0.   0.   0.   0.]
+ [  0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0. 200.   0.   0.   0.   0.   0.   0.   0.   0.   0.]
+ [  0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0. 200.   0.   0.   0.   0.   0.   0.   0.   0.   0.]
+ [  0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0. 200.   0.   0.   0.   0.   0.   0.   0.   0.   0.]
+ [  0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0. 199.   0.   0.   0.   0.   0.   0.   0.   0.   0.]
+ [  0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0. 200.   0.   0.   0.   0.   0.   0.   0.   0.   0.]
+ [  0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0. 200.   0.   0.   0.   0.   0.   0.   0.   0.   0.]
+ [  0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0. 200.   0.   0.   0.   0.   0.   0.   0.   0.   0.]
+ [  0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0. 200.   0.   0.   0.   0.   0.   0.   0.   0.   0.]
+ [  0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0. 200.   0.   0.   0.   0.   0.   0.   0.   0.   0.]
+ [  0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0. 198.   0.   0.   0.   0.   0.   0.   0.   0.   0.]
+ [  0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0. 200.   0.   0.   0.   0.   0.   0.   0.   0.   0.]
+ [  0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0. 200.   0.   0.   0.   0.   0.   0.   0.   0.   0.]
+ [  0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0. 200.   0.   0.   0.   0.   0.   0.   0.   0.   0.]
+ [  0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0. 200.   0.   0.   0.   0.   0.   0.   0.   0.   0.]
+ [  0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.]
+ [  0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0. 200.   0.   0.   0.   0.   0.   0.   0.   0.   0.]
+ [  0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0. 200.   0.   0.   0.   0.   0.   0.   0.   0.   0.]
+ [  0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0. 200.   0.   0.   0.   0.   0.   0.   0.   0.   0.]
+ [  0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0. 200.   0.   0.   0.   0.   0.   0.   0.   0.   0.]
+ [  0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0. 200.   0.   0.   0.   0.   0.   0.   0.   0.   0.]
+ [  0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0. 200.   0.   0.   0.   0.   0.   0.   0.   0.   0.]
+ [  0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0.   0. 0.   0. 200.   0.   0.   0.   0.   0.   0.   0.   0.   0.]]
+vertical is what was actually guessed

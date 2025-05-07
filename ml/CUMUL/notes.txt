@@ -1,0 +1,39 @@
+!! STILL NEED TO FIGURE OUT DATA LOADING
+
+
+
+Takes some CLI argument OUTPUT_LOC
+    - Stores it in of (i guess output file)
+ofname = OUTPUT_LOC + Pa-CUMUL.py
+
+confname = "svm-conf.results"
+
+if CORE_NAME specified in the CLI, then "-" + <CORE_NAME> is added to the end of ofname and 
+    confname
+
+You can specify DO_NOT_EXTRACT
+    - if equal to 1 then:
+        1) skipext = 1
+        2) trainext = EXTRACT_TRAIN_LOC
+        3) testext  = EXTRACT_TEST_LOC
+
+If you don't specify it then:
+    1) trainext = ofname + '.train'
+    2) testext = ofname + '.test'
+
+    if GEN_OWN_LIST = 1 then:
+
+!! Looks like gen_list was changed to get_list and not updated properly
+
+= SVM_C_LOG and SVM_G_LOG
+    - Unknown what these do but we need to know asap. If not tuned correctly, things can break
+
+
+
+## TO RUN:
+    $ python3 ./Pa-CUMUL.py options.txt
+## Generates datafile:
+    > output.test
+    > output.train
+    - These files are then fed into libsvm
+

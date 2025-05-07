@@ -1,0 +1,67 @@
+Gone up to 350G data (and aggressively counting)
+    - Over 13000 individual trials
+
+Baseline really gets caught up in other data
+    - This means we are getting some artifacting from our collection process. definitely ot ideal
+    - Could be due to lack of data but is probably noise (will get to later)
+
+Ping 15 2s and 5s 35B confusion perfectly illustrates the point of what "knobs" we need to adjust
+    and what the issues we are dealing with are. Namely:
+        - The "packet uncertainty principle"
+        - We can know a little about the timing and a little about the size. Turns out, 
+            inaccurate versions of both is good enough (just like our universe)
+
+Ping 2s 350B and Ping 5s 350B illuminates exactly how accurate this exclusion principle is, 
+    showing us some low level size and timing differences cannot be accurately picked apart
+    ( But it can still be done! And at more than 50% and never misses the classification over 
+        baseline)
+
+13 and 12 being lightly confused shows us a bound on constant bitrate streams. Its very light, 
+    we can test more constant bit rate sizes to determine how accurate this is
+
+!! Wait with this methodology, can we build a good calibration mechanism for real world cases?
+
+14 and 19 being confused shows we can fingerprint amazon specifically, but we lose a little 
+    clarity in the data itself
+    $ See in the pcaps if this is due to caching strategies or something like that
+
+15 confused with 4
+    - This is an odd one
+    $ Look into the pcaps for this
+    > We have genuine detection of wget vs other web traffic. This is very promising
+
+## Check to see if curl has any difference
+
+gdocs can tell if its the same account or not
+    - This makes sense
+    - WE CAN TELL THE DIRECTIONALITY
+
+16 and 22
+    - Interestingly getting an email and listening to gdoc are the same. Don't think we should 
+        read into this one
+
+wget google and default route facebook got confused once
+    - Able to tell wget traffic vs just regular web traffic. Thats cool
+
+17 section has wgets working just fine. Scp is an odd inclusion there.
+    $ Look into scp
+
+We can successfully detect amazon
+
+We can successfully see google translate as an object
+
+Odd that basic google search and google translate are confused
+    - This might be due to the recommendation box
+
+Writing to google and email are same
+    - Putting this up to random noise but would like to think that its cool
+
+french lorem reversed and wget wikipedia get a 50/50, unknown
+    !! LOOK INTO PCAPS
+
+
+51 and 52 being confused means we can detect twitch as the dominant app. Thats pretty cool
+
+
+50 and 52 confusion is odd but whatever
+

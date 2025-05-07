@@ -1,5 +1,0 @@
-Absolutely hurling data
-packets set:  1
-packets set:  2
-packets set:  3
-packets set:  4

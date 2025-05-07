@@ -5,12 +5,14 @@ define (
 
     // Network config for the pipercv side of router
     $PIPE_DPDK_PORT 1,
+    $PIPE_DPDK_PCI 0000:81:00.2,
     $ip_in 10.0.6.1,
     $mac_in 52:dc:28:b7:21:53,
 
 
     // Outward facing internet
     $INTERNET_DPDK_PORT 0,
+    $INTERNET_DPDK_PCI 0000:81:00.3,
     $ip_out 10.0.4.2,
     $mac_out 62:56:e5:a3:21:0a, 
 
@@ -20,13 +22,13 @@ define (
 // Set up all the interfaces
 // Always call your recording object DataRecorder then this program
 //   works between various compiles too
-dpdkIn :: FromDPDKDevice($PIPE_DPDK_PORT, MODE "none", PROMISC true, N_QUEUES 1);
-//    dpdkIn :: DataRecorder("data.csv"); 
-dpdkOut :: ToDPDKDevice($PIPE_DPDK_PORT, N_QUEUES 1);
+dpdkIn :: FromDPDKDevice($PIPE_DPDK_PCI, SCALE PARALLEL, NUMA true, BURST 1000);
+    // -> dpdkIn :: DataRecorder("data.csv"); 
+dpdkOut :: ToDPDKDevice($PIPE_DPDK_PCI);
 
-FromDPDKDevice($INTERNET_DPDK_PORT, MODE "none", PROMISC true, N_QUEUES 1) -> 
-    internetIn :: DataRecorder("data.csv");
-internetOut :: ToDPDKDevice($INTERNET_DPDK_PORT, N_QUEUES 1);
+FromDPDKDevice($INTERNET_DPDK_PCI, SCALE PARALLEL, NUMA true, BURST 1000)
+    -> internetIn :: DataRecorder("data.csv");
+internetOut :: ToDPDKDevice($INTERNET_DPDK_PCI);
 
 
 // Create control socket to interface with
@@ -35,9 +37,6 @@ internetOut :: ToDPDKDevice($INTERNET_DPDK_PORT, N_QUEUES 1);
 
 // Classify incoming content into ARP queries, ARP responses, and rest
 //     This is for data coming into the public interface
-internet_class :: Classifier(12/0806 20/0001, 12/0806 20/0002, -);
-internetIn -> internet_class;
-
 
 // Handle ARP request coming into eth2 (internet facing)
 inInternetARP :: ARPResponder($ip_out/24 $ip_in/24 $mac_out);
@@ -73,6 +72,10 @@ udpCheck[1] -> Print("UDP check failed", MAXLENGTH 5120) -> Discard;
 
 tcpCheck[0] -> dpdkOut;
 tcpCheck[1] -> Print("TCP check failed", MAXLENGTH 5120) -> Discard;
+
+
+internet_class :: Classifier(12/0806 20/0001, 12/0806 20/0002, -);
+internetIn -> internet_class;
 
 
 internet_class[0] -> inInternetARP[0] -> internetOut;

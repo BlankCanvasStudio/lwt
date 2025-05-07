@@ -11,6 +11,7 @@ sudo apt-get install -y python3-pyelftools
 
 sudo apt install -y libnuma-dev
 
+echo 1024 > /sys/kernel/mm/hugepages/hugepages-1048576kB/nr_hugepages
 echo 1024 > /sys/kernel/mm/hugepages/hugepages-2048kB/nr_hugepages
 
 # This is so the .so files that are installed are globally linkable

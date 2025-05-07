@@ -1,0 +1,241 @@
+./Pa-CUMUL-new.py options.txt
+{'OUTPUT_FILE': 'output', 'OUTPUT_LOC': './results', 'DATA_LOC': '../tiktok/cw-ow-timing-class/data/', 'FOLD_MODE': 3, 'FOLD_NUM': 7, 'DATA_TYPE': 'csv', 'CLOSED_SITENUM': 53, 'CLOSED_INSTNUM': 200, 'OPEN_SITENUM': 53, 'OPEN_INSTNUM': 200, 'GEN_OWN_LIST': 1, 'DO_NOT_EXTRACT': 0, 'EXTRACT_TRAIN_LOC': './output.train', 'EXTRACT_TEST_LOC': './output.test'}
+Extracting features...
+Site 0 of 54
+Site 1 of 54
+Site 2 of 54
+Site 3 of 54
+Site 4 of 54
+Site 5 of 54
+Site 6 of 54
+Site 7 of 54
+Site 8 of 54
+Site 9 of 54
+Site 10 of 54
+Site 11 of 54
+Site 12 of 54
+Site 13 of 54
+Site 14 of 54
+Site 15 of 54
+Site 16 of 54
+Site 17 of 54
+Site 18 of 54
+Site 19 of 54
+Site 20 of 54
+Site 21 of 54
+Site 22 of 54
+Site 23 of 54
+Site 24 of 54
+./Pa-CUMUL-new.py options.txt
+{'OUTPUT_FILE': 'output', 'OUTPUT_LOC': './results', 'DATA_LOC': '../tiktok/cw-ow-timing-class/data/', 'FOLD_MODE': 3, 'FOLD_NUM': 7, 'DATA_TYPE': 'csv', 'CLOSED_SITENUM': 53, 'CLOSED_INSTNUM': 200, 'OPEN_SITENUM': 53, 'OPEN_INSTNUM': 200, 'GEN_OWN_LIST': 1, 'DO_NOT_EXTRACT': 0, 'EXTRACT_TRAIN_LOC': './output.train', 'EXTRACT_TEST_LOC': './output.test'}
+Extracting features...
+Site 0 of 54
+Site 1 of 54
+Site 2 of 54
+Site 3 of 54
+Site 4 of 54
+Site 5 of 54
+Site 6 of 54
+Site 7 of 54
+Site 8 of 54
+Site 9 of 54
+Site 10 of 54
+Site 11 of 54
+Site 12 of 54
+Site 13 of 54
+Site 14 of 54
+Site 15 of 54
+Site 16 of 54
+Site 17 of 54
+Site 18 of 54
+Site 19 of 54
+Site 20 of 54
+Site 21 of 54
+Site 22 of 54
+Site 23 of 54
+Site 24 of 54
+Site 25 of 54
+Site 26 of 54
+Site 27 of 54
+Site 28 of 54
+Site 29 of 54
+Site 30 of 54
+Site 31 of 54
+Site 32 of 54
+Site 33 of 54
+Site 34 of 54
+Site 35 of 54
+./Pa-CUMUL-new.py options.txt
+{'OUTPUT_FILE': 'output', 'OUTPUT_LOC': './results', 'DATA_LOC': '../tiktok/cw-ow-timing-class/data/', 'FOLD_MODE': 3, 'FOLD_NUM': 7, 'DATA_TYPE': 'csv', 'CLOSED_SITENUM': 53, 'CLOSED_INSTNUM': 200, 'OPEN_SITENUM': 53, 'OPEN_INSTNUM': 200, 'GEN_OWN_LIST': 1, 'DO_NOT_EXTRACT': 0, 'EXTRACT_TRAIN_LOC': './output.train', 'EXTRACT_TEST_LOC': './output.test'}
+Extracting features...
+Site 0 of 54
+Site 1 of 54
+Site 2 of 54
+Site 3 of 54
+Site 4 of 54
+Site 5 of 54
+Site 6 of 54
+Site 7 of 54
+Site 8 of 54
+Site 9 of 54
+Site 10 of 54
+Site 11 of 54
+Site 12 of 54
+Site 13 of 54
+Site 14 of 54
+Site 15 of 54
+Site 16 of 54
+Site 17 of 54
+./Pa-CUMUL-new.py options.txt
+{'OUTPUT_FILE': 'output', 'OUTPUT_LOC': './results', 'DATA_LOC': '../tiktok/cw-ow-timing-class/data/', 'FOLD_MODE': 3, 'FOLD_NUM': 7, 'DATA_TYPE': 'csv', 'CLOSED_SITENUM': 53, 'CLOSED_INSTNUM': 200, 'OPEN_SITENUM': 53, 'OPEN_INSTNUM': 200, 'GEN_OWN_LIST': 1, 'DO_NOT_EXTRACT': 0, 'EXTRACT_TRAIN_LOC': './output.train', 'EXTRACT_TEST_LOC': './output.test'}
+Extracting features...
+Site 0 of 54
+Site 1 of 54
+Site 2 of 54
+./Pa-CUMUL-new.py options.txt
+{'OUTPUT_FILE': 'output', 'OUTPUT_LOC': './results', 'DATA_LOC': '../tiktok/cw-ow-timing-class/data/', 'FOLD_MODE': 3, 'FOLD_NUM': 7, 'DATA_TYPE': 'csv', 'CLOSED_SITENUM': 53, 'CLOSED_INSTNUM': 200, 'OPEN_SITENUM': 53, 'OPEN_INSTNUM': 200, 'GEN_OWN_LIST': 1, 'DO_NOT_EXTRACT': 0, 'EXTRACT_TRAIN_LOC': './output.train', 'EXTRACT_TEST_LOC': './output.test'}
+Extracting features...
+Site 0 of 54
+Site 1 of 54
+Site 2 of 54
+Site 3 of 54
+Site 4 of 54
+Site 5 of 54
+Site 6 of 54
+Site 7 of 54
+Site 8 of 54
+Site 9 of 54
+Site 10 of 54
+Site 11 of 54
+Site 12 of 54
+Site 13 of 54
+Site 14 of 54
+Site 15 of 54
+Site 16 of 54
+Site 17 of 54
+Site 18 of 54
+Site 19 of 54
+Site 20 of 54
+Site 21 of 54
+Site 22 of 54
+Site 23 of 54
+./Pa-CUMUL.py options.txt
+{'OUTPUT_FILE': 'output', 'OUTPUT_LOC': './results', 'DATA_LOC': '../tiktok/cw-ow-timing-class/data/', 'FOLD_MODE': 3, 'FOLD_NUM': 7, 'DATA_TYPE': 'csv', 'CLOSED_SITENUM': 53, 'CLOSED_INSTNUM': 200, 'OPEN_SITENUM': 53, 'OPEN_INSTNUM': 200, 'GEN_OWN_LIST': 1, 'DO_NOT_EXTRACT': 0, 'EXTRACT_TRAIN_LOC': './output.train', 'EXTRACT_TEST_LOC': './output.test'}
+Extracting features...
+./Pa-CUMUL.py options.txt
+{'OUTPUT_FILE': 'output', 'OUTPUT_LOC': './results', 'DATA_LOC': '../tiktok/cw-ow-timing-class/data/', 'FOLD_MODE': 3, 'FOLD_NUM': 7, 'DATA_TYPE': 'csv', 'CLOSED_SITENUM': 53, 'CLOSED_INSTNUM': 200, 'OPEN_SITENUM': 53, 'OPEN_INSTNUM': 200, 'GEN_OWN_LIST': 1, 'DO_NOT_EXTRACT': 0, 'EXTRACT_TRAIN_LOC': './output.train', 'EXTRACT_TEST_LOC': './output.test'}
+Extracting features...
+0%... ../tiktok/cw-ow-timing-class/data/0-98/pipe_rcv.csv
+1%... ../tiktok/cw-ow-timing-class/data/1-15/pipe_rcv.csv
+2%... ../tiktok/cw-ow-timing-class/data/1-112/pipe_rcv.csv
+3%... ../tiktok/cw-ow-timing-class/data/2-29/pipe_rcv.csv
+4%... ../tiktok/cw-ow-timing-class/data/2-127/pipe_rcv.csv
+5%... ../tiktok/cw-ow-timing-class/data/3-44/pipe_rcv.csv
+6%... ../tiktok/cw-ow-timing-class/data/3-161/pipe_rcv.csv
+7%... ../tiktok/cw-ow-timing-class/data/4-58/pipe_rcv.csv
+8%... ../tiktok/cw-ow-timing-class/data/4-175/pipe_rcv.csv
+9%... ../tiktok/cw-ow-timing-class/data/5-73/pipe_rcv.csv
+10%... ../tiktok/cw-ow-timing-class/data/5-190/pipe_rcv.csv
+11%... ../tiktok/cw-ow-timing-class/data/6-87/pipe_rcv.csv
+12%... ../tiktok/cw-ow-timing-class/data/7-4/pipe_rcv.csv
+13%... ../tiktok/cw-ow-timing-class/data/7-101/pipe_rcv.csv
+14%... ../tiktok/cw-ow-timing-class/data/8-19/pipe_rcv.csv
+15%... ../tiktok/cw-ow-timing-class/data/8-116/pipe_rcv.csv
+16%... ../tiktok/cw-ow-timing-class/data/9-33/pipe_rcv.csv
+17%... ../tiktok/cw-ow-timing-class/data/9-130/pipe_rcv.csv
+18%... ../tiktok/cw-ow-timing-class/data/10-47/pipe_rcv.csv
+19%... ../tiktok/cw-ow-timing-class/data/10-165/pipe_rcv.csv
+20%... ../tiktok/cw-ow-timing-class/data/11-62/pipe_rcv.csv
+21%... ../tiktok/cw-ow-timing-class/data/11-179/pipe_rcv.csv
+22%... ../tiktok/cw-ow-timing-class/data/12-76/pipe_rcv.csv
+23%... ../tiktok/cw-ow-timing-class/data/12-193/pipe_rcv.csv
+24%... ../tiktok/cw-ow-timing-class/data/13-91/pipe_rcv.csv
+25%... ../tiktok/cw-ow-timing-class/data/14-8/pipe_rcv.csv
+26%... ../tiktok/cw-ow-timing-class/data/14-105/pipe_rcv.csv
+27%... ../tiktok/cw-ow-timing-class/data/15-22/pipe_rcv.csv
+28%... ../tiktok/cw-ow-timing-class/data/15-119/pipe_rcv.csv
+29%... ../tiktok/cw-ow-timing-class/data/16-37/pipe_rcv.csv
+30%... ../tiktok/cw-ow-timing-class/data/16-134/pipe_rcv.csv
+31%... ../tiktok/cw-ow-timing-class/data/17-51/pipe_rcv.csv
+32%... ../tiktok/cw-ow-timing-class/data/17-168/pipe_rcv.csv
+33%... ../tiktok/cw-ow-timing-class/data/18-65/pipe_rcv.csv
+34%... ../tiktok/cw-ow-timing-class/data/18-183/pipe_rcv.csv
+35%... ../tiktok/cw-ow-timing-class/data/19-80/pipe_rcv.csv
+36%... ../tiktok/cw-ow-timing-class/data/19-197/pipe_rcv.csv
+37%... ../tiktok/cw-ow-timing-class/data/20-94/pipe_rcv.csv
+38%... ../tiktok/cw-ow-timing-class/data/21-11/pipe_rcv.csv
+39%... ../tiktok/cw-ow-timing-class/data/21-109/pipe_rcv.csv
+40%... ../tiktok/cw-ow-timing-class/data/22-26/pipe_rcv.csv
+41%... ../tiktok/cw-ow-timing-class/data/22-123/pipe_rcv.csv
+42%... ../tiktok/cw-ow-timing-class/data/23-40/pipe_rcv.csv
+43%... ../tiktok/cw-ow-timing-class/data/23-137/pipe_rcv.csv
+44%... ../tiktok/cw-ow-timing-class/data/24-55/pipe_rcv.csv
+45%... ../tiktok/cw-ow-timing-class/data/24-172/pipe_rcv.csv
+46%... ../tiktok/cw-ow-timing-class/data/25-69/pipe_rcv.csv
+47%... ../tiktok/cw-ow-timing-class/data/25-186/pipe_rcv.csv
+48%... ../tiktok/cw-ow-timing-class/data/26-83/pipe_rcv.csv
+49%... ../tiktok/cw-ow-timing-class/data/27-1/pipe_rcv.csv
+50%... ../tiktok/cw-ow-timing-class/data/27-98/pipe_rcv.csv
+51%... ../tiktok/cw-ow-timing-class/data/28-15/pipe_rcv.csv
+52%... ../tiktok/cw-ow-timing-class/data/28-112/pipe_rcv.csv
+53%... ../tiktok/cw-ow-timing-class/data/29-29/pipe_rcv.csv
+54%... ../tiktok/cw-ow-timing-class/data/29-127/pipe_rcv.csv
+55%... ../tiktok/cw-ow-timing-class/data/30-44/pipe_rcv.csv
+56%... ../tiktok/cw-ow-timing-class/data/30-161/pipe_rcv.csv
+57%... ../tiktok/cw-ow-timing-class/data/31-58/pipe_rcv.csv
+58%... ../tiktok/cw-ow-timing-class/data/31-175/pipe_rcv.csv
+59%... ../tiktok/cw-ow-timing-class/data/32-73/pipe_rcv.csv
+60%... ../tiktok/cw-ow-timing-class/data/32-190/pipe_rcv.csv
+61%... ../tiktok/cw-ow-timing-class/data/33-87/pipe_rcv.csv
+62%... ../tiktok/cw-ow-timing-class/data/34-4/pipe_rcv.csv
+63%... ../tiktok/cw-ow-timing-class/data/34-101/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/35-0/pipe_rcv.csv
+64%... ../tiktok/cw-ow-timing-class/data/35-20/pipe_rcv.csv
+65%... ../tiktok/cw-ow-timing-class/data/35-117/pipe_rcv.csv
+66%... ../tiktok/cw-ow-timing-class/data/36-34/pipe_rcv.csv
+67%... ../tiktok/cw-ow-timing-class/data/36-131/pipe_rcv.csv
+68%... ../tiktok/cw-ow-timing-class/data/37-48/pipe_rcv.csv
+69%... ../tiktok/cw-ow-timing-class/data/37-166/pipe_rcv.csv
+70%... ../tiktok/cw-ow-timing-class/data/38-63/pipe_rcv.csv
+71%... ../tiktok/cw-ow-timing-class/data/38-180/pipe_rcv.csv
+72%... ../tiktok/cw-ow-timing-class/data/39-77/pipe_rcv.csv
+73%... ../tiktok/cw-ow-timing-class/data/39-194/pipe_rcv.csv
+74%... ../tiktok/cw-ow-timing-class/data/40-92/pipe_rcv.csv
+75%... ../tiktok/cw-ow-timing-class/data/41-9/pipe_rcv.csv
+76%... ../tiktok/cw-ow-timing-class/data/41-106/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/41-160/pipe_rcv.csv
+77%... ../tiktok/cw-ow-timing-class/data/42-24/pipe_rcv.csv
+78%... ../tiktok/cw-ow-timing-class/data/42-121/pipe_rcv.csv
+79%... ../tiktok/cw-ow-timing-class/data/43-39/pipe_rcv.csv
+80%... ../tiktok/cw-ow-timing-class/data/43-136/pipe_rcv.csv
+81%... ../tiktok/cw-ow-timing-class/data/44-53/pipe_rcv.csv
+82%... ../tiktok/cw-ow-timing-class/data/44-170/pipe_rcv.csv
+83%... ../tiktok/cw-ow-timing-class/data/45-67/pipe_rcv.csv
+84%... ../tiktok/cw-ow-timing-class/data/45-185/pipe_rcv.csv
+85%... ../tiktok/cw-ow-timing-class/data/46-82/pipe_rcv.csv
+86%... ../tiktok/cw-ow-timing-class/data/46-199/pipe_rcv.csv
+87%... ../tiktok/cw-ow-timing-class/data/47-96/pipe_rcv.csv
+88%... ../tiktok/cw-ow-timing-class/data/48-13/pipe_rcv.csv
+89%... ../tiktok/cw-ow-timing-class/data/48-111/pipe_rcv.csv
+90%... ../tiktok/cw-ow-timing-class/data/49-28/pipe_rcv.csv
+91%... ../tiktok/cw-ow-timing-class/data/49-125/pipe_rcv.csv
+92%... ../tiktok/cw-ow-timing-class/data/50-42/pipe_rcv.csv
+93%... ../tiktok/cw-ow-timing-class/data/50-139/pipe_rcv.csv
+94%... ../tiktok/cw-ow-timing-class/data/51-57/pipe_rcv.csv
+95%... ../tiktok/cw-ow-timing-class/data/51-174/pipe_rcv.csv
+96%... ../tiktok/cw-ow-timing-class/data/52-71/pipe_rcv.csv
+97%... ../tiktok/cw-ow-timing-class/data/52-188/pipe_rcv.csv
+98%... ../tiktok/cw-ow-timing-class/data/85/pipe_rcv.csv
+Creating testing features... 1080
+0%... ../tiktok/cw-ow-timing-class/data/4-158/pipe_rcv.csv
+1%... ../tiktok/cw-ow-timing-class/data/9-155/pipe_rcv.csv
+2%... ../tiktok/cw-ow-timing-class/data/14-152/pipe_rcv.csv
+3%... ../tiktok/cw-ow-timing-class/data/19-149/pipe_rcv.csv
+4%... ../tiktok/cw-ow-timing-class/data/24-147/pipe_rcv.csv
+5%... ../tiktok/cw-ow-timing-class/data/29-144/pipe_rcv.csv
+6%... ../tiktok/cw-ow-timing-class/data/34-141/pipe_rcv.csv
+7%... ../tiktok/cw-ow-timing-class/data/38-158/pipe_rcv.csv
+Failed to load trial: ../tiktok/cw-ow-timing-class/data/41-148/pipe_rcv.csv
+8%... ../tiktok/cw-ow-timing-class/data/43-156/pipe_rcv.csv
+9%... ../tiktok/cw-ow-timing-class/data/48-154/pipe_rcv.csv
+10%... ../tiktok/cw-ow-timing-class/data/151/pipe_rcv.csv

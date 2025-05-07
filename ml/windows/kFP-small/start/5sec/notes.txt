@@ -1,0 +1,25 @@
+loaders.py seems to be what parses the data from the file
+
+To overload you need to re-write get_pkt_list to read the file data. The issue is that
+    there is directional data in this method so we need to do something about that
+    - Trying to spoof this could be fun
+
+
+To Run:
+    $ python3 wrapper.py options.txt
+
+
+!! Currently working on this. Need to get the loading process fixed. Something which isn't a 
+!! Number is finding its way into total somehow. Need to fix this
+
+45: FRENCH LOREM
+34: TWITCH VIEW HOME
+21: SCP LINUX
+9: PING 5S 850
+0: BASELINE
+
+
+
+
+
+

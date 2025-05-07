@@ -1,0 +1,1140 @@
+Creating training features... 22
+0%... ../tiktok/cw-ow-timing-class/data/0-1/pipe_rcv.csv
+1%... ../tiktok/cw-ow-timing-class/data/1-0/pipe_rcv.csv
+2%... ../tiktok/cw-ow-timing-class/data/1-1/pipe_rcv.csv
+3%... ../tiktok/cw-ow-timing-class/data/2-0/pipe_rcv.csv
+4%... ../tiktok/cw-ow-timing-class/data/2-1/pipe_rcv.csv
+5%... ../tiktok/cw-ow-timing-class/data/3-0/pipe_rcv.csv
+6%... ../tiktok/cw-ow-timing-class/data/3-1/pipe_rcv.csv
+7%... ../tiktok/cw-ow-timing-class/data/4-0/pipe_rcv.csv
+8%... ../tiktok/cw-ow-timing-class/data/4-1/pipe_rcv.csv
+9%... ../tiktok/cw-ow-timing-class/data/5-0/pipe_rcv.csv
+10%... ../tiktok/cw-ow-timing-class/data/5-1/pipe_rcv.csv
+11%... ../tiktok/cw-ow-timing-class/data/6-0/pipe_rcv.csv
+12%... ../tiktok/cw-ow-timing-class/data/6-1/pipe_rcv.csv
+13%... ../tiktok/cw-ow-timing-class/data/7-0/pipe_rcv.csv
+14%... ../tiktok/cw-ow-timing-class/data/7-1/pipe_rcv.csv
+15%... ../tiktok/cw-ow-timing-class/data/8-0/pipe_rcv.csv
+16%... ../tiktok/cw-ow-timing-class/data/8-1/pipe_rcv.csv
+17%... ../tiktok/cw-ow-timing-class/data/9-0/pipe_rcv.csv
+18%... ../tiktok/cw-ow-timing-class/data/9-1/pipe_rcv.csv
+19%... ../tiktok/cw-ow-timing-class/data/0/pipe_rcv.csv
+20%... ../tiktok/cw-ow-timing-class/data/1/pipe_rcv.csv
+Creating testing features... 0
+Training ...
+name 'f' is not defined
+None
+Creating training features... 22
+0%... ../tiktok/cw-ow-timing-class/data/0-1/pipe_rcv.csv
+1%... ../tiktok/cw-ow-timing-class/data/1-0/pipe_rcv.csv
+2%... ../tiktok/cw-ow-timing-class/data/1-1/pipe_rcv.csv
+3%... ../tiktok/cw-ow-timing-class/data/2-0/pipe_rcv.csv
+4%... ../tiktok/cw-ow-timing-class/data/2-1/pipe_rcv.csv
+5%... ../tiktok/cw-ow-timing-class/data/3-0/pipe_rcv.csv
+6%... ../tiktok/cw-ow-timing-class/data/3-1/pipe_rcv.csv
+7%... ../tiktok/cw-ow-timing-class/data/4-0/pipe_rcv.csv
+8%... ../tiktok/cw-ow-timing-class/data/4-1/pipe_rcv.csv
+9%... ../tiktok/cw-ow-timing-class/data/5-0/pipe_rcv.csv
+10%... ../tiktok/cw-ow-timing-class/data/5-1/pipe_rcv.csv
+11%... ../tiktok/cw-ow-timing-class/data/6-0/pipe_rcv.csv
+12%... ../tiktok/cw-ow-timing-class/data/6-1/pipe_rcv.csv
+13%... ../tiktok/cw-ow-timing-class/data/7-0/pipe_rcv.csv
+14%... ../tiktok/cw-ow-timing-class/data/7-1/pipe_rcv.csv
+15%... ../tiktok/cw-ow-timing-class/data/8-0/pipe_rcv.csv
+16%... ../tiktok/cw-ow-timing-class/data/8-1/pipe_rcv.csv
+17%... ../tiktok/cw-ow-timing-class/data/9-0/pipe_rcv.csv
+18%... ../tiktok/cw-ow-timing-class/data/9-1/pipe_rcv.csv
+19%... ../tiktok/cw-ow-timing-class/data/0/pipe_rcv.csv
+20%... ../tiktok/cw-ow-timing-class/data/1/pipe_rcv.csv
+Creating testing features... 0
+Training ...
+name 'answer' is not defined
+None
+Creating training features... 22
+0%... ../tiktok/cw-ow-timing-class/data/0-1/pipe_rcv.csv
+1%... ../tiktok/cw-ow-timing-class/data/1-0/pipe_rcv.csv
+2%... ../tiktok/cw-ow-timing-class/data/1-1/pipe_rcv.csv
+3%... ../tiktok/cw-ow-timing-class/data/2-0/pipe_rcv.csv
+4%... ../tiktok/cw-ow-timing-class/data/2-1/pipe_rcv.csv
+5%... ../tiktok/cw-ow-timing-class/data/3-0/pipe_rcv.csv
+6%... ../tiktok/cw-ow-timing-class/data/3-1/pipe_rcv.csv
+7%... ../tiktok/cw-ow-timing-class/data/4-0/pipe_rcv.csv
+8%... ../tiktok/cw-ow-timing-class/data/4-1/pipe_rcv.csv
+9%... ../tiktok/cw-ow-timing-class/data/5-0/pipe_rcv.csv
+10%... ../tiktok/cw-ow-timing-class/data/5-1/pipe_rcv.csv
+11%... ../tiktok/cw-ow-timing-class/data/6-0/pipe_rcv.csv
+12%... ../tiktok/cw-ow-timing-class/data/6-1/pipe_rcv.csv
+13%... ../tiktok/cw-ow-timing-class/data/7-0/pipe_rcv.csv
+14%... ../tiktok/cw-ow-timing-class/data/7-1/pipe_rcv.csv
+15%... ../tiktok/cw-ow-timing-class/data/8-0/pipe_rcv.csv
+16%... ../tiktok/cw-ow-timing-class/data/8-1/pipe_rcv.csv
+17%... ../tiktok/cw-ow-timing-class/data/9-0/pipe_rcv.csv
+18%... ../tiktok/cw-ow-timing-class/data/9-1/pipe_rcv.csv
+19%... ../tiktok/cw-ow-timing-class/data/0/pipe_rcv.csv
+20%... ../tiktok/cw-ow-timing-class/data/1/pipe_rcv.csv
+Creating testing features... 0
+Training ...
+operands could not be broadcast together with shapes (22,11) (22,) 
+None
+Creating training features... 22
+0%... ../tiktok/cw-ow-timing-class/data/0-1/pipe_rcv.csv
+1%... ../tiktok/cw-ow-timing-class/data/1-0/pipe_rcv.csv
+2%... ../tiktok/cw-ow-timing-class/data/1-1/pipe_rcv.csv
+3%... ../tiktok/cw-ow-timing-class/data/2-0/pipe_rcv.csv
+4%... ../tiktok/cw-ow-timing-class/data/2-1/pipe_rcv.csv
+5%... ../tiktok/cw-ow-timing-class/data/3-0/pipe_rcv.csv
+6%... ../tiktok/cw-ow-timing-class/data/3-1/pipe_rcv.csv
+7%... ../tiktok/cw-ow-timing-class/data/4-0/pipe_rcv.csv
+8%... ../tiktok/cw-ow-timing-class/data/4-1/pipe_rcv.csv
+9%... ../tiktok/cw-ow-timing-class/data/5-0/pipe_rcv.csv
+10%... ../tiktok/cw-ow-timing-class/data/5-1/pipe_rcv.csv
+11%... ../tiktok/cw-ow-timing-class/data/6-0/pipe_rcv.csv
+12%... ../tiktok/cw-ow-timing-class/data/6-1/pipe_rcv.csv
+13%... ../tiktok/cw-ow-timing-class/data/7-0/pipe_rcv.csv
+14%... ../tiktok/cw-ow-timing-class/data/7-1/pipe_rcv.csv
+15%... ../tiktok/cw-ow-timing-class/data/8-0/pipe_rcv.csv
+16%... ../tiktok/cw-ow-timing-class/data/8-1/pipe_rcv.csv
+17%... ../tiktok/cw-ow-timing-class/data/9-0/pipe_rcv.csv
+18%... ../tiktok/cw-ow-timing-class/data/9-1/pipe_rcv.csv
+19%... ../tiktok/cw-ow-timing-class/data/0/pipe_rcv.csv
+20%... ../tiktok/cw-ow-timing-class/data/1/pipe_rcv.csv
+Creating testing features... 0
+Training ...
+
+
+Accuracy for class 0: 0.5
+Accuracy for class 1: 1.0
+Accuracy for class 2: 1.0
+Accuracy for class 3: 1.0
+Accuracy for class 4: 1.0
+Accuracy for class 5: 1.0
+Accuracy for class 6: 1.0
+Accuracy for class 7: 1.0
+Accuracy for class 8: 1.0
+Accuracy for class 9: 1.0
+Accuracy for class 10: -1
+
+
+Precision for class 0: 0.5
+Precision for class 1: 1.0
+Precision for class 2: 1.0
+Precision for class 3: 1.0
+Precision for class 4: 1.0
+Precision for class 5: 1.0
+Precision for class 6: 1.0
+Precision for class 7: 1.0
+Precision for class 8: 1.0
+Precision for class 9: 1.0
+Precision for class 10: -1
+
+
+Recall for class 0: 1.0
+Recall for class 1: 1.0
+Recall for class 2: 1.0
+Recall for class 3: 1.0
+Recall for class 4: 1.0
+Recall for class 5: 1.0
+Recall for class 6: 1.0
+Recall for class 7: 1.0
+Recall for class 8: 1.0
+Recall for class 9: 1.0
+Recall for class 10: 0.0
+
+
+F1 for class 0: 0.6666666666666666
+F1 for class 1: 1.0
+F1 for class 2: 1.0
+F1 for class 3: 1.0
+F1 for class 4: 1.0
+F1 for class 5: 1.0
+F1 for class 6: 1.0
+F1 for class 7: 1.0
+F1 for class 8: 1.0
+F1 for class 9: 1.0
+F1 for class 10: 0.0
+
+
+[[2. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 2. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 2. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 2. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 2. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 2. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 2. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 2. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 2. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 0.]
+ [2. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+vertical is what was actually guessed
+
+
+Generating Feature Importance
+
+
+feature_importances_ based on mean decrease in impurity
+[0.         0.02184387 0.02018738 0.         0.         0.
+ 0.         0.02341743 0.02185658 0.         0.00621404 0.00655273
+ 0.         0.         0.         0.         0.02446858 0.02474657
+ 0.02608479 0.0202681  0.02418356 0.02154511 0.02713158 0.01849443
+ 0.         0.01902192 0.01677419 0.         0.         0.
+ 0.         0.         0.         0.0181345  0.0252502  0.01909694
+ 0.         0.01869951 0.         0.         0.00805017 0.02451412
+ 0.00364379 0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.02489993 0.00360041 0.00227916
+ 0.00197741 0.00717757 0.01032411 0.00949269 0.00925212 0.01032276
+ 0.01332427 0.01369307 0.01400073 0.01209929 0.00559417 0.0115225
+ 0.00694926 0.00718746 0.0072713  0.00655392 0.02218987 0.
+ 0.         0.01701563 0.02757531 0.02371018 0.01712913 0.
+ 0.02944718 0.00636787 0.00429371 0.00329195 0.00425401 0.00417279
+ 0.00406162 0.0013918  0.00300833 0.00466484 0.00154625 0.00169514
+ 0.01222561 0.01131652 0.01231457 0.01479947 0.01057726 0.01108387
+ 0.01076997 0.00890769 0.00715451 0.00764748 0.00861987 0.00986927
+ 0.00759416 0.01034315 0.01189108 0.01469402 0.01197492 0.01337243
+ 0.01132633]
+
+
+finding permutation importance
+Creating training features... 22
+0%... ../tiktok/cw-ow-timing-class/data/0-1/pipe_rcv.csv
+1%... ../tiktok/cw-ow-timing-class/data/1-0/pipe_rcv.csv
+2%... ../tiktok/cw-ow-timing-class/data/1-1/pipe_rcv.csv
+3%... ../tiktok/cw-ow-timing-class/data/2-0/pipe_rcv.csv
+4%... ../tiktok/cw-ow-timing-class/data/2-1/pipe_rcv.csv
+5%... ../tiktok/cw-ow-timing-class/data/3-0/pipe_rcv.csv
+6%... ../tiktok/cw-ow-timing-class/data/3-1/pipe_rcv.csv
+7%... ../tiktok/cw-ow-timing-class/data/4-0/pipe_rcv.csv
+8%... ../tiktok/cw-ow-timing-class/data/4-1/pipe_rcv.csv
+9%... ../tiktok/cw-ow-timing-class/data/5-0/pipe_rcv.csv
+10%... ../tiktok/cw-ow-timing-class/data/5-1/pipe_rcv.csv
+11%... ../tiktok/cw-ow-timing-class/data/6-0/pipe_rcv.csv
+12%... ../tiktok/cw-ow-timing-class/data/6-1/pipe_rcv.csv
+13%... ../tiktok/cw-ow-timing-class/data/7-0/pipe_rcv.csv
+14%... ../tiktok/cw-ow-timing-class/data/7-1/pipe_rcv.csv
+15%... ../tiktok/cw-ow-timing-class/data/8-0/pipe_rcv.csv
+16%... ../tiktok/cw-ow-timing-class/data/8-1/pipe_rcv.csv
+17%... ../tiktok/cw-ow-timing-class/data/9-0/pipe_rcv.csv
+18%... ../tiktok/cw-ow-timing-class/data/9-1/pipe_rcv.csv
+19%... ../tiktok/cw-ow-timing-class/data/0/pipe_rcv.csv
+20%... ../tiktok/cw-ow-timing-class/data/1/pipe_rcv.csv
+Creating testing features... 0
+Training ...
+
+
+Accuracy for class 0: 0.5
+Accuracy for class 1: 1.0
+Accuracy for class 2: 1.0
+Accuracy for class 3: 1.0
+Accuracy for class 4: 1.0
+Accuracy for class 5: 1.0
+Accuracy for class 6: 1.0
+Accuracy for class 7: 1.0
+Accuracy for class 8: 1.0
+Accuracy for class 9: 1.0
+Accuracy for class 10: 0.5
+
+
+Precision for class 0: 0.5
+Precision for class 1: 1.0
+Precision for class 2: 1.0
+Precision for class 3: 1.0
+Precision for class 4: 1.0
+Precision for class 5: 1.0
+Precision for class 6: 1.0
+Precision for class 7: 1.0
+Precision for class 8: 1.0
+Precision for class 9: 1.0
+Precision for class 10: 0.5
+
+
+Recall for class 0: 0.5
+Recall for class 1: 1.0
+Recall for class 2: 1.0
+Recall for class 3: 1.0
+Recall for class 4: 1.0
+Recall for class 5: 1.0
+Recall for class 6: 1.0
+Recall for class 7: 1.0
+Recall for class 8: 1.0
+Recall for class 9: 1.0
+Recall for class 10: 0.5
+
+
+F1 for class 0: 0.5
+F1 for class 1: 1.0
+F1 for class 2: 1.0
+F1 for class 3: 1.0
+F1 for class 4: 1.0
+F1 for class 5: 1.0
+F1 for class 6: 1.0
+F1 for class 7: 1.0
+F1 for class 8: 1.0
+F1 for class 9: 1.0
+F1 for class 10: 0.5
+
+
+[[1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1.]
+ [0. 2. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 2. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 2. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 2. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 2. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 2. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 2. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 2. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 0.]
+ [1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1.]]
+vertical is what was actually guessed
+
+
+Generating Feature Importance
+
+
+feature_importances_ based on mean decrease in impurity
+[0.         0.026037   0.02502222 0.         0.         0.
+ 0.         0.0203421  0.02383291 0.         0.00612458 0.00629823
+ 0.         0.         0.         0.         0.02493797 0.02694965
+ 0.02477295 0.01910629 0.02230927 0.025407   0.0226045  0.02074513
+ 0.         0.01770489 0.02002363 0.         0.         0.
+ 0.         0.         0.         0.01640947 0.02467638 0.017507
+ 0.         0.01596534 0.         0.         0.00686801 0.02562609
+ 0.0044369  0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.02420517 0.00315506 0.00286972
+ 0.00110003 0.00712599 0.01138063 0.00678982 0.01108368 0.01010007
+ 0.01328139 0.01514934 0.01444918 0.0100578  0.00478438 0.01101062
+ 0.0071087  0.00805267 0.00751485 0.00867108 0.02343546 0.
+ 0.         0.0169644  0.02152393 0.02756712 0.01736952 0.
+ 0.02797948 0.00572133 0.0038565  0.00288446 0.00365761 0.00409792
+ 0.00357647 0.00196718 0.00323032 0.00510127 0.00177888 0.00213507
+ 0.01628965 0.01080663 0.0156935  0.01318387 0.01104949 0.00838018
+ 0.00841413 0.0074857  0.00760274 0.00554177 0.01010361 0.00935128
+ 0.00987404 0.01041804 0.01300443 0.01321825 0.01050931 0.01357707
+ 0.01105171]
+
+
+finding permutation importance
+Creating training features... 22
+0%... ../tiktok/cw-ow-timing-class/data/0-1/pipe_rcv.csv
+1%... ../tiktok/cw-ow-timing-class/data/1-0/pipe_rcv.csv
+2%... ../tiktok/cw-ow-timing-class/data/1-1/pipe_rcv.csv
+3%... ../tiktok/cw-ow-timing-class/data/2-0/pipe_rcv.csv
+4%... ../tiktok/cw-ow-timing-class/data/2-1/pipe_rcv.csv
+5%... ../tiktok/cw-ow-timing-class/data/3-0/pipe_rcv.csv
+6%... ../tiktok/cw-ow-timing-class/data/3-1/pipe_rcv.csv
+7%... ../tiktok/cw-ow-timing-class/data/4-0/pipe_rcv.csv
+8%... ../tiktok/cw-ow-timing-class/data/4-1/pipe_rcv.csv
+9%... ../tiktok/cw-ow-timing-class/data/5-0/pipe_rcv.csv
+10%... ../tiktok/cw-ow-timing-class/data/5-1/pipe_rcv.csv
+11%... ../tiktok/cw-ow-timing-class/data/6-0/pipe_rcv.csv
+12%... ../tiktok/cw-ow-timing-class/data/6-1/pipe_rcv.csv
+13%... ../tiktok/cw-ow-timing-class/data/7-0/pipe_rcv.csv
+14%... ../tiktok/cw-ow-timing-class/data/7-1/pipe_rcv.csv
+15%... ../tiktok/cw-ow-timing-class/data/8-0/pipe_rcv.csv
+16%... ../tiktok/cw-ow-timing-class/data/8-1/pipe_rcv.csv
+17%... ../tiktok/cw-ow-timing-class/data/9-0/pipe_rcv.csv
+18%... ../tiktok/cw-ow-timing-class/data/9-1/pipe_rcv.csv
+19%... ../tiktok/cw-ow-timing-class/data/0/pipe_rcv.csv
+20%... ../tiktok/cw-ow-timing-class/data/1/pipe_rcv.csv
+Creating testing features... 0
+Training ...
+
+
+Accuracy for class 0: 0.5
+Accuracy for class 1: 1.0
+Accuracy for class 2: 1.0
+Accuracy for class 3: 1.0
+Accuracy for class 4: 1.0
+Accuracy for class 5: 1.0
+Accuracy for class 6: 1.0
+Accuracy for class 7: 1.0
+Accuracy for class 8: 1.0
+Accuracy for class 9: 1.0
+Accuracy for class 10: 0.5
+
+
+Precision for class 0: 0.5
+Precision for class 1: 1.0
+Precision for class 2: 1.0
+Precision for class 3: 1.0
+Precision for class 4: 1.0
+Precision for class 5: 1.0
+Precision for class 6: 1.0
+Precision for class 7: 1.0
+Precision for class 8: 1.0
+Precision for class 9: 1.0
+Precision for class 10: 0.5
+
+
+Recall for class 0: 0.5
+Recall for class 1: 1.0
+Recall for class 2: 1.0
+Recall for class 3: 1.0
+Recall for class 4: 1.0
+Recall for class 5: 1.0
+Recall for class 6: 1.0
+Recall for class 7: 1.0
+Recall for class 8: 1.0
+Recall for class 9: 1.0
+Recall for class 10: 0.5
+
+
+F1 for class 0: 0.5
+F1 for class 1: 1.0
+F1 for class 2: 1.0
+F1 for class 3: 1.0
+F1 for class 4: 1.0
+F1 for class 5: 1.0
+F1 for class 6: 1.0
+F1 for class 7: 1.0
+F1 for class 8: 1.0
+F1 for class 9: 1.0
+F1 for class 10: 0.5
+
+
+[[1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1.]
+ [0. 2. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 2. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 2. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 2. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 2. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 2. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 2. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 2. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 0.]
+ [1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1.]]
+vertical is what was actually guessed
+
+
+Generating Feature Importance
+
+
+feature_importances_ based on mean decrease in impurity
+[0.         0.02324579 0.02386129 0.         0.         0.
+ 0.         0.02328705 0.02584729 0.         0.00517032 0.00617963
+ 0.         0.         0.         0.         0.02631581 0.02578085
+ 0.02873994 0.01665518 0.02444714 0.0265595  0.02487503 0.0199021
+ 0.         0.02077465 0.0169018  0.         0.         0.
+ 0.         0.         0.         0.01782829 0.02785901 0.01647459
+ 0.         0.01587816 0.         0.         0.0086069  0.02492723
+ 0.00282079 0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.02049424 0.00389598 0.00425478
+ 0.00196724 0.00533372 0.01256095 0.00906112 0.00899295 0.00953576
+ 0.01363272 0.01588934 0.01206951 0.01097565 0.00618856 0.00998188
+ 0.00750092 0.00808075 0.00690954 0.00685174 0.02301132 0.
+ 0.         0.01844983 0.02358911 0.02943854 0.01669023 0.
+ 0.0278328  0.00482999 0.00396367 0.00339961 0.00338436 0.00414713
+ 0.00407556 0.0019734  0.00389695 0.0034185  0.00228009 0.00262832
+ 0.01420052 0.01447043 0.01329104 0.00953898 0.00732499 0.01127843
+ 0.00982451 0.00870608 0.0088659  0.00541079 0.00749988 0.00824917
+ 0.00946972 0.00768997 0.01214585 0.01138061 0.01050369 0.01372345
+ 0.01230089]
+
+
+finding permutation importance
+Creating training features... 22
+0%... ../tiktok/cw-ow-timing-class/data/0-1/pipe_rcv.csv
+1%... ../tiktok/cw-ow-timing-class/data/1-0/pipe_rcv.csv
+2%... ../tiktok/cw-ow-timing-class/data/1-1/pipe_rcv.csv
+Creating training features... 22
+0%... ../tiktok/cw-ow-timing-class/data/0-1/pipe_rcv.csv
+1%... ../tiktok/cw-ow-timing-class/data/1-0/pipe_rcv.csv
+2%... ../tiktok/cw-ow-timing-class/data/1-1/pipe_rcv.csv
+3%... ../tiktok/cw-ow-timing-class/data/2-0/pipe_rcv.csv
+4%... ../tiktok/cw-ow-timing-class/data/2-1/pipe_rcv.csv
+5%... ../tiktok/cw-ow-timing-class/data/3-0/pipe_rcv.csv
+6%... ../tiktok/cw-ow-timing-class/data/3-1/pipe_rcv.csv
+7%... ../tiktok/cw-ow-timing-class/data/4-0/pipe_rcv.csv
+8%... ../tiktok/cw-ow-timing-class/data/4-1/pipe_rcv.csv
+9%... ../tiktok/cw-ow-timing-class/data/5-0/pipe_rcv.csv
+10%... ../tiktok/cw-ow-timing-class/data/5-1/pipe_rcv.csv
+11%... ../tiktok/cw-ow-timing-class/data/6-0/pipe_rcv.csv
+12%... ../tiktok/cw-ow-timing-class/data/6-1/pipe_rcv.csv
+13%... ../tiktok/cw-ow-timing-class/data/7-0/pipe_rcv.csv
+14%... ../tiktok/cw-ow-timing-class/data/7-1/pipe_rcv.csv
+15%... ../tiktok/cw-ow-timing-class/data/8-0/pipe_rcv.csv
+16%... ../tiktok/cw-ow-timing-class/data/8-1/pipe_rcv.csv
+17%... ../tiktok/cw-ow-timing-class/data/9-0/pipe_rcv.csv
+18%... ../tiktok/cw-ow-timing-class/data/9-1/pipe_rcv.csv
+19%... ../tiktok/cw-ow-timing-class/data/0/pipe_rcv.csv
+20%... ../tiktok/cw-ow-timing-class/data/1/pipe_rcv.csv
+Creating testing features... 0
+Training ...
+
+
+Accuracy for class 0: 0.5
+Accuracy for class 1: 1.0
+Accuracy for class 2: 1.0
+Accuracy for class 3: 1.0
+Accuracy for class 4: 1.0
+Accuracy for class 5: 1.0
+Accuracy for class 6: 1.0
+Accuracy for class 7: 1.0
+Accuracy for class 8: 1.0
+Accuracy for class 9: 1.0
+Accuracy for class 10: -1
+
+
+Precision for class 0: 0.5
+Precision for class 1: 1.0
+Precision for class 2: 1.0
+Precision for class 3: 1.0
+Precision for class 4: 1.0
+Precision for class 5: 1.0
+Precision for class 6: 1.0
+Precision for class 7: 1.0
+Precision for class 8: 1.0
+Precision for class 9: 1.0
+Precision for class 10: -1
+
+
+Recall for class 0: 1.0
+Recall for class 1: 1.0
+Recall for class 2: 1.0
+Recall for class 3: 1.0
+Recall for class 4: 1.0
+Recall for class 5: 1.0
+Recall for class 6: 1.0
+Recall for class 7: 1.0
+Recall for class 8: 1.0
+Recall for class 9: 1.0
+Recall for class 10: 0.0
+
+
+F1 for class 0: 0.6666666666666666
+F1 for class 1: 1.0
+F1 for class 2: 1.0
+F1 for class 3: 1.0
+F1 for class 4: 1.0
+F1 for class 5: 1.0
+F1 for class 6: 1.0
+F1 for class 7: 1.0
+F1 for class 8: 1.0
+F1 for class 9: 1.0
+F1 for class 10: 0.0
+
+
+[[2. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 2. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 2. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 2. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 2. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 2. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 2. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 2. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 2. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 0.]
+ [2. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+vertical is what was actually guessed
+
+
+Generating Feature Importance
+
+
+feature_importances_ based on mean decrease in impurity
+[0.         0.02516962 0.02278054 0.         0.         0.
+ 0.         0.02054819 0.02372439 0.         0.00666829 0.00734558
+ 0.         0.         0.         0.         0.02742303 0.02690085
+ 0.0228798  0.02118299 0.02673142 0.02446623 0.02288833 0.01700098
+ 0.         0.01418114 0.01710206 0.         0.         0.
+ 0.         0.         0.         0.02074948 0.02249924 0.01796919
+ 0.         0.01747609 0.         0.         0.00742974 0.0279624
+ 0.00418949 0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.02595275 0.00323588 0.00363775
+ 0.00106923 0.00847437 0.01278956 0.00907679 0.0096873  0.00831413
+ 0.01201014 0.01522004 0.01139688 0.01103076 0.00623653 0.01271326
+ 0.00663348 0.01017247 0.0085504  0.00734268 0.0212602  0.
+ 0.         0.01654765 0.02389307 0.02985904 0.01828488 0.
+ 0.02478706 0.00616717 0.00655578 0.00323667 0.00318833 0.00383433
+ 0.00282708 0.00227109 0.00265587 0.00481636 0.00209233 0.00148788
+ 0.01281126 0.01084    0.01456713 0.01239006 0.01007177 0.01179496
+ 0.00884094 0.00810072 0.00747165 0.00713309 0.00776404 0.00929443
+ 0.00947739 0.00882138 0.01056787 0.01142737 0.01229893 0.01370132
+ 0.01004743]
+
+
+finding permutation importance
+Creating training features... 22
+0%... ../tiktok/cw-ow-timing-class/data/0-1/pipe_rcv.csv
+1%... ../tiktok/cw-ow-timing-class/data/1-0/pipe_rcv.csv
+2%... ../tiktok/cw-ow-timing-class/data/1-1/pipe_rcv.csv
+3%... ../tiktok/cw-ow-timing-class/data/2-0/pipe_rcv.csv
+4%... ../tiktok/cw-ow-timing-class/data/2-1/pipe_rcv.csv
+5%... ../tiktok/cw-ow-timing-class/data/3-0/pipe_rcv.csv
+6%... ../tiktok/cw-ow-timing-class/data/3-1/pipe_rcv.csv
+7%... ../tiktok/cw-ow-timing-class/data/4-0/pipe_rcv.csv
+8%... ../tiktok/cw-ow-timing-class/data/4-1/pipe_rcv.csv
+9%... ../tiktok/cw-ow-timing-class/data/5-0/pipe_rcv.csv
+10%... ../tiktok/cw-ow-timing-class/data/5-1/pipe_rcv.csv
+11%... ../tiktok/cw-ow-timing-class/data/6-0/pipe_rcv.csv
+12%... ../tiktok/cw-ow-timing-class/data/6-1/pipe_rcv.csv
+13%... ../tiktok/cw-ow-timing-class/data/7-0/pipe_rcv.csv
+14%... ../tiktok/cw-ow-timing-class/data/7-1/pipe_rcv.csv
+15%... ../tiktok/cw-ow-timing-class/data/8-0/pipe_rcv.csv
+16%... ../tiktok/cw-ow-timing-class/data/8-1/pipe_rcv.csv
+17%... ../tiktok/cw-ow-timing-class/data/9-0/pipe_rcv.csv
+18%... ../tiktok/cw-ow-timing-class/data/9-1/pipe_rcv.csv
+19%... ../tiktok/cw-ow-timing-class/data/0/pipe_rcv.csv
+20%... ../tiktok/cw-ow-timing-class/data/1/pipe_rcv.csv
+Creating testing features... 0
+Training ...
+sequence item 0: expected str instance, numpy.float64 found
+None
+Creating training features... 22
+0%... ../tiktok/cw-ow-timing-class/data/0-1/pipe_rcv.csv
+1%... ../tiktok/cw-ow-timing-class/data/1-0/pipe_rcv.csv
+2%... ../tiktok/cw-ow-timing-class/data/1-1/pipe_rcv.csv
+3%... ../tiktok/cw-ow-timing-class/data/2-0/pipe_rcv.csv
+4%... ../tiktok/cw-ow-timing-class/data/2-1/pipe_rcv.csv
+5%... ../tiktok/cw-ow-timing-class/data/3-0/pipe_rcv.csv
+6%... ../tiktok/cw-ow-timing-class/data/3-1/pipe_rcv.csv
+7%... ../tiktok/cw-ow-timing-class/data/4-0/pipe_rcv.csv
+8%... ../tiktok/cw-ow-timing-class/data/4-1/pipe_rcv.csv
+9%... ../tiktok/cw-ow-timing-class/data/5-0/pipe_rcv.csv
+10%... ../tiktok/cw-ow-timing-class/data/5-1/pipe_rcv.csv
+11%... ../tiktok/cw-ow-timing-class/data/6-0/pipe_rcv.csv
+12%... ../tiktok/cw-ow-timing-class/data/6-1/pipe_rcv.csv
+13%... ../tiktok/cw-ow-timing-class/data/7-0/pipe_rcv.csv
+14%... ../tiktok/cw-ow-timing-class/data/7-1/pipe_rcv.csv
+15%... ../tiktok/cw-ow-timing-class/data/8-0/pipe_rcv.csv
+16%... ../tiktok/cw-ow-timing-class/data/8-1/pipe_rcv.csv
+17%... ../tiktok/cw-ow-timing-class/data/9-0/pipe_rcv.csv
+18%... ../tiktok/cw-ow-timing-class/data/9-1/pipe_rcv.csv
+19%... ../tiktok/cw-ow-timing-class/data/0/pipe_rcv.csv
+20%... ../tiktok/cw-ow-timing-class/data/1/pipe_rcv.csv
+Creating testing features... 0
+Training ...
+
+
+Accuracy for class 0: 0.5
+Accuracy for class 1: 1.0
+Accuracy for class 2: 1.0
+Accuracy for class 3: 1.0
+Accuracy for class 4: 1.0
+Accuracy for class 5: 1.0
+Accuracy for class 6: 1.0
+Accuracy for class 7: 1.0
+Accuracy for class 8: 1.0
+Accuracy for class 9: 1.0
+Accuracy for class 10: 0.5
+
+
+Precision for class 0: 0.5
+Precision for class 1: 1.0
+Precision for class 2: 1.0
+Precision for class 3: 1.0
+Precision for class 4: 1.0
+Precision for class 5: 1.0
+Precision for class 6: 1.0
+Precision for class 7: 1.0
+Precision for class 8: 1.0
+Precision for class 9: 1.0
+Precision for class 10: 0.5
+
+
+Recall for class 0: 0.5
+Recall for class 1: 1.0
+Recall for class 2: 1.0
+Recall for class 3: 1.0
+Recall for class 4: 1.0
+Recall for class 5: 1.0
+Recall for class 6: 1.0
+Recall for class 7: 1.0
+Recall for class 8: 1.0
+Recall for class 9: 1.0
+Recall for class 10: 0.5
+
+
+F1 for class 0: 0.5
+F1 for class 1: 1.0
+F1 for class 2: 1.0
+F1 for class 3: 1.0
+F1 for class 4: 1.0
+F1 for class 5: 1.0
+F1 for class 6: 1.0
+F1 for class 7: 1.0
+F1 for class 8: 1.0
+F1 for class 9: 1.0
+F1 for class 10: 0.5
+
+
+[[1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1.]
+ [0. 2. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 2. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 2. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 2. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 2. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 2. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 2. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 2. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 0.]
+ [1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1.]]
+vertical is what was actually guessed
+
+
+Generating Feature Importance
+
+
+feature_importances_ based on mean decrease in impurity
+[0.         0.02109006 0.02339829 0.         0.         0.
+ 0.         0.02227633 0.0196271  0.         0.004089   0.00623004
+ 0.         0.         0.         0.         0.02601564 0.02114902
+ 0.02558589 0.02324344 0.02313599 0.02428826 0.02630498 0.0184733
+ 0.         0.01848349 0.01859655 0.         0.         0.
+ 0.         0.         0.         0.01565574 0.02643937 0.01636305
+ 0.         0.01858111 0.         0.         0.00696874 0.02525618
+ 0.00414756 0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.02453673 0.00390518 0.0043497
+ 0.00176622 0.00639422 0.01224278 0.00703989 0.00934477 0.00901188
+ 0.01468511 0.01411559 0.01268818 0.01414791 0.00547875 0.01167327
+ 0.00747332 0.01002038 0.00898456 0.00701562 0.0210201  0.
+ 0.         0.01906697 0.0254467  0.02536338 0.01837551 0.
+ 0.02131445 0.00510262 0.00407983 0.00424504 0.00325594 0.00418643
+ 0.00251963 0.00240885 0.00335461 0.00502812 0.00143328 0.00183045
+ 0.01142427 0.01436137 0.01347301 0.01360818 0.0104359  0.01200603
+ 0.01132686 0.00939288 0.00789067 0.00678141 0.00958464 0.00961994
+ 0.00903702 0.01045    0.0109924  0.01253463 0.01243874 0.01514398
+ 0.011193  ]
+
+
+finding permutation importance
+Creating training features... 22
+0%... ../tiktok/cw-ow-timing-class/data/0-1/pipe_rcv.csv
+1%... ../tiktok/cw-ow-timing-class/data/1-0/pipe_rcv.csv
+2%... ../tiktok/cw-ow-timing-class/data/1-1/pipe_rcv.csv
+3%... ../tiktok/cw-ow-timing-class/data/2-0/pipe_rcv.csv
+4%... ../tiktok/cw-ow-timing-class/data/2-1/pipe_rcv.csv
+5%... ../tiktok/cw-ow-timing-class/data/3-0/pipe_rcv.csv
+6%... ../tiktok/cw-ow-timing-class/data/3-1/pipe_rcv.csv
+7%... ../tiktok/cw-ow-timing-class/data/4-0/pipe_rcv.csv
+8%... ../tiktok/cw-ow-timing-class/data/4-1/pipe_rcv.csv
+9%... ../tiktok/cw-ow-timing-class/data/5-0/pipe_rcv.csv
+10%... ../tiktok/cw-ow-timing-class/data/5-1/pipe_rcv.csv
+11%... ../tiktok/cw-ow-timing-class/data/6-0/pipe_rcv.csv
+12%... ../tiktok/cw-ow-timing-class/data/6-1/pipe_rcv.csv
+13%... ../tiktok/cw-ow-timing-class/data/7-0/pipe_rcv.csv
+14%... ../tiktok/cw-ow-timing-class/data/7-1/pipe_rcv.csv
+15%... ../tiktok/cw-ow-timing-class/data/8-0/pipe_rcv.csv
+16%... ../tiktok/cw-ow-timing-class/data/8-1/pipe_rcv.csv
+17%... ../tiktok/cw-ow-timing-class/data/9-0/pipe_rcv.csv
+18%... ../tiktok/cw-ow-timing-class/data/9-1/pipe_rcv.csv
+19%... ../tiktok/cw-ow-timing-class/data/0/pipe_rcv.csv
+20%... ../tiktok/cw-ow-timing-class/data/1/pipe_rcv.csv
+Creating testing features... 0
+Training ...
+
+
+Accuracy for class 0: 0.5
+Accuracy for class 1: 1.0
+Accuracy for class 2: 1.0
+Accuracy for class 3: 1.0
+Accuracy for class 4: 1.0
+Accuracy for class 5: 1.0
+Accuracy for class 6: 1.0
+Accuracy for class 7: 1.0
+Accuracy for class 8: 1.0
+Accuracy for class 9: 1.0
+Accuracy for class 10: -1
+
+
+Precision for class 0: 0.5
+Precision for class 1: 1.0
+Precision for class 2: 1.0
+Precision for class 3: 1.0
+Precision for class 4: 1.0
+Precision for class 5: 1.0
+Precision for class 6: 1.0
+Precision for class 7: 1.0
+Precision for class 8: 1.0
+Precision for class 9: 1.0
+Precision for class 10: -1
+
+
+Recall for class 0: 1.0
+Recall for class 1: 1.0
+Recall for class 2: 1.0
+Recall for class 3: 1.0
+Recall for class 4: 1.0
+Recall for class 5: 1.0
+Recall for class 6: 1.0
+Recall for class 7: 1.0
+Recall for class 8: 1.0
+Recall for class 9: 1.0
+Recall for class 10: 0.0
+
+
+F1 for class 0: 0.6666666666666666
+F1 for class 1: 1.0
+F1 for class 2: 1.0
+F1 for class 3: 1.0
+F1 for class 4: 1.0
+F1 for class 5: 1.0
+F1 for class 6: 1.0
+F1 for class 7: 1.0
+F1 for class 8: 1.0
+F1 for class 9: 1.0
+F1 for class 10: 0.0
+
+
+[[2. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 2. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 2. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 2. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 2. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 2. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 2. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 2. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 2. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 0.]
+ [2. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+vertical is what was actually guessed
+
+
+Generating Feature Importance
+
+
+feature_importances_ based on mean decrease in impurity
+[0.         0.02359355 0.01879969 0.         0.         0.
+ 0.         0.0205115  0.02044928 0.         0.00581717 0.00708454
+ 0.         0.         0.         0.         0.02542227 0.02558011
+ 0.02580213 0.02082609 0.0254208  0.02233852 0.02393438 0.01811455
+ 0.         0.0184921  0.01656965 0.         0.         0.
+ 0.         0.         0.         0.01727803 0.02521031 0.01782638
+ 0.         0.01720836 0.         0.         0.0087908  0.02843473
+ 0.00460936 0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.02551327 0.00422417 0.00433217
+ 0.00206905 0.00894963 0.01299099 0.00642784 0.00879275 0.00945086
+ 0.01653642 0.01348687 0.01290021 0.01334819 0.00359153 0.01290803
+ 0.00731339 0.01018507 0.00816562 0.007842   0.02440346 0.
+ 0.         0.01826526 0.02301499 0.02736375 0.01978734 0.
+ 0.02341907 0.00635236 0.0045196  0.00332033 0.00314032 0.00402883
+ 0.00275717 0.00183763 0.00376081 0.00477793 0.00189497 0.00214574
+ 0.01154985 0.01259412 0.01473818 0.01236979 0.00865351 0.01304252
+ 0.00924228 0.01093501 0.00815755 0.00535089 0.00910754 0.00794541
+ 0.00750794 0.00843116 0.01233962 0.01280888 0.01156163 0.01332055
+ 0.00841167]
+
+
+finding permutation importance
+Creating training features... 22
+0%... ../tiktok/cw-ow-timing-class/data/0-1/pipe_rcv.csv
+1%... ../tiktok/cw-ow-timing-class/data/1-0/pipe_rcv.csv
+2%... ../tiktok/cw-ow-timing-class/data/1-1/pipe_rcv.csv
+3%... ../tiktok/cw-ow-timing-class/data/2-0/pipe_rcv.csv
+4%... ../tiktok/cw-ow-timing-class/data/2-1/pipe_rcv.csv
+5%... ../tiktok/cw-ow-timing-class/data/3-0/pipe_rcv.csv
+6%... ../tiktok/cw-ow-timing-class/data/3-1/pipe_rcv.csv
+7%... ../tiktok/cw-ow-timing-class/data/4-0/pipe_rcv.csv
+8%... ../tiktok/cw-ow-timing-class/data/4-1/pipe_rcv.csv
+9%... ../tiktok/cw-ow-timing-class/data/5-0/pipe_rcv.csv
+10%... ../tiktok/cw-ow-timing-class/data/5-1/pipe_rcv.csv
+11%... ../tiktok/cw-ow-timing-class/data/6-0/pipe_rcv.csv
+12%... ../tiktok/cw-ow-timing-class/data/6-1/pipe_rcv.csv
+13%... ../tiktok/cw-ow-timing-class/data/7-0/pipe_rcv.csv
+14%... ../tiktok/cw-ow-timing-class/data/7-1/pipe_rcv.csv
+15%... ../tiktok/cw-ow-timing-class/data/8-0/pipe_rcv.csv
+16%... ../tiktok/cw-ow-timing-class/data/8-1/pipe_rcv.csv
+17%... ../tiktok/cw-ow-timing-class/data/9-0/pipe_rcv.csv
+18%... ../tiktok/cw-ow-timing-class/data/9-1/pipe_rcv.csv
+19%... ../tiktok/cw-ow-timing-class/data/0/pipe_rcv.csv
+20%... ../tiktok/cw-ow-timing-class/data/1/pipe_rcv.csv
+Creating testing features... 0
+Training ...
+
+
+Accuracy for class 0: -1
+Accuracy for class 1: 1.0
+Accuracy for class 2: 1.0
+Accuracy for class 3: 1.0
+Accuracy for class 4: 1.0
+Accuracy for class 5: 1.0
+Accuracy for class 6: 1.0
+Accuracy for class 7: 1.0
+Accuracy for class 8: 1.0
+Accuracy for class 9: 1.0
+Accuracy for class 10: 0.5
+
+
+Precision for class 0: -1
+Precision for class 1: 1.0
+Precision for class 2: 1.0
+Precision for class 3: 1.0
+Precision for class 4: 1.0
+Precision for class 5: 1.0
+Precision for class 6: 1.0
+Precision for class 7: 1.0
+Precision for class 8: 1.0
+Precision for class 9: 1.0
+Precision for class 10: 0.5
+
+
+Recall for class 0: 0.0
+Recall for class 1: 1.0
+Recall for class 2: 1.0
+Recall for class 3: 1.0
+Recall for class 4: 1.0
+Recall for class 5: 1.0
+Recall for class 6: 1.0
+Recall for class 7: 1.0
+Recall for class 8: 1.0
+Recall for class 9: 1.0
+Recall for class 10: 1.0
+
+
+F1 for class 0: 0.0
+F1 for class 1: 1.0
+F1 for class 2: 1.0
+F1 for class 3: 1.0
+F1 for class 4: 1.0
+F1 for class 5: 1.0
+F1 for class 6: 1.0
+F1 for class 7: 1.0
+F1 for class 8: 1.0
+F1 for class 9: 1.0
+F1 for class 10: 0.6666666666666666
+
+
+[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2.]
+ [0. 2. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 2. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 2. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 2. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 2. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 2. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 2. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 2. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 2.]]
+vertical is what was actually guessed
+
+
+Generating Feature Importance
+
+
+feature_importances_ based on mean decrease in impurity
+[0.         0.0274343  0.02521673 0.         0.         0.
+ 0.         0.02402466 0.02633135 0.         0.00575244 0.00598666
+ 0.         0.         0.         0.         0.02526056 0.02474225
+ 0.0245647  0.02022675 0.02515279 0.02611753 0.02565912 0.02158631
+ 0.         0.01425193 0.01980819 0.         0.         0.
+ 0.         0.         0.         0.0152336  0.02309045 0.01995159
+ 0.         0.01629665 0.         0.         0.00505085 0.02259401
+ 0.00352754 0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.0221138  0.00346583 0.00404329
+ 0.00122718 0.0074142  0.01308767 0.0070654  0.00878739 0.00884798
+ 0.01373683 0.0137651  0.01232443 0.01230178 0.00541284 0.01019859
+ 0.00821006 0.01052753 0.00750927 0.00806879 0.02216833 0.
+ 0.         0.01666223 0.02513553 0.02794655 0.01596198 0.
+ 0.02378013 0.00510504 0.00385117 0.00383824 0.00250439 0.00313874
+ 0.00387163 0.00239734 0.00409578 0.00440594 0.00235793 0.00264715
+ 0.01257074 0.01184333 0.01399134 0.01730051 0.00879396 0.00999264
+ 0.00874751 0.00912556 0.00763103 0.00588108 0.00728944 0.00856884
+ 0.00933308 0.0076789  0.01271618 0.01399425 0.01184785 0.01445465
+ 0.01240205]
+
+
+finding permutation importance
+Creating training features... 22
+0%... ../tiktok/cw-ow-timing-class/data/0-1/pipe_rcv.csv
+1%... ../tiktok/cw-ow-timing-class/data/1-0/pipe_rcv.csv
+2%... ../tiktok/cw-ow-timing-class/data/1-1/pipe_rcv.csv
+3%... ../tiktok/cw-ow-timing-class/data/2-0/pipe_rcv.csv
+4%... ../tiktok/cw-ow-timing-class/data/2-1/pipe_rcv.csv
+5%... ../tiktok/cw-ow-timing-class/data/3-0/pipe_rcv.csv
+6%... ../tiktok/cw-ow-timing-class/data/3-1/pipe_rcv.csv
+7%... ../tiktok/cw-ow-timing-class/data/4-0/pipe_rcv.csv
+8%... ../tiktok/cw-ow-timing-class/data/4-1/pipe_rcv.csv
+9%... ../tiktok/cw-ow-timing-class/data/5-0/pipe_rcv.csv
+10%... ../tiktok/cw-ow-timing-class/data/5-1/pipe_rcv.csv
+11%... ../tiktok/cw-ow-timing-class/data/6-0/pipe_rcv.csv
+12%... ../tiktok/cw-ow-timing-class/data/6-1/pipe_rcv.csv
+13%... ../tiktok/cw-ow-timing-class/data/7-0/pipe_rcv.csv
+14%... ../tiktok/cw-ow-timing-class/data/7-1/pipe_rcv.csv
+15%... ../tiktok/cw-ow-timing-class/data/8-0/pipe_rcv.csv
+16%... ../tiktok/cw-ow-timing-class/data/8-1/pipe_rcv.csv
+17%... ../tiktok/cw-ow-timing-class/data/9-0/pipe_rcv.csv
+18%... ../tiktok/cw-ow-timing-class/data/9-1/pipe_rcv.csv
+19%... ../tiktok/cw-ow-timing-class/data/0/pipe_rcv.csv
+20%... ../tiktok/cw-ow-timing-class/data/1/pipe_rcv.csv
+Creating testing features... 0
+Training ...
+
+
+Accuracy for class 0: 0.5
+Accuracy for class 1: 1.0
+Accuracy for class 2: 1.0
+Accuracy for class 3: 1.0
+Accuracy for class 4: 1.0
+Accuracy for class 5: 1.0
+Accuracy for class 6: 1.0
+Accuracy for class 7: 1.0
+Accuracy for class 8: 1.0
+Accuracy for class 9: 1.0
+Accuracy for class 10: 0.5
+
+
+Precision for class 0: 0.5
+Precision for class 1: 1.0
+Precision for class 2: 1.0
+Precision for class 3: 1.0
+Precision for class 4: 1.0
+Precision for class 5: 1.0
+Precision for class 6: 1.0
+Precision for class 7: 1.0
+Precision for class 8: 1.0
+Precision for class 9: 1.0
+Precision for class 10: 0.5
+
+
+Recall for class 0: 0.5
+Recall for class 1: 1.0
+Recall for class 2: 1.0
+Recall for class 3: 1.0
+Recall for class 4: 1.0
+Recall for class 5: 1.0
+Recall for class 6: 1.0
+Recall for class 7: 1.0
+Recall for class 8: 1.0
+Recall for class 9: 1.0
+Recall for class 10: 0.5
+
+
+F1 for class 0: 0.5
+F1 for class 1: 1.0
+F1 for class 2: 1.0
+F1 for class 3: 1.0
+F1 for class 4: 1.0
+F1 for class 5: 1.0
+F1 for class 6: 1.0
+F1 for class 7: 1.0
+F1 for class 8: 1.0
+F1 for class 9: 1.0
+F1 for class 10: 0.5
+
+
+[[1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1.]
+ [0. 2. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 2. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 2. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 2. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 2. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 2. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 2. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 2. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 2. 0.]
+ [1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1.]]
+vertical is what was actually guessed
+
+
+Generating Feature Importance
+
+
+feature_importances_ based on mean decrease in impurity
+[0.         0.02462552 0.02583736 0.         0.         0.
+ 0.         0.02063024 0.02191512 0.         0.00578932 0.00514287
+ 0.         0.         0.         0.         0.0245344  0.02622903
+ 0.02302075 0.01886222 0.02323846 0.02696926 0.02516476 0.01900792
+ 0.         0.01711065 0.01847632 0.         0.         0.
+ 0.         0.         0.         0.01588452 0.02501294 0.01702892
+ 0.         0.01617793 0.         0.         0.00759708 0.02347059
+ 0.00353162 0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.02189779 0.0050125  0.00370737
+ 0.0029029  0.00705986 0.01375066 0.00554227 0.0102534  0.00981479
+ 0.01312281 0.0147151  0.01208254 0.01270785 0.00529426 0.00920061
+ 0.00635327 0.01131187 0.00937674 0.00816292 0.02358632 0.
+ 0.         0.01529397 0.02399836 0.02717244 0.0178635  0.
+ 0.02735921 0.00486637 0.00410836 0.00383109 0.00334275 0.00411242
+ 0.00345005 0.00198087 0.00348415 0.00323472 0.00110704 0.0014896
+ 0.01725502 0.01413737 0.01323941 0.01377355 0.00741828 0.01372111
+ 0.00938377 0.00734342 0.00873882 0.00744295 0.00711384 0.00974352
+ 0.0100582  0.01041974 0.01490502 0.013171   0.01168121 0.01134006
+ 0.01130518]
+
+
+finding permutation importance

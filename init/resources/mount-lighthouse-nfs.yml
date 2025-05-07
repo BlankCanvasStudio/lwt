@@ -1,0 +1,34 @@
+#
+# description: mounts the Lighthouse testbed NFS storage at /mnt/stor0
+#
+
+- hosts: all
+  become: true
+  vars:
+    ansible_python_interpreter: /usr/bin/python3
+    mnt_user: searchlight
+    mnt_group: searchlight
+
+  tasks:
+    - name: create NFS mountpoint
+      ansible.builtin.file:
+        path: /mnt/stor0
+        state: directory
+        mode: 0755
+        owner: "blankcanvas"
+        group: "blankcanvas"
+
+    - name: install NFS client
+      ansible.builtin.apt:
+        name:
+          - nfs-common
+        update_cache: yes
+
+    - name: mount NFS to /mnt/stor0
+      ansible.posix.mount:
+        src: 128.9.18.203:/data
+        path: /mnt/stor0
+        opts: soft,fg,nconnect=1,noresvport
+        state: mounted
+        fstype: nfs
+

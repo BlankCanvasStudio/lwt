@@ -1,0 +1,2 @@
+#!/bin/bash
+udo ~/fastclick/bin/click ~/pktgen-l2.click --dpdk -c FFFFFF -n 16

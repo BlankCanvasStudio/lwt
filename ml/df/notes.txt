@@ -1,0 +1,18 @@
+!! CAN DO DATA REPLACEMENT
+
+
+Seems like Everyone is using a binary classifier to see if its in closed world
+    - If it is then pass it to close world classifier
+
+To get our editing up and running, edit utility.py
+
+This one also uses directionality so we need some way to spoof that. Could be fun research
+
+Need to overload all scenarios
+    !! Only done CW No Def so far
+    - Don't really plan on investigating any kind of defenses
+    > Need to check model files to deal with the dimensions
+
+This takes 5000 points in
+    > How should we format our data?
+
